@@ -1,0 +1,24 @@
+﻿{% assign variant = include.variant | default: "buttons" %}
+{% if variant == "footer" %}
+  <ul class="social-list social-list--footer">
+    {% for item in site.data.social %}
+      <li>
+        {% if item.url != blank and item.placeholder != true %}
+          <a href="{{ item.url }}" target="_blank" rel="noreferrer">{{ item.label }}</a>
+        {% else %}
+          <span class="social-placeholder">{{ item.label }}: {{ item.placeholder_text }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <div class="social-buttons">
+    {% for item in site.data.social %}
+      {% if item.url != blank and item.placeholder != true %}
+        <a class="button button--secondary" href="{{ item.url }}" target="_blank" rel="noreferrer">{{ item.label }}</a>
+      {% else %}
+        <span class="button button--ghost button--disabled">{{ item.label }} pending</span>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

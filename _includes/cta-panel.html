@@ -1,0 +1,14 @@
+﻿{% assign cta = site.data.site.cta %}
+<section class="section">
+  <div class="cta-panel">
+    <div>
+      <p class="section__label">Call To Action</p>
+      <h2>{{ cta.title }}</h2>
+      <p>{{ cta.body }}</p>
+    </div>
+    <div class="button-row">
+      <a class="button button--primary" href="{{ cta.primary_url | relative_url }}">{{ cta.primary_label }}</a>
+      <a class="button button--secondary" href="{{ cta.secondary_url | relative_url }}">{{ cta.secondary_label }}</a>
+    </div>
+  </div>
+</section>

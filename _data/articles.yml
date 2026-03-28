@@ -1,0 +1,27 @@
+﻿- title: "TODO: add verified article title"
+  date_label: "TODO: add publication date"
+  tag: Macro
+  summary: >-
+    Placeholder summary. Replace this with an original editorial summary once
+    the official article URL and title have been verified.
+  external_url: ""
+  featured: true
+  placeholder: true
+- title: "TODO: add verified article title"
+  date_label: "TODO: add publication date"
+  tag: Investing
+  summary: >-
+    Placeholder summary. Use this card for a flagship piece on markets,
+    allocation, or regime change once the final article link is supplied.
+  external_url: ""
+  featured: true
+  placeholder: true
+- title: "TODO: add verified article title"
+  date_label: "TODO: add publication date"
+  tag: Global Analysis
+  summary: >-
+    Placeholder summary. Replace with a concise original description that helps
+    readers and search engines understand the article's thesis.
+  external_url: ""
+  featured: false
+  placeholder: true

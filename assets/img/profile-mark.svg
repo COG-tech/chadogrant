@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Chad O. Grant profile mark</title>
+  <desc id="desc">Editorial profile mark featuring the initials CG on a dark field.</desc>
+  <rect width="640" height="640" rx="72" fill="#0f1726"/>
+  <circle cx="320" cy="320" r="208" fill="#f4efe6" opacity="0.09"/>
+  <text x="320" y="360" fill="#f5efe6" font-family="Georgia, serif" font-size="210" text-anchor="middle">CG</text>
+  <text x="320" y="462" fill="#d7c4a5" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" letter-spacing="8">CHAD O. GRANT</text>
+</svg>

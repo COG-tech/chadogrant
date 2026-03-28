@@ -1,0 +1,28 @@
+﻿- title: "Dawn: Book One of the Dawn Saga"
+  slug: dawn
+  cover: /assets/img/books/dawn-book.svg
+  description: >-
+    A fiction title in the Dawn Saga. TODO: replace this placeholder with the
+    verified jacket copy, launch details, and official retail or direct links.
+  buy_url: ""
+  learn_more_url: ""
+  status_note: "Placeholder links pending review."
+- title: "Dear Son: A Father's Guide to Life, Love, and Legacy"
+  slug: dear-son
+  cover: /assets/img/books/dear-son-book.svg
+  description: >-
+    A father-to-son guide framed around life, love, character, and legacy.
+    TODO: replace this placeholder with the verified official description.
+  buy_url: ""
+  learn_more_url: ""
+  status_note: "Placeholder links pending review."
+- title: "The Twin Titans: Asia and Africa's Prominence in the 21st Century"
+  slug: twin-titans
+  cover: /assets/img/books/twin-titans-book.svg
+  description: >-
+    A book focused on the 21st-century significance of Asia and Africa in the
+    global order. TODO: replace this placeholder with the verified official
+    description and final buying links.
+  buy_url: ""
+  learn_more_url: ""
+  status_note: "Placeholder links pending review."

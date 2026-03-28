@@ -1,0 +1,20 @@
+﻿- label: YouTube
+  url: ""
+  placeholder: true
+  placeholder_text: "TODO: add Chad O. Grant's official YouTube channel URL."
+- label: LinkedIn
+  url: ""
+  placeholder: true
+  placeholder_text: "TODO: add Chad O. Grant's official LinkedIn profile URL."
+- label: Substack
+  url: ""
+  placeholder: true
+  placeholder_text: "TODO: add Chad O. Grant's official Substack URL."
+- label: X / Twitter
+  url: ""
+  placeholder: true
+  placeholder_text: "TODO: add Chad O. Grant's official X profile URL."
+- label: Email
+  url: "mailto:TODO@replace-with-professional-email.com"
+  placeholder: true
+  placeholder_text: "TODO: replace with Chad O. Grant's professional email."

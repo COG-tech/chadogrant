@@ -1,0 +1,94 @@
+﻿---
+layout: default
+---
+{% assign site_data = site.data.site %}
+{% assign featured_videos = site.videos | where: "featured", true | sort: "order" %}
+{% assign featured_articles = site.data.articles | where: "featured", true %}
+<section class="hero">
+  <div class="hero__content">
+    <p class="hero__eyebrow">{{ site_data.hero.eyebrow }}</p>
+    <h1>{{ site_data.name }}</h1>
+    <p class="hero__statement">{{ site_data.hero.statement }}</p>
+    <p class="hero__intro">{{ site_data.hero.intro }}</p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/about/' | relative_url }}">Read the profile</a>
+      <a class="button button--secondary" href="{{ '/articles/' | relative_url }}">Explore articles</a>
+    </div>
+  </div>
+  <aside class="hero__panel">
+    <h2>{{ site_data.hero.focus_title }}</h2>
+    <ul class="focus-list">
+      {% for point in site_data.hero.focus_points %}
+        <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+    <div class="signal-note">
+      <strong>Launch note:</strong>
+      <p>
+        Official profile URLs, verified media references, and final domain settings
+        are clearly marked throughout the site for review before launch.
+      </p>
+    </div>
+  </aside>
+</section>
+
+<section class="section">
+  <div class="section__heading">
+    <p class="section__label">Introduction</p>
+    <h2>{{ site_data.intro.title }}</h2>
+  </div>
+  <div class="section__body prose-block">
+    <p>{{ site_data.intro.body }}</p>
+    <p>{{ site_data.about.short_bio }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__heading">
+    <p class="section__label">Featured Videos</p>
+    <h2>Video commentary with a strong editorial frame</h2>
+  </div>
+  <div class="card-grid card-grid--three">
+    {% for video in featured_videos limit: 3 %}
+      {% include video-card.html item=video %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__heading">
+    <p class="section__label">Featured Articles</p>
+    <h2>Serious writing, summarized for readers and search</h2>
+  </div>
+  <div class="card-grid card-grid--three">
+    {% for article in featured_articles limit: 3 %}
+      {% include article-card.html item=article %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__heading">
+    <p class="section__label">Books</p>
+    <h2>Books that expand the public body of work</h2>
+  </div>
+  <div class="card-grid card-grid--three">
+    {% for book in site.data.books %}
+      {% include book-card.html item=book %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__heading">
+    <p class="section__label">Media</p>
+    <h2>Interviews, guest appearances, and references</h2>
+  </div>
+  <div class="stack-list">
+    {% for item in site.data.media limit: 3 %}
+      {% include media-row.html item=item %}
+    {% endfor %}
+  </div>
+</section>
+
+{% include cta-panel.html %}

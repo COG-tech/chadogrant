@@ -1,0 +1,23 @@
+﻿{% assign item = include.item %}
+<article class="card">
+  <div class="card__media">
+    <img src="{{ item.cover | relative_url }}" alt="Placeholder cover for {{ item.title }}">
+  </div>
+  <div class="card__body">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.description }}</p>
+    <p class="card__note">{{ item.status_note }}</p>
+    <div class="button-row">
+      {% if item.buy_url != blank %}
+        <a class="button button--small" href="{{ item.buy_url }}" target="_blank" rel="noreferrer">Buy</a>
+      {% else %}
+        <span class="button button--small button--disabled">Buy link pending</span>
+      {% endif %}
+      {% if item.learn_more_url != blank %}
+        <a class="button button--small button--secondary" href="{{ item.learn_more_url }}" target="_blank" rel="noreferrer">Learn more</a>
+      {% else %}
+        <span class="button button--small button--disabled">Details pending</span>
+      {% endif %}
+    </div>
+  </div>
+</article>

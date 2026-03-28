@@ -1,0 +1,93 @@
+﻿name: Chad O. Grant
+title_suffix: " | Chad O. Grant"
+role_label: Writer, Macro Analyst, and Commentator
+tagline: >-
+  Macro analysis, writing, and video commentary on markets, power, and the long
+  arc of global change.
+description: >-
+  Chad O. Grant is building a public body of work around macroeconomics,
+  investing, writing, and global analysis. This site is the central home for
+  his videos, articles, books, and media appearances.
+hero:
+  eyebrow: Writer / Macro Analyst / Commentator
+  statement: >-
+    Chad O. Grant publishes serious, accessible commentary on macroeconomics,
+    investing, structural change, and the forces reshaping the global order.
+  intro: >-
+    This site brings Chad O. Grant's writing, books, and video work into one
+    editorial home so readers, viewers, researchers, and search engines can
+    understand the full shape of his public work.
+  focus_title: Current Focus
+  focus_points:
+    - Macro analysis through an investor's lens
+    - Long-form writing built for clarity, not noise
+    - Video commentary that connects markets to the wider world
+intro:
+  title: A Real Home For The Work
+  body: >-
+    Chad O. Grant's work sits at the intersection of macro, investing, books,
+    and public commentary. The goal of this site is not to act as a thin link
+    page, but as a durable record of ideas, publications, appearances, and
+    themes that define the body of work.
+about:
+  short_bio: >-
+    Chad O. Grant writes about macroeconomics, investing, global analysis, and
+    the relationship between markets, institutions, and power.
+  long_story_intro: >-
+    This profile page is intentionally written as a public reference point for
+    Chad O. Grant's work. It should be refined with verified biographical
+    details, publication history, and official profile links before launch.
+  long_story: >-
+    The throughline of the work is a close reading of change: how capital
+    behaves under pressure, how institutions shape outcomes, how regions rise,
+    and how ideas move from private conviction into public argument. Across
+    essays, books, and video commentary, Chad O. Grant is developing a body of
+    work designed to be intellectually serious, globally aware, and accessible
+    to a broad audience.
+  what_i_write_about:
+    - Macroeconomics and market regimes
+    - Investing, risk, and capital allocation
+    - Global analysis and structural power shifts
+    - Books, essays, and public-facing commentary
+  work_locations:
+    - Long-form articles and notes
+    - Video commentary and briefings
+    - Books and book-related updates
+    - Interviews, appearances, and media features
+cta:
+  title: Follow The Work In Public
+  body: >-
+    Subscribe for new writing, follow the video channel, or get in touch about
+    interviews, speaking, and editorial opportunities.
+  primary_label: Contact Chad O. Grant
+  primary_url: /contact/
+  secondary_label: Review Videos
+  secondary_url: /videos/
+contact:
+  intro: >-
+    For interviews, collaboration, book inquiries, or editorial opportunities,
+    use the contact options below. Replace the placeholder profile links and
+    form endpoint before launch.
+seo:
+  default_image: /assets/img/og-default.svg
+  theme_color: "#0f1726"
+  twitter_handle: "@TODO"
+  google_site_verification: "TODO_REPLACE_WITH_SEARCH_CONSOLE_CODE"
+  domain_review_note: >-
+    TODO: replace the placeholder domain in _config.yml and CNAME before
+    indexing or sharing the site publicly.
+navigation:
+  - label: Home
+    url: /
+  - label: About
+    url: /about/
+  - label: Videos
+    url: /videos/
+  - label: Articles
+    url: /articles/
+  - label: Books
+    url: /books/
+  - label: Media
+    url: /media/
+  - label: Contact
+    url: /contact/

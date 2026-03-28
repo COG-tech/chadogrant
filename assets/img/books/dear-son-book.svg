@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder cover for Dear Son</title>
+  <desc id="desc">Editorial placeholder cover using the title Dear Son.</desc>
+  <rect width="720" height="960" rx="42" fill="#f0e8db"/>
+  <rect x="54" y="54" width="612" height="852" rx="28" fill="#fffdf9" stroke="#25364b" stroke-width="2"/>
+  <text x="90" y="180" fill="#7f5422" font-family="Arial, sans-serif" font-size="26" letter-spacing="9">CHAD O. GRANT</text>
+  <text x="90" y="390" fill="#111827" font-family="Georgia, serif" font-size="92">Dear Son</text>
+  <text x="90" y="468" fill="#415167" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">A FATHER'S GUIDE TO LIFE, LOVE,</text>
+  <text x="90" y="510" fill="#415167" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">AND LEGACY</text>
+  <circle cx="560" cy="190" r="82" fill="#9a6a2f" opacity="0.16"/>
+</svg>

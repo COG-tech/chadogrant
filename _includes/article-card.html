@@ -1,0 +1,19 @@
+﻿{% assign item = include.item %}
+<article class="card card--article">
+  <div class="card__body">
+    <div class="card__meta">
+      <span>{{ item.date_label }}</span>
+      <span>{{ item.tag }}</span>
+      {% if item.placeholder %}
+        <span class="status-chip status-chip--subtle">Placeholder</span>
+      {% endif %}
+    </div>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.summary }}</p>
+    {% if item.external_url != blank %}
+      <a class="button button--small" href="{{ item.external_url }}" target="_blank" rel="noreferrer">Read full article</a>
+    {% else %}
+      <span class="button button--small button--disabled">Add full article link</span>
+    {% endif %}
+  </div>
+</article>

@@ -1,0 +1,45 @@
+﻿title: Chad O. Grant
+email: ""
+description: >-
+  Chad O. Grant writes and speaks about macroeconomics, investing, global
+  analysis, and long-cycle change across markets, regions, and institutions.
+url: "https://replace-with-your-domain.example.com"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+collections:
+  videos:
+    output: true
+    permalink: /videos/:name/
+  articles:
+    output: true
+    permalink: /articles/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/img/og-default.svg
+  - scope:
+      path: ""
+      type: videos
+    values:
+      layout: video
+      section: videos
+      image: /assets/img/og-default.svg
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+      section: articles
+      image: /assets/img/og-default.svg
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins: []

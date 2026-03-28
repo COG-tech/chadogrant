@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Open Graph image for Chad O. Grant</title>
+  <desc id="desc">Editorial title card for Chad O. Grant's website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1726"/>
+      <stop offset="100%" stop-color="#21344c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="910" cy="180" r="190" fill="#9a6a2f" opacity="0.14"/>
+  <circle cx="180" cy="520" r="240" fill="#f4efe6" opacity="0.05"/>
+  <text x="90" y="180" fill="#d7c4a5" font-family="Arial, sans-serif" font-size="26" letter-spacing="10">CHAD O. GRANT</text>
+  <text x="90" y="300" fill="#f5efe6" font-family="Georgia, serif" font-size="78">Writing, books,</text>
+  <text x="90" y="388" fill="#f5efe6" font-family="Georgia, serif" font-size="78">macro analysis,</text>
+  <text x="90" y="476" fill="#f5efe6" font-family="Georgia, serif" font-size="78">and commentary.</text>
+</svg>

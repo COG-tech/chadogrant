@@ -1,0 +1,68 @@
+﻿---
+layout: default
+---
+{% assign related_videos = site.videos | where: "featured", true | where_exp: "item", "item.url != page.url" | sort: "order" %}
+<article class="detail-shell">
+  <header class="detail-hero">
+    <p class="detail-hero__eyebrow">Video</p>
+    <h1>{{ page.title }}</h1>
+    <p class="detail-hero__lead">{{ page.summary }}</p>
+    {% if page.placeholder %}
+      <p class="status-chip">Placeholder entry: replace title, summary, and YouTube details after verification.</p>
+    {% endif %}
+  </header>
+
+  <section class="video-frame">
+    {% if page.youtube_id %}
+      <iframe
+        title="{{ page.title }}"
+        src="https://www.youtube-nocookie.com/embed/{{ page.youtube_id }}"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    {% else %}
+      <div class="video-placeholder">
+        <h2>YouTube embed pending</h2>
+        <p>
+          Add the official YouTube video ID in this file's front matter to turn
+          this placeholder into a live embedded video page.
+        </p>
+      </div>
+    {% endif %}
+  </section>
+
+  <div class="detail-grid">
+    <section class="prose-block">
+      <h2>Original summary</h2>
+      <p>{{ page.summary }}</p>
+      {{ content }}
+    </section>
+    <aside class="detail-aside">
+      <div class="aside-card">
+        <h2>Why it matters</h2>
+        <p>{{ page.why_it_matters }}</p>
+      </div>
+      <div class="aside-card">
+        <h2>Subscribe on YouTube</h2>
+        <p>
+          Link the official Chad O. Grant YouTube channel in
+          <code>_data/social.yml</code> to activate this subscription call to
+          action.
+        </p>
+        <a class="button button--secondary" href="{{ '/contact/' | relative_url }}">Review profile links</a>
+      </div>
+    </aside>
+  </div>
+
+  <section class="section section--tight">
+    <div class="section__heading">
+      <p class="section__label">Related Videos</p>
+      <h2>Continue exploring Chad O. Grant's video work</h2>
+    </div>
+    <div class="card-grid card-grid--three">
+      {% for video in related_videos limit: 3 %}
+        {% include video-card.html item=video %}
+      {% endfor %}
+    </div>
+  </section>
+</article>

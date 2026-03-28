@@ -1,0 +1,55 @@
+﻿{% assign site_data = site.data.site %}
+{% assign profile_image = site.url | append: '/assets/img/profile-mark.svg' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site_data.name }}",
+  "url": "{{ site.url }}",
+  "description": {{ site.description | jsonify }},
+  "jobTitle": "Writer and macro commentator",
+  "image": "{{ profile_image }}",
+  "knowsAbout": [
+    "Macroeconomics",
+    "Investing",
+    "Global analysis",
+    "Books",
+    "Public commentary"
+  ],
+  "sameAs": [
+    {% assign printed = false %}
+    {% for social in site.data.social %}
+      {% if social.url != blank and social.placeholder != true %}
+        {% if printed %},{% endif %}
+        {{ social.url | jsonify }}
+        {% assign printed = true %}
+      {% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% if page.schema_type == "ProfilePage" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": {{ page.title | jsonify }},
+  "url": "{{ site.url }}{{ page.url }}",
+  "description": {{ page.description | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "name": "{{ site_data.name }}"
+  }
+}
+</script>
+{% elsif page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site_data.name }}",
+  "url": "{{ site.url }}",
+  "description": {{ site.description | jsonify }}
+}
+</script>
+{% endif %}

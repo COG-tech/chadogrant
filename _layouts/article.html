@@ -1,0 +1,34 @@
+﻿---
+layout: default
+---
+<article class="detail-shell">
+  <header class="detail-hero">
+    <p class="detail-hero__eyebrow">Hosted Article</p>
+    <h1>{{ page.title }}</h1>
+    <p class="detail-hero__lead">{{ page.description }}</p>
+    {% if page.placeholder %}
+      <p class="status-chip">Template page: replace this draft framing with the final hosted article.</p>
+    {% endif %}
+  </header>
+  <div class="detail-grid">
+    <section class="prose-block">
+      {{ content }}
+    </section>
+    <aside class="detail-aside">
+      <div class="aside-card">
+        <h2>Editorial note</h2>
+        <p>
+          This page exists so Chad O. Grant can later host selected essays
+          directly on the site without changing the design or metadata system.
+        </p>
+      </div>
+      <div class="aside-card">
+        <h2>Next step</h2>
+        <p>
+          Replace the placeholder copy with a final essay, add the publication
+          date, and set the canonical URL if the piece appears elsewhere first.
+        </p>
+      </div>
+    </aside>
+  </div>
+</article>

@@ -1,0 +1,23 @@
+﻿- date_label: "TODO: add date"
+  outlet: "TODO: add outlet"
+  title: "TODO: confirm interview or appearance title"
+  summary: >-
+    Placeholder media entry. Replace with the verified outlet name, title, and
+    link once the appearance is confirmed.
+  url: ""
+  placeholder: true
+- date_label: "TODO: add date"
+  outlet: "TODO: add podcast or publication"
+  title: "TODO: confirm guest feature title"
+  summary: >-
+    Placeholder media entry. Use this for a podcast, interview, or guest
+    feature tied to Chad O. Grant's writing or macro commentary.
+  url: ""
+  placeholder: true
+- date_label: "TODO: add date"
+  outlet: "TODO: add outlet"
+  title: "TODO: confirm article mention or guest essay"
+  summary: >-
+    Placeholder media entry for a mention, appearance, or guest contribution.
+  url: ""
+  placeholder: true

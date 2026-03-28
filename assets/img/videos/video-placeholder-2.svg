@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder thumbnail for a market update video</title>
+  <desc id="desc">A light editorial placeholder thumbnail labeled Market Update.</desc>
+  <rect width="1280" height="720" fill="#efe7da"/>
+  <circle cx="1010" cy="170" r="150" fill="#0f1726" opacity="0.1"/>
+  <text x="100" y="170" fill="#7f5422" font-family="Arial, sans-serif" font-size="28" letter-spacing="10">CHAD O. GRANT</text>
+  <text x="100" y="330" fill="#102033" font-family="Georgia, serif" font-size="86">Market update</text>
+  <text x="100" y="420" fill="#102033" font-family="Georgia, serif" font-size="86">video placeholder</text>
+  <polygon points="1050,360 1050,500 1170,430" fill="#102033" opacity="0.85"/>
+</svg>

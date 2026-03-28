@@ -1,0 +1,17 @@
+﻿{% assign item = include.item %}
+<article class="card">
+  <a class="card__media" href="{{ item.url | relative_url }}">
+    <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.thumbnail_alt }}">
+  </a>
+  <div class="card__body">
+    <div class="card__meta">
+      <span>{{ item.topic }}</span>
+      {% if item.placeholder %}
+        <span class="status-chip status-chip--subtle">Placeholder</span>
+      {% endif %}
+    </div>
+    <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+    <p>{{ item.summary }}</p>
+    <a class="text-link" href="{{ item.url | relative_url }}">View video page</a>
+  </div>
+</article>
