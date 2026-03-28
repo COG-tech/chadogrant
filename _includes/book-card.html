@@ -4,25 +4,36 @@
 {% else %}
   {% assign cover_url = item.cover | relative_url %}
 {% endif %}
-<article class="card">
-  <div class="card__media">
+{% assign same_listing = false %}
+{% if item.buy_url != blank and item.learn_more_url != blank and item.buy_url == item.learn_more_url %}
+  {% assign same_listing = true %}
+{% endif %}
+<article class="card card--book">
+  <div class="card__media card__media--book">
     <img src="{{ cover_url }}" alt="Cover for {{ item.title }}" loading="lazy" decoding="async" width="600" height="800">
   </div>
   <div class="card__body">
+    <p class="card__eyebrow">Book</p>
     <h3>{{ item.title }}</h3>
     <p>{{ item.description }}</p>
     <p class="card__note">{{ item.status_note }}</p>
-    <div class="button-row">
-      {% if item.buy_url != blank %}
-        <a class="button button--small" href="{{ item.buy_url }}" target="_blank" rel="noreferrer">Buy</a>
-      {% else %}
-        <span class="button button--small button--disabled">Buy link pending</span>
-      {% endif %}
-      {% if item.learn_more_url != blank %}
-        <a class="button button--small button--secondary" href="{{ item.learn_more_url }}" target="_blank" rel="noreferrer">Learn more</a>
-      {% else %}
-        <span class="button button--small button--disabled">Details pending</span>
-      {% endif %}
+    <div class="card__footer">
+      <div class="button-row">
+        {% if same_listing %}
+          <a class="button button--small" href="{{ item.buy_url }}" target="_blank" rel="noreferrer">View listing</a>
+        {% else %}
+          {% if item.buy_url != blank %}
+            <a class="button button--small" href="{{ item.buy_url }}" target="_blank" rel="noreferrer">Buy</a>
+          {% else %}
+            <span class="button button--small button--disabled">Buy link pending</span>
+          {% endif %}
+          {% if item.learn_more_url != blank %}
+            <a class="button button--small button--secondary" href="{{ item.learn_more_url }}" target="_blank" rel="noreferrer">Learn more</a>
+          {% else %}
+            <span class="button button--small button--disabled">Details pending</span>
+          {% endif %}
+        {% endif %}
+      </div>
     </div>
   </div>
 </article>

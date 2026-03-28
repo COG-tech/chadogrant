@@ -720,6 +720,130 @@ p {
   color: var(--ink-soft);
 }
 
+.page-books .page-header__inner {
+  padding-top: 2.8rem;
+  padding-bottom: 2.3rem;
+}
+
+.page-books .page-header__lead {
+  max-width: 46rem;
+}
+
+.books-intro {
+  display: grid;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.books-intro__copy,
+.books-intro__meta {
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.books-intro__copy {
+  padding: clamp(1.4rem, 1vw + 1.2rem, 2rem);
+}
+
+.books-intro__copy h2 {
+  max-width: 17ch;
+}
+
+.books-intro__copy p:last-child {
+  max-width: 58rem;
+  font-size: 1.02rem;
+}
+
+.books-intro__meta {
+  display: grid;
+  gap: 1rem;
+  padding: 1.4rem;
+}
+
+.book-stat {
+  display: grid;
+  gap: 0.15rem;
+  padding-bottom: 0.95rem;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.book-stat:last-of-type {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.book-stat strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.55rem;
+}
+
+.book-stat span,
+.book-source-note p {
+  color: var(--ink-muted);
+}
+
+.book-source-note {
+  padding-top: 0.95rem;
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.book-source-note p {
+  margin: 0;
+}
+
+.books-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.card__eyebrow {
+  margin: 0;
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.page-books .card--book {
+  height: 100%;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(250, 246, 239, 0.96) 100%);
+  border-color: rgba(17, 24, 39, 0.09);
+}
+
+.page-books .card--book .card__media {
+  aspect-ratio: 4 / 5;
+  border-bottom: 0;
+}
+
+.page-books .card--book .card__body {
+  gap: 0.95rem;
+  min-height: 100%;
+  padding: 1.45rem;
+}
+
+.page-books .card--book h3 {
+  font-size: 1.4rem;
+  line-height: 1.08;
+}
+
+.page-books .card--book p {
+  font-size: 0.98rem;
+  line-height: 1.72;
+}
+
+.page-books .card--book .card__note {
+  margin-top: auto;
+  padding-top: 0.95rem;
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.page-books .card--book .button {
+  min-width: 9.5rem;
+}
+
 .contact-form {
   display: grid;
   gap: 1rem;
@@ -800,6 +924,10 @@ p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .books-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .media-row {
     grid-template-columns: 180px 1fr auto;
     align-items: start;
@@ -834,6 +962,14 @@ p {
 
   .article-intro {
     grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.65fr);
+  }
+
+  .books-intro {
+    grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.65fr);
+  }
+
+  .books-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
