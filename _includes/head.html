@@ -7,13 +7,22 @@
 {% endif %}
 {% assign description = page.description | default: site.description %}
 {% assign canonical_url = page.canonical_url | default: page.url | absolute_url %}
-{% assign image_path = page.image | default: page.thumbnail | default: site_data.seo.default_image %}
+{% assign image_path = page.thumbnail | default: page.image | default: site_data.seo.default_image %}
 {% if image_path contains "http" %}
   {% assign image_url = image_path %}
 {% else %}
   {% assign image_url = image_path | absolute_url %}
 {% endif %}
 {% assign image_alt = page.image_alt | default: page.thumbnail_alt | default: full_title %}
+{% if page.schema_type == "ProfilePage" %}
+  {% assign og_type = "profile" %}
+{% elsif page.section == "videos" %}
+  {% assign og_type = "video.other" %}
+{% elsif page.section == "articles" %}
+  {% assign og_type = "article" %}
+{% else %}
+  {% assign og_type = "website" %}
+{% endif %}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ full_title }}</title>
@@ -31,7 +40,7 @@
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/icons/favicon.svg' | relative_url }}">
 <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ og_type }}">
 <meta property="og:title" content="{{ full_title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ canonical_url }}">
