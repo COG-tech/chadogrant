@@ -10,17 +10,17 @@ permalink: /sitemap.xml
       {% continue %}
     {% endif %}
   <url>
-    <loc>{{ site.url }}{{ item.url }}</loc>
+    <loc>{{ item.url | absolute_url }}</loc>
   </url>
   {% endfor %}
   {% for item in site.videos %}
   <url>
-    <loc>{{ site.url }}{{ item.url }}</loc>
+    <loc>{{ item.url | absolute_url }}</loc>
   </url>
   {% endfor %}
   {% for item in site.articles %}
   <url>
-    <loc>{{ site.url }}{{ item.url }}</loc>
+    <loc>{{ item.url | absolute_url }}</loc>
   </url>
   {% endfor %}
 </urlset>

@@ -1,11 +1,11 @@
 ﻿{% assign site_data = site.data.site %}
-{% assign profile_image = site.url | append: '/assets/img/profile-mark.svg' %}
+{% assign profile_image = '/assets/img/profile-mark.svg' | absolute_url %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "{{ site_data.name }}",
-  "url": "{{ site.url }}",
+  "url": "{{ '/' | absolute_url }}",
   "description": {{ site.description | jsonify }},
   "jobTitle": "Writer and macro commentator",
   "image": "{{ profile_image }}",
@@ -34,7 +34,7 @@
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "name": {{ page.title | jsonify }},
-  "url": "{{ site.url }}{{ page.url }}",
+  "url": "{{ page.url | absolute_url }}",
   "description": {{ page.description | jsonify }},
   "mainEntity": {
     "@type": "Person",
@@ -48,7 +48,7 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "{{ site_data.name }}",
-  "url": "{{ site.url }}",
+  "url": "{{ '/' | absolute_url }}",
   "description": {{ site.description | jsonify }}
 }
 </script>

@@ -6,12 +6,12 @@
   {% assign full_title = page_title | append: site_data.title_suffix %}
 {% endif %}
 {% assign description = page.description | default: site.description %}
-{% assign canonical_url = site.url | append: page.url %}
+{% assign canonical_url = page.url | absolute_url %}
 {% assign image_path = page.image | default: site_data.seo.default_image %}
 {% if image_path contains "http" %}
   {% assign image_url = image_path %}
 {% else %}
-  {% assign image_url = site.url | append: image_path %}
+  {% assign image_url = image_path | absolute_url %}
 {% endif %}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

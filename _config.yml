@@ -3,8 +3,8 @@ email: ""
 description: >-
   Chad O. Grant writes and speaks about macroeconomics, investing, global
   analysis, and long-cycle change across markets, regions, and institutions.
-url: "https://replace-with-your-domain.example.com"
-baseurl: ""
+url: "https://cog-tech.github.io"
+baseurl: "/chadogrant"
 markdown: kramdown
 permalink: pretty
 
