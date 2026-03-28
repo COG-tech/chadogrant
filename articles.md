@@ -44,11 +44,3 @@ body_class: page-body page-articles
     {% endfor %}
   </div>
 </section>
-
-<section class="content-section article-note">
-  <p>
-    Selected essays may eventually be hosted here directly. Until then, the
-    archive stays focused on the pieces already published under Chad O. Grant's
-    name.
-  </p>
-</section>
