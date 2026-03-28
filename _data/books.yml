@@ -2,22 +2,21 @@
   slug: dawn
   cover: "https://play.google.com/books/publisher/content/images/frontcover/6KNTEQAAQBAJ?fife=w600"
   description: >-
-    Public book materials describe Dawn as a science-fiction novel about a
-    fractured galaxy, an ancient force reborn, and the opening phase of war
-    across a destabilized order. Google Play lists the ebook under the title
-    Dawn, while the visible description also references Dawn of Creation, so
-    the preferred official naming should be reviewed against the final edition.
+    Public materials describe Dawn as a science-fiction novel about a fractured
+    galaxy, an ancient force returning, and a war beginning across a
+    destabilized order. Google Play lists the ebook as Dawn, while the visible
+    description also uses Dawn of Creation, so the final naming should be
+    checked against the edition you want to push.
   buy_url: "https://play.google.com/store/books/details?id=6KNTEQAAQBAJ"
   learn_more_url: "https://play.google.com/store/books/details?id=6KNTEQAAQBAJ"
-  status_note: "Google Play listing is live. Review subtitle and series naming before broader promotion."
+  status_note: "Google Play listing is live. Review subtitle and series naming before wider promotion."
 - title: "Dear Son: A Father's Guide to Life, Love, and Legacy"
   slug: dear-son
   cover: "https://play.google.com/books/publisher/content/images/frontcover/jaZTEQAAQBAJ?fife=w600"
   description: >-
-    A nonfiction title centered on life, love, character, and legacy from
-    father to son. The public Google Play listing verifies the title and Chad
-    O. Grant author credit; fuller marketing copy can be expanded here once the
-    preferred jacket description is finalized.
+    Dear Son is framed as a book about life, love, character, and legacy,
+    written from father to son. The public Google Play listing verifies the
+    title and Chad O. Grant author credit.
   buy_url: "https://play.google.com/store/books/details/Chad_O_Grant_Dear_Son?id=jaZTEQAAQBAJ"
   learn_more_url: "https://play.google.com/store/books/details/Chad_O_Grant_Dear_Son?id=jaZTEQAAQBAJ"
   status_note: "Google Play listing is live."
@@ -25,10 +24,10 @@
   slug: twin-titans
   cover: /assets/img/books/twin-titans-book.svg
   description: >-
-    A geopolitical title focused on the rising prominence of Asia and Africa in
-    the 21st century. A public Amazon listing verifies the book title and Chad
-    O. Grant attribution, but a fuller description and official cover asset
-    should still be added from an author-controlled source.
+    The Twin Titans points toward a geopolitical argument about the growing
+    weight of Asia and Africa in the 21st century. A public Amazon listing
+    verifies the title and Chad O. Grant attribution, but a fuller description
+    and official cover should still come from an author-controlled source.
   buy_url: "https://www.amazon.com/Twin-Titans-Africas-Prominence-Century/dp/B0FNK1TYFR"
   learn_more_url: "https://www.amazon.com/Twin-Titans-Africas-Prominence-Century/dp/B0FNK1TYFR"
   status_note: "Public retail listing found. Add official cover and fuller jacket copy when available."

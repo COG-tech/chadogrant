@@ -15,10 +15,8 @@ schema_type: ProfilePage
       <h2>Profile summary</h2>
       <p>{{ site_data.tagline }}</p>
       <p>
-        This page ties the same identity across S.C.O.P.E. Report on YouTube,
-        the Chad O. Grant Substack archive, public book listings, and future
-        media references so search engines can understand one consistent public
-        profile.
+        If you know Chad O. Grant from S.C.O.P.E. Report, Substack, or the
+        books, this page is meant to show how that body of work fits together.
       </p>
     </aside>
   </div>
@@ -28,10 +26,9 @@ schema_type: ProfilePage
   <h2>Longer story / background</h2>
   <p>{{ site_data.about.long_story }}</p>
   <p>
-    Public source material for Dawn describes Chad O. Grant as a writer focused
-    on power, incentives, and what happens when systems come under strain. The
-    macro work applies that same attention to markets, institutions, and the
-    shifting balance of power across countries and sectors.
+    Public author copy for Dawn describes Chad O. Grant as a writer interested
+    in power, incentives, and the choices people make when the rules change.
+    That feels like the clearest bridge between the books and the macro work.
   </p>
 </section>
 
@@ -59,8 +56,7 @@ schema_type: ProfilePage
 <section class="content-section">
   <h2>Official links</h2>
   <p>
-    The links below are verified public profiles and distribution channels
-    currently associated with Chad O. Grant.
+    These are the main public channels currently tied to Chad O. Grant's work.
   </p>
   {% include social-links.html variant="buttons" %}
 </section>

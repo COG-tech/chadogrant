@@ -4,14 +4,19 @@ description: Featured S.C.O.P.E. Report videos by Chad O. Grant covering macro c
 ---
 {% assign featured_videos = site.videos | where: "featured", true | sort: "order" %}
 {% assign archive_videos = site.videos | sort: "order" %}
+{% assign youtube_videos = site.data.youtube_videos %}
+{% assign youtube_shorts = site.data.youtube_shorts %}
 <section class="content-section prose-block">
   <h2>Featured video hub</h2>
   <p>
-    This page is built around live entries from Chad O. Grant's public YouTube
-    footprint. The goal is not to dump embeds, but to frame the core argument,
-    connect the topic to the wider macro thesis, and make the video archive
-    legible to both readers and search engines.
+    The channel moves between longer breakdowns and shorter bursts of
+    commentary. The featured pages on this site add context and framing; the
+    archive sections below link straight into the full public YouTube output.
   </p>
+  <div class="button-row">
+    <a class="button button--primary" href="https://www.youtube.com/@Chadogrant/videos" target="_blank" rel="noreferrer">Open full YouTube channel</a>
+    <a class="button button--secondary" href="https://www.youtube.com/@Chadogrant/shorts" target="_blank" rel="noreferrer">Browse YouTube shorts</a>
+  </div>
 </section>
 
 <section class="content-section">
@@ -34,6 +39,26 @@ description: Featured S.C.O.P.E. Report videos by Chad O. Grant covering macro c
         </div>
         <span class="archive-list__tag">{{ video.published_label | default: video.topic }}</span>
       </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="content-section">
+  <h2>Full YouTube Video Archive</h2>
+  <p class="section-intro">{{ youtube_videos | size }} public long-form videos currently linked from the channel.</p>
+  <div class="archive-list">
+    {% for item in youtube_videos %}
+      {% include youtube-archive-row.html item=item kind="Video" %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="content-section">
+  <h2>Full YouTube Shorts Archive</h2>
+  <p class="section-intro">{{ youtube_shorts | size }} public shorts currently linked from the channel.</p>
+  <div class="archive-list">
+    {% for item in youtube_shorts %}
+      {% include youtube-archive-row.html item=item kind="Short" %}
     {% endfor %}
   </div>
 </section>

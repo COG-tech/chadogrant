@@ -1,0 +1,18 @@
+{% assign item = include.item %}
+<article class="archive-list__item archive-list__item--actions">
+  <div>
+    <div class="card__meta">
+      <span>{{ include.kind }}</span>
+      <span>{{ item.date_label }}</span>
+    </div>
+    <h3>
+      <a href="{{ item.youtube_url }}" target="_blank" rel="noreferrer">{{ item.title }}</a>
+    </h3>
+  </div>
+  <div class="archive-list__actions">
+    {% if item.site_url != blank %}
+      <a class="button button--small button--secondary" href="{{ item.site_url | relative_url }}">Site page</a>
+    {% endif %}
+    <a class="button button--small" href="{{ item.youtube_url }}" target="_blank" rel="noreferrer">Watch on YouTube</a>
+  </div>
+</article>

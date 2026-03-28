@@ -5,10 +5,9 @@ description: Verified public profiles, publication hubs, and book listings conne
 <section class="content-section prose-block">
   <h2>Media and appearances</h2>
   <p>
-    No verified third-party interviews, podcasts, or guest features were found
-    in public search during this update. Until that changes, this page
-    documents the verified public platform footprint tied to Chad O. Grant:
-    official profiles, publication hubs, and public book listings.
+    This page will grow as interviews, podcast appearances, and outside
+    features accumulate. For now, it anchors the public trail already visible
+    online: the channel, the publication, and the book pages.
   </p>
 </section>
 

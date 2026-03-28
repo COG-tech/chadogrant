@@ -7,9 +7,9 @@ description: Contact Chad O. Grant for interviews, editorial opportunities, spea
   <h2>Get in touch</h2>
   <p>{{ contact.intro }}</p>
   <p>
-    The profile links below are live public channels. The email link currently
-    uses the address exposed through the public Substack feed and can be
-    replaced with a dedicated business inbox later.
+    The links below are the live public channels. The email address currently
+    points to the public contact path exposed through the Substack feed, and it
+    can be swapped for a dedicated business inbox later.
   </p>
 </section>
 
@@ -22,9 +22,8 @@ description: Contact Chad O. Grant for interviews, editorial opportunities, spea
   <div class="contact-card">
     <h2>Static contact form</h2>
     <p>
-      This form is intentionally static for GitHub Pages. Connect Formspree,
-      Basin, or another static form service when you are ready to receive
-      submissions.
+      The form layout is here so you can wire in Formspree, Basin, or another
+      static form service later without redesigning the page.
     </p>
     <form class="contact-form" action="" method="post">
       <label>

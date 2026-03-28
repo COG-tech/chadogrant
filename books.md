@@ -5,10 +5,9 @@ description: Books by Chad O. Grant, including Dawn, Dear Son, and The Twin Tita
 <section class="content-section prose-block">
   <h2>Books</h2>
   <p>
-    This catalog is built from public retail listings tied to Chad O. Grant.
-    Dear Son and Dawn link to live Google Play pages, while The Twin Titans
-    currently points to a public Amazon listing until a stronger author-owned
-    source is available.
+    This page brings together the public book listings currently tied to Chad
+    O. Grant. Where an author-owned page is not available yet, the site links
+    to the strongest public retail source.
   </p>
 </section>
 

@@ -5,10 +5,9 @@ description: An editorial archive of Chad O. Grant's Substack writing, with orig
 <section class="content-section prose-block">
   <h2>Article hub</h2>
   <p>
-    This archive is designed around real Substack posts published under Chad O.
-    Grant's name. It supports discoverability without copying full articles:
-    each entry adds an original summary, a topic lens, and a clean path to the
-    complete piece.
+    These are summaries of published pieces, not copies. The point is to give
+    each essay some context, make the archive easier to scan, and send readers
+    to the original source.
   </p>
 </section>
 
