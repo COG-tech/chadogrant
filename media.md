@@ -12,7 +12,7 @@ body_class: page-body page-media
     <h2>A cleaner record of where the work is showing up.</h2>
     <p>
       This page tracks the public references already tied to Chad O. Grant:
-      the S.C.O.P.E. Report channel, the Substack publication, and the book
+      the S.C.O.P.E. Report channel, the Substack publications, and the book
       listings that are live under his name. As interviews, podcasts, and
       outside features accumulate, they should be added here so the site stays
       ahead of the fragmented profile trail that usually builds up across the

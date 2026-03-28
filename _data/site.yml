@@ -2,19 +2,22 @@ name: Chad O. Grant
 title_suffix: " | Chad O. Grant"
 role_label: Writer, Macro Commentator, and Author
 tagline: >-
-  Macro analysis, writing, and commentary from Chad O. Grant across S.C.O.P.E.
-  Report, Substack, and books.
+  Macro analysis, fiction writing, and commentary from Chad O. Grant across
+  S.C.O.P.E. Report, Dawn Archives, and books.
 description: >-
-  Chad O. Grant is the voice behind S.C.O.P.E. Report, publishing commentary on
-  markets, geopolitics, and structural change across video, essays, and books.
+  Chad O. Grant publishes macro commentary through S.C.O.P.E. Report and
+  science-fiction writing through Dawn Archives, linking video, essays,
+  fiction, and books under one author identity.
 hero:
-  eyebrow: Chad O. Grant / S.C.O.P.E. Report / Marathon Macro
+  eyebrow: Chad O. Grant / S.C.O.P.E. Report / Dawn Archives
   statement: >-
-    Chad O. Grant writes and speaks about macro, geopolitics, and the long
-    shifts that move markets, institutions, and power.
+    Chad O. Grant writes and speaks about macro, geopolitics, long-cycle
+    change, and the fiction worlds built around power, conflict, and systems
+    under strain.
   intro: >-
     This site brings that work into one place, from S.C.O.P.E. Report videos
-    and Substack essays to public book pages and official profiles.
+    and Substack essays to Dawn Archives chapters, public book pages, and
+    official profiles.
   focus_title: Verified Public Footprint
   focus_points:
     - S.C.O.P.E. Report on YouTube and Substack
@@ -29,8 +32,10 @@ intro:
 about:
   short_bio: >-
     Chad O. Grant writes and comments on macroeconomics, geopolitics, and
-    structural change through S.C.O.P.E. Report. His work spans short-form
-    video, long-form essays, and books including Dear Son and Dawn.
+    structural change through S.C.O.P.E. Report while also publishing
+    science-fiction writing through Dawn Archives. His work spans short-form
+    video, long-form essays, serialized fiction, and books including Dear Son
+    and Dawn.
   long_story_intro: >-
     Across markets, politics, and fiction, the throughline is the same: how
     power works, how systems behave under pressure, and what changes when old
@@ -40,24 +45,28 @@ about:
     and geopolitical commentary platform organized around the intersections of
     Science, Culture, Order, Politics, and Education. The writing and videos
     track hidden financial pressure, labor-market shifts, strategic leverage,
-    and the broader direction of the global order. The books widen that range:
-    from family and legacy in Dear Son to speculative conflict and power in
-    Dawn, with a separate public listing for The Twin Titans.
+    and the broader direction of the global order. Alongside that work, Dawn
+    Archives extends the fiction side of the catalog with chapters, lore, and
+    world notes tied to DAWN: A Whisper of Destiny. The books widen the range
+    further: from family and legacy in Dear Son to speculative conflict and
+    power in Dawn, with a separate public listing for The Twin Titans.
   what_i_write_about:
     - Macro regimes, labor, inflation, and growth signals
     - Geopolitics, state power, and structural economic change
     - Investing, leverage, and capital under pressure
+    - Fiction, worldbuilding, and serialized story development
     - Books, essays, and long-form public commentary
   work_locations:
     - S.C.O.P.E. Report on YouTube
-    - Chad O. Grant on Substack
+    - S.C.O.P.E. Report on Substack
+    - Dawn Archives on Substack
     - Google Play book listings
     - Public book retail listings and future media references
 cta:
   title: Follow The Work
   body: >-
-    Follow the essays, browse the channel, or get in touch about interviews,
-    speaking, and editorial work.
+    Follow the essays, fiction chapters, and videos, or get in touch about
+    interviews, speaking, and editorial work.
   primary_label: Contact Chad O. Grant
   primary_url: /contact/
   secondary_label: Watch S.C.O.P.E. Report

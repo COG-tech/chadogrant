@@ -7,12 +7,19 @@
   url: "https://www.youtube.com/@Chadogrant/about"
 - date_label: "Current"
   outlet: "Substack"
-  title: "Chad O. Grant publication profile"
+  title: "S.C.O.P.E. Report publication profile"
   summary: >-
     The Substack about page describes The S.C.O.P.E. Report by Chad O. Grant as
     a publication focused on the intersections of Science, Culture, Order,
     Politics, and Education.
   url: "https://chadogrant.substack.com/about"
+- date_label: "Current"
+  outlet: "Substack"
+  title: "Dawn Archives publication profile"
+  summary: >-
+    The Dawn Archives about page presents Chad O. Grant's fiction publication
+    for chapters, lore, and art tied to DAWN: A Whisper of Destiny.
+  url: "https://dawnnexus.substack.com/about"
 - date_label: "Public listing"
   outlet: "Google Play Books"
   title: "Dear Son retail listing"

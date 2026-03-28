@@ -15,8 +15,9 @@ schema_type: ProfilePage
       <h2>Profile summary</h2>
       <p>{{ site_data.tagline }}</p>
       <p>
-        If you know Chad O. Grant from S.C.O.P.E. Report, Substack, or the
-        books, this page is meant to show how that body of work fits together.
+        If you know Chad O. Grant from S.C.O.P.E. Report, Dawn Archives,
+        Substack, or the books, this page is meant to show how that body of work
+        fits together.
       </p>
     </aside>
   </div>
@@ -29,6 +30,12 @@ schema_type: ProfilePage
     Public author copy for Dawn describes Chad O. Grant as a writer interested
     in power, incentives, and the choices people make when the rules change.
     That feels like the clearest bridge between the books and the macro work.
+  </p>
+  <p>
+    Dawn Archives makes that bridge more visible. It gives the fiction work its
+    own publication trail, with chapters and lore notes tied back to Chad O.
+    Grant rather than leaving the novel side of the catalog disconnected from
+    the broader author profile.
   </p>
 </section>
 

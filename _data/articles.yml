@@ -1,5 +1,7 @@
 - title: "THIS WEEK: COSTS HOT, HIRING SOFT"
   date_label: "Mar 2, 2026"
+  date_iso: "2026-03-02"
+  publication: "S.C.O.P.E. Report"
   tag: Macro
   summary: >-
     A weekly macro read on the split between stubborn cost pressure and a labor
@@ -9,6 +11,8 @@
   featured: true
 - title: "Scope Power Outlook: South Africa 2026"
   date_label: "Feb 28, 2026"
+  date_iso: "2026-02-28"
+  publication: "S.C.O.P.E. Report"
   tag: Global Analysis
   summary: >-
     A country-level outlook that uses the S.C.O.P.E. framework to read South
@@ -18,6 +22,8 @@
   featured: true
 - title: "Two Economies, One Signal"
   date_label: "Feb 24, 2026"
+  date_iso: "2026-02-24"
+  publication: "S.C.O.P.E. Report"
   tag: Markets
   summary: >-
     A market read that uses gold and GBP/CAD to show how caution and stalemate
@@ -27,6 +33,8 @@
   featured: true
 - title: "Employers Are Quietly Pulling Back"
   date_label: "Feb 23, 2026"
+  date_iso: "2026-02-23"
+  publication: "S.C.O.P.E. Report"
   tag: Labor Market
   summary: >-
     A short labor-market note on the gap between steady headline payrolls and
@@ -35,6 +43,8 @@
   featured: false
 - title: "Demand Is Still Running. Hiring Is Not."
   date_label: "Feb 20, 2026"
+  date_iso: "2026-02-20"
+  publication: "S.C.O.P.E. Report"
   tag: Consumer Demand
   summary: >-
     A macro snapshot of an economy where spending is still moving but hiring is
@@ -44,9 +54,136 @@
   featured: false
 - title: "Defense Is the Backstop"
   date_label: "Feb 18, 2026"
+  date_iso: "2026-02-18"
+  publication: "S.C.O.P.E. Report"
   tag: Defense and Industry
   summary: >-
     A note on how defense demand can keep parts of the economy moving even as
     more consumer-facing areas flatten out.
   external_url: "https://chadogrant.substack.com/p/defense-is-the-backstop"
+  featured: false
+- title: "France and Germany Are Writing Different Futures"
+  date_label: "Feb 17, 2026"
+  date_iso: "2026-02-17"
+  publication: "S.C.O.P.E. Report"
+  tag: Europe and Industry
+  summary: >-
+    A S.C.O.P.E. Report note on the widening policy split between France and
+    Germany, and what that divergence could mean for industrial planning and
+    European supply chains.
+  external_url: "https://chadogrant.substack.com/p/france-and-germany-are-writing-different"
+  featured: false
+- title: "The Auto Squeeze Is Back"
+  date_label: "Feb 16, 2026"
+  date_iso: "2026-02-16"
+  publication: "S.C.O.P.E. Report"
+  tag: Consumer and Autos
+  summary: >-
+    A consumer-pressure note tracking how monthly car payments are pushing back
+    against household income again and tightening the room consumers have left
+    to absorb higher costs.
+  external_url: "https://chadogrant.substack.com/p/the-auto-squeeze-is-back"
+  featured: false
+- title: "Manufacturing Is Back Above 50. The Labor Market Is Still Tight."
+  date_label: "Feb 13, 2026"
+  date_iso: "2026-02-13"
+  publication: "S.C.O.P.E. Report"
+  tag: Manufacturing
+  summary: >-
+    A macro update on factories moving back into expansion while labor
+    conditions stay tight enough to complicate the broader growth read.
+  external_url: "https://chadogrant.substack.com/p/manufacturing-is-back-above-50-the"
+  featured: false
+- title: "China’s Travel Boom, Japan’s Factory Turn"
+  date_label: "Feb 12, 2026"
+  date_iso: "2026-02-12"
+  publication: "S.C.O.P.E. Report"
+  tag: Asia
+  summary: >-
+    A cross-Asia note comparing mobility-driven momentum in China with
+    production-backed momentum in Japan, and why that difference matters.
+  external_url: "https://chadogrant.substack.com/p/chinas-travel-boom-japans-factory"
+  featured: false
+- title: "The Energy Gap Is the Real Story in Europe"
+  date_label: "Feb 11, 2026"
+  date_iso: "2026-02-11"
+  publication: "S.C.O.P.E. Report"
+  tag: Energy and Europe
+  summary: >-
+    A Europe-focused note arguing that the real divide runs through energy
+    costs, with France and Germany absorbing the industrial squeeze in
+    different ways.
+  external_url: "https://chadogrant.substack.com/p/the-energy-gap-is-the-real-story"
+  featured: false
+- title: "Watch Labor Churn Before the Big Prints"
+  date_label: "Feb 9, 2026"
+  date_iso: "2026-02-09"
+  publication: "S.C.O.P.E. Report"
+  tag: Labor Market
+  summary: >-
+    A labor-market watchlist piece arguing that churn and claims data can flag
+    underlying stress before the headline releases do.
+  external_url: "https://chadogrant.substack.com/p/watch-labor-churn-before-the-big"
+  featured: false
+- title: "Dawn Book 1: THE DUSKLING INTERCEPT"
+  date_label: "Mar 26, 2026"
+  date_iso: "2026-03-26"
+  publication: "Dawn Archives"
+  tag: Science Fiction
+  summary: >-
+    Chapter 12 in Dawn Archives, continuing Dawn Book One as the conflict
+    widens and the serialized fiction world around DAWN keeps unfolding under
+    Chad O. Grant's byline.
+  external_url: "https://dawnnexus.substack.com/p/dawn-book-1-the-duskling-intercept"
+  featured: false
+- title: "Dawn Book 1: ALLIANCE OF NECESSITY"
+  date_label: "Mar 19, 2026"
+  date_iso: "2026-03-19"
+  publication: "Dawn Archives"
+  tag: Science Fiction
+  summary: >-
+    Chapter 11 in Dawn Archives, centered on hard bargains, strategic
+    alignments, and the pressure points driving Dawn Book One forward.
+  external_url: "https://dawnnexus.substack.com/p/dawn-book-1-alliance-of-necessity"
+  featured: false
+- title: "Dawn Book 1: POLITICAL CROSSROADS"
+  date_label: "Mar 12, 2026"
+  date_iso: "2026-03-12"
+  publication: "Dawn Archives"
+  tag: Science Fiction
+  summary: >-
+    Chapter 10 in Dawn Archives, moving the story through a political turning
+    point inside the wider Dawn saga.
+  external_url: "https://dawnnexus.substack.com/p/dawn-book-1-political-crossroads"
+  featured: false
+- title: "Dawn Book 1: RELICS OF POWER"
+  date_label: "Mar 8, 2026"
+  date_iso: "2026-03-08"
+  publication: "Dawn Archives"
+  tag: Science Fiction
+  summary: >-
+    Chapter 9 in Dawn Archives, pushing deeper into the relics, stakes, and
+    power structures shaping Dawn Book One.
+  external_url: "https://dawnnexus.substack.com/p/dawn-book-1-relics-of-power"
+  featured: false
+- title: "Dawn Book 1: THE QUIET BEFORE BATTLE"
+  date_label: "Mar 5, 2026"
+  date_iso: "2026-03-05"
+  publication: "Dawn Archives"
+  tag: Science Fiction
+  summary: >-
+    Chapter 8 in Dawn Archives, setting the stage for open conflict as tension
+    builds across the world of Dawn Book One.
+  external_url: "https://dawnnexus.substack.com/p/dawn-book-1-the-quiet-before-battle"
+  featured: false
+- title: "Inactive 300 years. Tonight, they wake."
+  date_label: "Mar 4, 2026"
+  date_iso: "2026-03-04"
+  publication: "Dawn Archives"
+  tag: Dawn Lore
+  summary: >-
+    An early Dawn Archives fiction entry titled The Council Wakes, introducing
+    an ancient force re-entering the story world behind DAWN: A Whisper of
+    Destiny.
+  external_url: "https://dawnnexus.substack.com/p/inactive-300-years-tonight-they-wake"
   featured: false
