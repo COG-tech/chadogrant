@@ -22,7 +22,7 @@
   status_note: "Google Play listing is live."
 - title: "The Twin Titans: Asia and Africa's Prominence in the 21st Century"
   slug: twin-titans
-  cover: /assets/img/books/twin-titans-book.svg
+  cover: /assets/img/books/twin-titans-book.jpg
   description: >-
     The Twin Titans points toward a geopolitical argument about the growing
     weight of Asia and Africa in the 21st century. A public Amazon listing
@@ -30,4 +30,4 @@
     and official cover should still come from an author-controlled source.
   buy_url: "https://www.amazon.com/Twin-Titans-Africas-Prominence-Century/dp/B0FNK1TYFR"
   learn_more_url: "https://www.amazon.com/Twin-Titans-Africas-Prominence-Century/dp/B0FNK1TYFR"
-  status_note: "Public retail listing found. Add official cover and fuller jacket copy when available."
+  status_note: "Public Amazon listing and cover image verified. Add an author-controlled page when available."
