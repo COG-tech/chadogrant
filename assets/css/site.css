@@ -847,6 +847,136 @@ p {
   min-width: 9.5rem;
 }
 
+.page-media .page-header__inner {
+  padding-top: 2.8rem;
+  padding-bottom: 2.3rem;
+}
+
+.page-media .page-header__lead {
+  max-width: 46rem;
+}
+
+.media-intro {
+  display: grid;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.media-intro__copy,
+.media-intro__meta {
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.media-intro__copy {
+  padding: clamp(1.4rem, 1vw + 1.2rem, 2rem);
+}
+
+.media-intro__copy h2 {
+  max-width: 17ch;
+}
+
+.media-intro__copy p:last-child {
+  max-width: 58rem;
+  font-size: 1.02rem;
+}
+
+.media-intro__meta {
+  display: grid;
+  gap: 1rem;
+  padding: 1.4rem;
+}
+
+.media-stat {
+  display: grid;
+  gap: 0.15rem;
+  padding-bottom: 0.95rem;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.media-stat:last-of-type {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.media-stat strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.55rem;
+}
+
+.media-stat span,
+.media-source-note p {
+  color: var(--ink-muted);
+}
+
+.media-source-note {
+  padding-top: 0.95rem;
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.media-source-note p {
+  margin: 0;
+}
+
+.media-list {
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+.page-media .media-row {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(250, 246, 239, 0.96) 100%);
+  border-color: rgba(17, 24, 39, 0.09);
+  gap: 1rem;
+}
+
+.page-media .media-row__meta {
+  display: grid;
+  gap: 0.2rem;
+  align-content: start;
+  padding: 0.15rem 0;
+}
+
+.page-media .media-row__meta span {
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.page-media .media-row__meta strong,
+.media-row__eyebrow {
+  color: var(--accent-strong);
+}
+
+.media-row__eyebrow {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.page-media .media-row__body {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.page-media .media-row__body h3 {
+  font-size: 1.42rem;
+  line-height: 1.08;
+}
+
+.page-media .media-row__body p {
+  font-size: 0.98rem;
+  line-height: 1.72;
+}
+
+.page-media .media-row__action {
+  display: flex;
+  align-items: start;
+}
+
 .contact-form {
   display: grid;
   gap: 1rem;
@@ -968,6 +1098,10 @@ p {
   }
 
   .books-intro {
+    grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.65fr);
+  }
+
+  .media-intro {
     grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.65fr);
   }
 
