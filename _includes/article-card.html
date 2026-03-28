@@ -13,10 +13,12 @@
       {% endif %}
     </h3>
     <p>{{ item.summary }}</p>
-    {% if item.external_url != blank %}
-      <a class="button button--small" href="{{ item.external_url }}" target="_blank" rel="noreferrer">Read full article</a>
-    {% else %}
-      <span class="button button--small button--disabled">Add full article link</span>
-    {% endif %}
+    <div class="card__footer">
+      {% if item.external_url != blank %}
+        <a class="button button--small" href="{{ item.external_url }}" target="_blank" rel="noreferrer">Read full article</a>
+      {% else %}
+        <span class="button button--small button--disabled">Add full article link</span>
+      {% endif %}
+    </div>
   </div>
 </article>
