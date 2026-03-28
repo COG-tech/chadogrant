@@ -796,6 +796,8 @@ p {
 .books-grid {
   display: grid;
   gap: 1.25rem;
+  max-width: 78rem;
+  margin: 0 auto;
 }
 
 .card__eyebrow {
@@ -816,6 +818,7 @@ p {
 .page-books .card--book .card__media {
   aspect-ratio: 4 / 5;
   border-bottom: 0;
+  background: rgba(232, 223, 209, 0.7);
 }
 
 .page-books .card--book .card__body {
@@ -969,7 +972,34 @@ p {
   }
 
   .books-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page-books .card--book {
+    grid-template-columns: minmax(260px, 310px) minmax(0, 1fr);
+    align-items: stretch;
+  }
+
+  .page-books .card--book .card__media {
+    aspect-ratio: auto;
+    min-height: 100%;
+    border-right: 1px solid rgba(17, 24, 39, 0.08);
+  }
+
+  .page-books .card--book .card__media img {
+    height: 100%;
+  }
+
+  .page-books .card--book .card__body {
+    padding: 1.7rem;
+  }
+
+  .page-books .card--book h3 {
+    font-size: 1.65rem;
+  }
+
+  .page-books .card--book p {
+    max-width: 62ch;
   }
 }
 
