@@ -1,13 +1,18 @@
-﻿{% assign item = include.item %}
+{% assign item = include.item %}
+{% if item.thumbnail contains 'http' %}
+  {% assign thumb_url = item.thumbnail %}
+{% else %}
+  {% assign thumb_url = item.thumbnail | relative_url %}
+{% endif %}
 <article class="card">
   <a class="card__media" href="{{ item.url | relative_url }}">
-    <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.thumbnail_alt }}">
+    <img src="{{ thumb_url }}" alt="{{ item.thumbnail_alt }}">
   </a>
   <div class="card__body">
     <div class="card__meta">
       <span>{{ item.topic }}</span>
-      {% if item.placeholder %}
-        <span class="status-chip status-chip--subtle">Placeholder</span>
+      {% if item.published_label %}
+        <span>{{ item.published_label }}</span>
       {% endif %}
     </div>
     <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>

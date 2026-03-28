@@ -1,27 +1,53 @@
-﻿- title: "TODO: add verified article title"
-  date_label: "TODO: add publication date"
+- title: "THIS WEEK: COSTS HOT, HIRING SOFT"
+  date_label: "Mar 2, 2026"
   tag: Macro
   summary: >-
-    Placeholder summary. Replace this with an original editorial summary once
-    the official article URL and title have been verified.
-  external_url: ""
+    A weekly macro read on the split between still-firm cost pressure and a
+    hiring backdrop that is beginning to soften. The piece frames inflation and
+    labor data as two separate signals that should not be collapsed into one
+    headline.
+  external_url: "https://chadogrant.substack.com/p/this-week-costs-hot-hiring-soft"
   featured: true
-  placeholder: true
-- title: "TODO: add verified article title"
-  date_label: "TODO: add publication date"
-  tag: Investing
-  summary: >-
-    Placeholder summary. Use this card for a flagship piece on markets,
-    allocation, or regime change once the final article link is supplied.
-  external_url: ""
-  featured: true
-  placeholder: true
-- title: "TODO: add verified article title"
-  date_label: "TODO: add publication date"
+- title: "Scope Power Outlook: South Africa 2026"
+  date_label: "Feb 28, 2026"
   tag: Global Analysis
   summary: >-
-    Placeholder summary. Replace with a concise original description that helps
-    readers and search engines understand the article's thesis.
-  external_url: ""
+    A country-level outlook using Chad O. Grant's S.C.O.P.E. framework to read
+    South Africa through institutional strength, strategic importance, and the
+    political economy shaping its next phase.
+  external_url: "https://chadogrant.substack.com/p/scope-power-outlook-south-africa"
+  featured: true
+- title: "Two Economies, One Signal"
+  date_label: "Feb 24, 2026"
+  tag: Markets
+  summary: >-
+    An interpretive piece that uses gold and GBP/CAD to read a world where
+    caution and stalemate are showing up at the same time. The focus is less on
+    prediction than on what cross-asset behavior is revealing about the regime.
+  external_url: "https://chadogrant.substack.com/p/two-economies-one-signal"
+  featured: true
+- title: "Employers Are Quietly Pulling Back"
+  date_label: "Feb 23, 2026"
+  tag: Labor Market
+  summary: >-
+    A short labor-market read centered on the gap between surface-level payroll
+    resilience and softer underlying hiring behavior, especially in temporary
+    work.
+  external_url: "https://chadogrant.substack.com/p/employers-are-quietly-pulling-back"
   featured: false
-  placeholder: true
+- title: "Demand Is Still Running. Hiring Is Not."
+  date_label: "Feb 20, 2026"
+  tag: Consumer Demand
+  summary: >-
+    A macro snapshot of an economy where spending is still moving but hiring is
+    lagging, forcing a closer look at how durable headline growth really is.
+  external_url: "https://chadogrant.substack.com/p/demand-is-still-running-hiring-is"
+  featured: false
+- title: "Defense Is the Backstop"
+  date_label: "Feb 18, 2026"
+  tag: Defense and Industry
+  summary: >-
+    A geopolitical and industrial-policy note on how defense demand can support
+    parts of the economy even as consumer-facing areas flatten out.
+  external_url: "https://chadogrant.substack.com/p/defense-is-the-backstop"
+  featured: false

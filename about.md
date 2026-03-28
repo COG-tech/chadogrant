@@ -1,4 +1,4 @@
-﻿---
+---
 title: About
 description: Learn more about Chad O. Grant, his writing, macro analysis, books, and the themes that run through his public work.
 schema_type: ProfilePage
@@ -15,9 +15,10 @@ schema_type: ProfilePage
       <h2>Profile summary</h2>
       <p>{{ site_data.tagline }}</p>
       <p>
-        This page is designed to help readers, editors, and search engines
-        understand that Chad O. Grant is the person behind the books, essays,
-        videos, and macro commentary collected across this site.
+        This page ties the same identity across S.C.O.P.E. Report on YouTube,
+        the Chad O. Grant Substack archive, public book listings, and future
+        media references so search engines can understand one consistent public
+        profile.
       </p>
     </aside>
   </div>
@@ -27,9 +28,10 @@ schema_type: ProfilePage
   <h2>Longer story / background</h2>
   <p>{{ site_data.about.long_story }}</p>
   <p>
-    TODO: replace or expand this section with verified background details,
-    publication history, location, credentials, and any biographical notes you
-    want associated with Chad O. Grant in public search results.
+    Public source material for Dawn describes Chad O. Grant as a writer focused
+    on power, incentives, and what happens when systems come under strain. The
+    macro work applies that same attention to markets, institutions, and the
+    shifting balance of power across countries and sectors.
   </p>
 </section>
 
@@ -57,8 +59,8 @@ schema_type: ProfilePage
 <section class="content-section">
   <h2>Official links</h2>
   <p>
-    Replace the placeholders below with the official public profiles for Chad O.
-    Grant before launch.
+    The links below are verified public profiles and distribution channels
+    currently associated with Chad O. Grant.
   </p>
   {% include social-links.html variant="buttons" %}
 </section>

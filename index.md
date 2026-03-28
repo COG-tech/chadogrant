@@ -1,5 +1,5 @@
-﻿---
+---
 layout: home
 title: Chad O. Grant
-description: A premium editorial website for Chad O. Grant's macro analysis, books, articles, and video commentary.
+description: Chad O. Grant is the creator of S.C.O.P.E. Report, publishing macro analysis, geopolitical commentary, articles, videos, and books.
 ---

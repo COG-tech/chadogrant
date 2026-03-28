@@ -1,11 +1,11 @@
-﻿---
+---
 title: Hosted essay template
 description: A template page for future Chad O. Grant essays hosted directly on the site.
 placeholder: true
 ---
 ## Working title
 
-TODO: replace this placeholder with the final essay title.
+Replace this heading with the final essay title.
 
 ## Framing
 

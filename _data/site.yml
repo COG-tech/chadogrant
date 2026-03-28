@@ -1,81 +1,86 @@
-﻿name: Chad O. Grant
+name: Chad O. Grant
 title_suffix: " | Chad O. Grant"
-role_label: Writer, Macro Analyst, and Commentator
+role_label: Writer, Macro Commentator, and Author
 tagline: >-
-  Macro analysis, writing, and video commentary on markets, power, and the long
-  arc of global change.
+  Chad O. Grant is the writer and macro commentator behind S.C.O.P.E. Report,
+  publishing market, geopolitical, and long-cycle analysis across YouTube,
+  Substack, and books.
 description: >-
-  Chad O. Grant is building a public body of work around macroeconomics,
-  investing, writing, and global analysis. This site is the central home for
-  his videos, articles, books, and media appearances.
+  Chad O. Grant is the creator of S.C.O.P.E. Report, a public body of work that
+  spans macro analysis, geopolitical commentary, books, and editorial writing.
+  This site organizes his verified public footprint in one search-friendly
+  publishing home.
 hero:
-  eyebrow: Writer / Macro Analyst / Commentator
+  eyebrow: Chad O. Grant / S.C.O.P.E. Report / Marathon Macro
   statement: >-
-    Chad O. Grant publishes serious, accessible commentary on macroeconomics,
-    investing, structural change, and the forces reshaping the global order.
+    Chad O. Grant connects markets, geopolitics, and structural change through
+    the S.C.O.P.E. Report, combining video commentary, essays, and books into
+    one public body of work.
   intro: >-
-    This site brings Chad O. Grant's writing, books, and video work into one
-    editorial home so readers, viewers, researchers, and search engines can
-    understand the full shape of his public work.
-  focus_title: Current Focus
+    This site is built as a durable reference point for Chad O. Grant's
+    published work so readers, editors, researchers, and search engines can map
+    the same person across videos, writing, books, and official profiles.
+  focus_title: Verified Public Footprint
   focus_points:
-    - Macro analysis through an investor's lens
-    - Long-form writing built for clarity, not noise
-    - Video commentary that connects markets to the wider world
+    - S.C.O.P.E. Report on YouTube and Substack
+    - Macro, geopolitical, and long-cycle analysis
+    - Books spanning nonfiction and speculative fiction
 intro:
-  title: A Real Home For The Work
+  title: A Search-Ready Editorial Home
   body: >-
-    Chad O. Grant's work sits at the intersection of macro, investing, books,
-    and public commentary. The goal of this site is not to act as a thin link
-    page, but as a durable record of ideas, publications, appearances, and
-    themes that define the body of work.
+    The goal is not to act as a thin link page. It is to make Chad O. Grant's
+    work legible across platforms: the S.C.O.P.E. Report video channel, the
+    Substack archive, public book listings, and future media appearances. Every
+    section is organized to help readers and search engines understand the same
+    identity across formats.
 about:
   short_bio: >-
-    Chad O. Grant writes about macroeconomics, investing, global analysis, and
-    the relationship between markets, institutions, and power.
+    Chad O. Grant is the writer and macro commentator behind S.C.O.P.E. Report.
+    His public work spans macroeconomics, geopolitical analysis, essays, and
+    books including Dear Son and Dawn, with a separate public listing for The
+    Twin Titans: Asia and Africa's Prominence in the 21st Century.
   long_story_intro: >-
-    This profile page is intentionally written as a public reference point for
-    Chad O. Grant's work. It should be refined with verified biographical
-    details, publication history, and official profile links before launch.
+    Public author materials describe Chad O. Grant as a writer interested in
+    power, incentives, institutions, and the choices people make when the rules
+    change. That same lens runs through both the macro work and the books.
   long_story: >-
-    The throughline of the work is a close reading of change: how capital
-    behaves under pressure, how institutions shape outcomes, how regions rise,
-    and how ideas move from private conviction into public argument. Across
-    essays, books, and video commentary, Chad O. Grant is developing a body of
-    work designed to be intellectually serious, globally aware, and accessible
-    to a broad audience.
+    On Substack and YouTube, Chad O. Grant publishes S.C.O.P.E. Report, a macro
+    and geopolitical commentary platform built around the intersections of
+    Science, Culture, Order, Politics, and Education. The writing and videos
+    focus on hidden financial pressures, changing labor dynamics, geopolitical
+    leverage, and the long arc of institutional change. Public book listings
+    also connect the same name to nonfiction and fiction titles, extending the
+    work from markets and power into family, legacy, and speculative conflict.
   what_i_write_about:
-    - Macroeconomics and market regimes
-    - Investing, risk, and capital allocation
-    - Global analysis and structural power shifts
-    - Books, essays, and public-facing commentary
+    - Macro regimes, labor, inflation, and growth signals
+    - Geopolitics, state power, and structural economic change
+    - Investing, leverage, and capital under pressure
+    - Books, essays, and long-form public commentary
   work_locations:
-    - Long-form articles and notes
-    - Video commentary and briefings
-    - Books and book-related updates
-    - Interviews, appearances, and media features
+    - S.C.O.P.E. Report on YouTube
+    - Chad O. Grant on Substack
+    - Google Play book listings
+    - Public book retail listings and future media references
 cta:
-  title: Follow The Work In Public
+  title: Follow The Work
   body: >-
-    Subscribe for new writing, follow the video channel, or get in touch about
-    interviews, speaking, and editorial opportunities.
+    Subscribe for new essays, follow the video channel, or use the verified
+    public links below to track Chad O. Grant's writing, books, and macro
+    commentary.
   primary_label: Contact Chad O. Grant
   primary_url: /contact/
-  secondary_label: Review Videos
+  secondary_label: Watch S.C.O.P.E. Report
   secondary_url: /videos/
 contact:
   intro: >-
-    For interviews, collaboration, book inquiries, or editorial opportunities,
-    use the contact options below. Replace the placeholder profile links and
-    form endpoint before launch.
+    For interviews, editorial opportunities, book inquiries, or collaboration,
+    use the verified public profile links below. The form UI remains static for
+    GitHub Pages, but it is ready to connect to a form service later.
 seo:
   default_image: /assets/img/og-default.svg
   theme_color: "#0f1726"
-  twitter_handle: "@TODO"
-  google_site_verification: "TODO_REPLACE_WITH_SEARCH_CONSOLE_CODE"
-  domain_review_note: >-
-    TODO: replace the placeholder domain in _config.yml and CNAME before
-    indexing or sharing the site publicly.
+  twitter_handle: "@ChadOGrant"
+  google_site_verification: ""
 navigation:
   - label: Home
     url: /

@@ -1,15 +1,19 @@
-﻿---
+---
 layout: default
 ---
 {% assign related_videos = site.videos | where: "featured", true | where_exp: "item", "item.url != page.url" | sort: "order" %}
+{% assign youtube_link = site.data.social | where: "label", "YouTube" | first %}
 <article class="detail-shell">
   <header class="detail-hero">
     <p class="detail-hero__eyebrow">Video</p>
     <h1>{{ page.title }}</h1>
     <p class="detail-hero__lead">{{ page.summary }}</p>
-    {% if page.placeholder %}
-      <p class="status-chip">Placeholder entry: replace title, summary, and YouTube details after verification.</p>
-    {% endif %}
+    <div class="card__meta">
+      <span>{{ page.topic }}</span>
+      {% if page.published_label %}
+        <span>{{ page.published_label }}</span>
+      {% endif %}
+    </div>
   </header>
 
   <section class="video-frame">
@@ -43,13 +47,19 @@ layout: default
         <p>{{ page.why_it_matters }}</p>
       </div>
       <div class="aside-card">
-        <h2>Subscribe on YouTube</h2>
+        <h2>Watch or subscribe</h2>
         <p>
-          Link the official Chad O. Grant YouTube channel in
-          <code>_data/social.yml</code> to activate this subscription call to
-          action.
+          Continue on YouTube for the full S.C.O.P.E. Report archive and future
+          uploads from Chad O. Grant.
         </p>
-        <a class="button button--secondary" href="{{ '/contact/' | relative_url }}">Review profile links</a>
+        <div class="button-row">
+          {% if page.watch_url %}
+            <a class="button button--small" href="{{ page.watch_url }}" target="_blank" rel="noreferrer">Watch on YouTube</a>
+          {% endif %}
+          {% if youtube_link %}
+            <a class="button button--small button--secondary" href="{{ youtube_link.url }}" target="_blank" rel="noreferrer">Subscribe</a>
+          {% endif %}
+        </div>
       </div>
     </aside>
   </div>

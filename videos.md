@@ -1,15 +1,16 @@
-﻿---
+---
 title: Videos
-description: A curated video hub for Chad O. Grant's macro commentary, briefings, and longer-form video analysis.
+description: Featured S.C.O.P.E. Report videos by Chad O. Grant covering macro commentary, leverage, markets, and geopolitics.
 ---
 {% assign featured_videos = site.videos | where: "featured", true | sort: "order" %}
 {% assign archive_videos = site.videos | sort: "order" %}
 <section class="content-section prose-block">
   <h2>Featured video hub</h2>
   <p>
-    This page is designed as an editorial hub, not a raw dump. Each featured
-    entry should eventually carry a verified YouTube title, a direct embed, an
-    original summary, and clear context about why the video matters.
+    This page is built around live entries from Chad O. Grant's public YouTube
+    footprint. The goal is not to dump embeds, but to frame the core argument,
+    connect the topic to the wider macro thesis, and make the video archive
+    legible to both readers and search engines.
   </p>
 </section>
 
@@ -31,7 +32,7 @@ description: A curated video hub for Chad O. Grant's macro commentary, briefings
           <h3><a href="{{ video.url | relative_url }}">{{ video.title }}</a></h3>
           <p>{{ video.summary }}</p>
         </div>
-        <span class="archive-list__tag">{{ video.topic }}</span>
+        <span class="archive-list__tag">{{ video.published_label | default: video.topic }}</span>
       </article>
     {% endfor %}
   </div>

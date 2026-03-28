@@ -1,4 +1,4 @@
-﻿---
+---
 title: Contact
 description: Contact Chad O. Grant for interviews, editorial opportunities, speaking, and collaboration.
 ---
@@ -6,6 +6,11 @@ description: Contact Chad O. Grant for interviews, editorial opportunities, spea
 <section class="content-section prose-block">
   <h2>Get in touch</h2>
   <p>{{ contact.intro }}</p>
+  <p>
+    The profile links below are live public channels. The email link currently
+    uses the address exposed through the public Substack feed and can be
+    replaced with a dedicated business inbox later.
+  </p>
 </section>
 
 <section class="content-section">
@@ -15,7 +20,7 @@ description: Contact Chad O. Grant for interviews, editorial opportunities, spea
 
 <section class="content-section">
   <div class="contact-card">
-    <h2>Contact form placeholder</h2>
+    <h2>Static contact form</h2>
     <p>
       This form is intentionally static for GitHub Pages. Connect Formspree,
       Basin, or another static form service when you are ready to receive

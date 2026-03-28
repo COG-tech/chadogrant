@@ -1,7 +1,12 @@
-﻿{% assign item = include.item %}
+{% assign item = include.item %}
+{% if item.cover contains 'http' %}
+  {% assign cover_url = item.cover %}
+{% else %}
+  {% assign cover_url = item.cover | relative_url %}
+{% endif %}
 <article class="card">
   <div class="card__media">
-    <img src="{{ item.cover | relative_url }}" alt="Placeholder cover for {{ item.title }}">
+    <img src="{{ cover_url }}" alt="Cover for {{ item.title }}">
   </div>
   <div class="card__body">
     <h3>{{ item.title }}</h3>

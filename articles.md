@@ -1,13 +1,14 @@
-﻿---
+---
 title: Articles
-description: An editorial archive for Chad O. Grant's writing, with original summaries and clear links to full articles.
+description: An editorial archive of Chad O. Grant's Substack writing, with original summaries and direct links to full articles.
 ---
 <section class="content-section prose-block">
   <h2>Article hub</h2>
   <p>
-    This archive is built to support discoverability without duplicating full
-    Substack or external articles. Each card should carry an original summary,
-    the topic, the publication date, and a clean link to the full piece.
+    This archive is designed around real Substack posts published under Chad O.
+    Grant's name. It supports discoverability without copying full articles:
+    each entry adds an original summary, a topic lens, and a clean path to the
+    complete piece.
   </p>
 </section>
 

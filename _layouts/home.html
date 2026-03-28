@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 ---
 {% assign site_data = site.data.site %}
@@ -14,6 +14,7 @@ layout: default
       <a class="button button--primary" href="{{ '/about/' | relative_url }}">Read the profile</a>
       <a class="button button--secondary" href="{{ '/articles/' | relative_url }}">Explore articles</a>
     </div>
+    {% include social-links.html variant="buttons" %}
   </div>
   <aside class="hero__panel">
     <h2>{{ site_data.hero.focus_title }}</h2>
@@ -23,10 +24,10 @@ layout: default
       {% endfor %}
     </ul>
     <div class="signal-note">
-      <strong>Launch note:</strong>
+      <strong>Public source note:</strong>
       <p>
-        Official profile URLs, verified media references, and final domain settings
-        are clearly marked throughout the site for review before launch.
+        The site now ties Chad O. Grant to verified YouTube, Substack, and
+        public book-listing sources rather than generic profile stubs.
       </p>
     </div>
   </aside>
@@ -46,7 +47,7 @@ layout: default
 <section class="section">
   <div class="section__heading">
     <p class="section__label">Featured Videos</p>
-    <h2>Video commentary with a strong editorial frame</h2>
+    <h2>Video commentary with a clear macro and geopolitical frame</h2>
   </div>
   <div class="card-grid card-grid--three">
     {% for video in featured_videos limit: 3 %}
@@ -70,7 +71,7 @@ layout: default
 <section class="section">
   <div class="section__heading">
     <p class="section__label">Books</p>
-    <h2>Books that expand the public body of work</h2>
+    <h2>Books that extend the public body of work</h2>
   </div>
   <div class="card-grid card-grid--three">
     {% for book in site.data.books %}
@@ -82,7 +83,7 @@ layout: default
 <section class="section">
   <div class="section__heading">
     <p class="section__label">Media</p>
-    <h2>Interviews, guest appearances, and references</h2>
+    <h2>Verified platform and publication references</h2>
   </div>
   <div class="stack-list">
     {% for item in site.data.media limit: 3 %}

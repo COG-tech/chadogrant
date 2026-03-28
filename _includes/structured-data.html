@@ -1,28 +1,39 @@
-﻿{% assign site_data = site.data.site %}
+{% assign site_data = site.data.site %}
 {% assign profile_image = '/assets/img/profile-mark.svg' | absolute_url %}
+{% assign email_link = "" %}
+{% for social in site.data.social %}
+  {% if social.url contains 'mailto:' %}
+    {% assign email_link = social.url | remove: 'mailto:' %}
+  {% endif %}
+{% endfor %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "{{ '/' | absolute_url }}#person",
   "name": "{{ site_data.name }}",
   "url": "{{ '/' | absolute_url }}",
   "description": {{ site.description | jsonify }},
-  "jobTitle": "Writer and macro commentator",
+  "jobTitle": "Writer, macro commentator, and author",
   "image": "{{ profile_image }}",
   "knowsAbout": [
     "Macroeconomics",
-    "Investing",
+    "Geopolitics",
     "Global analysis",
+    "Investing",
     "Books",
     "Public commentary"
-  ],
+  ]{% if email_link != blank %},
+  "email": {{ email_link | jsonify }}{% endif %},
   "sameAs": [
     {% assign printed = false %}
     {% for social in site.data.social %}
-      {% if social.url != blank and social.placeholder != true %}
+      {% if social.url != blank %}
+        {% unless social.url contains 'mailto:' %}
         {% if printed %},{% endif %}
         {{ social.url | jsonify }}
         {% assign printed = true %}
+        {% endunless %}
       {% endif %}
     {% endfor %}
   ]
@@ -37,8 +48,7 @@
   "url": "{{ page.url | absolute_url }}",
   "description": {{ page.description | jsonify }},
   "mainEntity": {
-    "@type": "Person",
-    "name": "{{ site_data.name }}"
+    "@id": "{{ '/' | absolute_url }}#person"
   }
 }
 </script>

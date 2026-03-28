@@ -1,20 +1,12 @@
-﻿- label: YouTube
-  url: ""
-  placeholder: true
-  placeholder_text: "TODO: add Chad O. Grant's official YouTube channel URL."
-- label: LinkedIn
-  url: ""
-  placeholder: true
-  placeholder_text: "TODO: add Chad O. Grant's official LinkedIn profile URL."
+- label: YouTube
+  url: "https://www.youtube.com/@Chadogrant"
 - label: Substack
-  url: ""
-  placeholder: true
-  placeholder_text: "TODO: add Chad O. Grant's official Substack URL."
-- label: X / Twitter
-  url: ""
-  placeholder: true
-  placeholder_text: "TODO: add Chad O. Grant's official X profile URL."
+  url: "https://chadogrant.substack.com/"
+- label: X / Chad O. Grant
+  url: "https://x.com/ChadOGrant"
+- label: X / Marathon Macro
+  url: "https://x.com/MarathonMacro"
+- label: Marathon Macro Community
+  url: "https://whop.com/marathon-macro/"
 - label: Email
-  url: "mailto:TODO@replace-with-professional-email.com"
-  placeholder: true
-  placeholder_text: "TODO: replace with Chad O. Grant's professional email."
+  url: "mailto:chadogrant@substack.com"

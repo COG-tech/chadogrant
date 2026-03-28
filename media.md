@@ -1,14 +1,14 @@
-﻿---
+---
 title: Media
-description: Interviews, appearances, mentions, podcasts, and guest features connected to Chad O. Grant's work.
+description: Verified public profiles, publication hubs, and book listings connected to Chad O. Grant's work.
 ---
 <section class="content-section prose-block">
   <h2>Media and appearances</h2>
   <p>
-    Chad O. Grant's media page is built for interviews, guest appearances,
-    podcast conversations, and references tied to his writing and macro
-    commentary. Replace the placeholder items below with verified appearance
-    details before launch.
+    No verified third-party interviews, podcasts, or guest features were found
+    in public search during this update. Until that changes, this page
+    documents the verified public platform footprint tied to Chad O. Grant:
+    official profiles, publication hubs, and public book listings.
   </p>
 </section>
 
