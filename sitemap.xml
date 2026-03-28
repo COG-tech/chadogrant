@@ -6,7 +6,7 @@ permalink: /sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign static_pages = site.pages | where_exp: "item", "item.url != '/404.html'" %}
   {% for item in static_pages %}
-    {% if item.url contains '.xml' or item.url contains '.txt' or item.url contains '.webmanifest' or item.noindex == true or item.placeholder == true %}
+    {% if item.url contains '.xml' or item.url contains '.txt' or item.url contains '.webmanifest' or item.url contains '.css' or item.url contains '.js' or item.url contains '/assets/' or item.noindex == true or item.placeholder == true %}
       {% continue %}
     {% endif %}
   <url>
