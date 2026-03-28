@@ -19,6 +19,7 @@ thumbnail_alt: Thumbnail for Chad O. Grant's leverage trap video
 youtube_id: "RonLFfgLnQw"
 watch_url: "https://www.youtube.com/shorts/RonLFfgLnQw"
 published_label: "Mar 26, 2026"
+upload_date: "2026-03-26T08:31:38-07:00"
 ---
 ## Why this video stands out
 

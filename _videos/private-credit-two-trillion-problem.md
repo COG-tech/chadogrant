@@ -19,6 +19,7 @@ thumbnail_alt: Thumbnail for Chad O. Grant's private credit video
 youtube_id: "paRnHyIg800"
 watch_url: "https://www.youtube.com/watch?v=paRnHyIg800"
 published_label: "Mar 26, 2026"
+upload_date: "2026-03-26T07:28:17-07:00"
 ---
 ## Why this video stands out
 

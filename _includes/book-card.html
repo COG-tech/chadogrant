@@ -6,7 +6,7 @@
 {% endif %}
 <article class="card">
   <div class="card__media">
-    <img src="{{ cover_url }}" alt="Cover for {{ item.title }}">
+    <img src="{{ cover_url }}" alt="Cover for {{ item.title }}" loading="lazy" decoding="async" width="600" height="800">
   </div>
   <div class="card__body">
     <h3>{{ item.title }}</h3>

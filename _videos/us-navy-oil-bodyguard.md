@@ -18,6 +18,7 @@ thumbnail_alt: Thumbnail for Chad O. Grant's oil and geopolitics video
 youtube_id: "u9-vVKx36yU"
 watch_url: "https://www.youtube.com/shorts/u9-vVKx36yU"
 published_label: "Mar 22, 2026"
+upload_date: "2026-03-22T07:27:18-07:00"
 ---
 ## Why this video stands out
 

@@ -2,6 +2,7 @@
 title: Hosted essay template
 description: A template page for future Chad O. Grant essays hosted directly on the site.
 placeholder: true
+noindex: true
 ---
 ## Working title
 

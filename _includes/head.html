@@ -1,4 +1,4 @@
-﻿{% assign site_data = site.data.site %}
+{% assign site_data = site.data.site %}
 {% assign page_title = page.meta_title | default: page.title %}
 {% if page.url == "/" %}
   {% assign full_title = site_data.name %}
@@ -6,13 +6,14 @@
   {% assign full_title = page_title | append: site_data.title_suffix %}
 {% endif %}
 {% assign description = page.description | default: site.description %}
-{% assign canonical_url = page.url | absolute_url %}
-{% assign image_path = page.image | default: site_data.seo.default_image %}
+{% assign canonical_url = page.canonical_url | default: page.url | absolute_url %}
+{% assign image_path = page.image | default: page.thumbnail | default: site_data.seo.default_image %}
 {% if image_path contains "http" %}
   {% assign image_url = image_path %}
 {% else %}
   {% assign image_url = image_path | absolute_url %}
 {% endif %}
+{% assign image_alt = page.image_alt | default: page.thumbnail_alt | default: full_title %}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ full_title }}</title>
@@ -20,6 +21,8 @@
 <meta name="theme-color" content="{{ site_data.seo.theme_color }}">
 {% if page.noindex %}
   <meta name="robots" content="noindex, nofollow">
+{% else %}
+  <meta name="robots" content="index, follow, max-image-preview:large">
 {% endif %}
 <link rel="canonical" href="{{ canonical_url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +36,7 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ canonical_url }}">
 <meta property="og:image" content="{{ image_url }}">
+<meta property="og:image:alt" content="{{ image_alt }}">
 <meta property="og:site_name" content="{{ site_data.name }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ full_title }}">
@@ -40,6 +44,7 @@
 <meta name="twitter:image" content="{{ image_url }}">
 {% if site_data.seo.twitter_handle != blank %}
   <meta name="twitter:site" content="{{ site_data.seo.twitter_handle }}">
+  <meta name="twitter:creator" content="{{ site_data.seo.twitter_handle }}">
 {% endif %}
 {% if site_data.seo.google_site_verification != blank %}
   <meta name="google-site-verification" content="{{ site_data.seo.google_site_verification }}">

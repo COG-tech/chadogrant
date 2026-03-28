@@ -1,4 +1,4 @@
-﻿---
+---
 layout: null
 permalink: /sitemap.xml
 ---
@@ -6,7 +6,7 @@ permalink: /sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign static_pages = site.pages | where_exp: "item", "item.url != '/404.html'" %}
   {% for item in static_pages %}
-    {% if item.url contains '.xml' or item.url contains '.txt' or item.url contains '.webmanifest' %}
+    {% if item.url contains '.xml' or item.url contains '.txt' or item.url contains '.webmanifest' or item.noindex == true or item.placeholder == true %}
       {% continue %}
     {% endif %}
   <url>
@@ -14,11 +14,17 @@ permalink: /sitemap.xml
   </url>
   {% endfor %}
   {% for item in site.videos %}
+    {% if item.noindex == true or item.placeholder == true %}
+      {% continue %}
+    {% endif %}
   <url>
     <loc>{{ item.url | absolute_url }}</loc>
   </url>
   {% endfor %}
   {% for item in site.articles %}
+    {% if item.noindex == true or item.placeholder == true %}
+      {% continue %}
+    {% endif %}
   <url>
     <loc>{{ item.url | absolute_url }}</loc>
   </url>

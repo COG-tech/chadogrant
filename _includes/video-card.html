@@ -6,7 +6,7 @@
 {% endif %}
 <article class="card">
   <a class="card__media" href="{{ item.url | relative_url }}">
-    <img src="{{ thumb_url }}" alt="{{ item.thumbnail_alt }}">
+    <img src="{{ thumb_url }}" alt="{{ item.thumbnail_alt }}" loading="lazy" decoding="async" width="640" height="400">
   </a>
   <div class="card__body">
     <div class="card__meta">
