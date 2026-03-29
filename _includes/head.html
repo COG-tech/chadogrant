@@ -55,7 +55,8 @@
   <meta name="twitter:site" content="{{ site_data.seo.twitter_handle }}">
   <meta name="twitter:creator" content="{{ site_data.seo.twitter_handle }}">
 {% endif %}
-{% if site_data.seo.google_site_verification != blank %}
-  <meta name="google-site-verification" content="{{ site_data.seo.google_site_verification }}">
+{% assign google_site_verification = site_data.seo.google_site_verification | to_s | strip %}
+{% if google_site_verification != blank and google_site_verification contains '.html' == false %}
+  <meta name="google-site-verification" content="{{ google_site_verification }}">
 {% endif %}
 {% include structured-data.html %}

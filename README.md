@@ -71,9 +71,10 @@ When you are ready for the custom domain:
 
 ## Search Console and verification
 
-1. Add the Search Console verification code to `_data/site.yml`.
-2. Submit `https://YOUR-DOMAIN/sitemap.xml` after the domain is live.
-3. If the domain changes, update `_config.yml`, add or update `CNAME`, and
+1. Keep the root verification file `google7c0a49f823813e63.html` in place for the current URL-prefix property.
+2. Only add a raw meta-tag token to `_data/site.yml` if Google gives you the meta-tag method. Do not paste the `.html` filename into the meta field.
+3. Submit `https://YOUR-DOMAIN/sitemap.xml` after the domain is live.
+4. If the domain changes, update `_config.yml`, add or update `CNAME`, and
    resubmit the sitemap.
 
 ## Updating content
@@ -131,5 +132,5 @@ When you are ready for the custom domain:
   contact path
 - Official LinkedIn URL, if one should be added
 - Official cover and richer author-controlled description for `The Twin Titans`
-- Search Console verification code
+- Search Console property setup if you move to a custom domain
 - Final custom domain, when ready
