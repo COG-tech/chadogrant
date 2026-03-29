@@ -1,0 +1,17 @@
+{% assign entry = include.item %}
+{% assign canonical_url = entry.canonical_url | default: entry.url | absolute_url %}
+{% assign external_canonical = false %}
+{% if entry.canonical_url and entry.canonical_url contains '://' %}
+  {% unless entry.canonical_url contains site.url %}
+    {% assign external_canonical = true %}
+  {% endunless %}
+{% endif %}
+{% unless entry.noindex or entry.placeholder or entry.sitemap == false or external_canonical %}
+  <url>
+    <loc>{{ canonical_url }}</loc>
+    {% assign lastmod = entry.last_modified_at | default: entry.upload_date | default: entry.date %}
+    {% if lastmod %}
+      <lastmod>{{ lastmod | date_to_xmlschema }}</lastmod>
+    {% endif %}
+  </url>
+{% endunless %}

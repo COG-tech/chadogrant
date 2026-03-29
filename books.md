@@ -14,8 +14,9 @@ body_class: page-body page-books
       Chad O. Grant's books move across fiction, family, and geopolitical
       analysis, but the work is held together by the same instinct: looking at
       people, systems, and turning points with a long horizon in mind. This
-      page gathers the publicly listed titles currently tied to his name and
-      points readers to the strongest available source for each one.
+      page gathers the publicly listed titles currently tied to his name, gives
+      each book a real on-site overview page, and points readers to the
+      strongest available public source for each one.
     </p>
   </div>
   <aside class="books-intro__meta" aria-label="Books overview">
@@ -43,8 +44,8 @@ body_class: page-body page-books
       <h2>Published books and public listings</h2>
     </div>
     <p class="section-intro">
-      Each entry includes an original summary, a source note, and direct links
-      to the best public listing currently available.
+      Each entry includes an on-site overview, an original summary, a source
+      note, and direct links to the best public listing currently available.
     </p>
   </div>
   <div class="books-grid">

@@ -6,6 +6,8 @@
       <li><a href="{{ '/videos/' | relative_url }}">Videos</a></li>
     {% elsif page.section == "articles" %}
       <li><a href="{{ '/articles/' | relative_url }}">Articles</a></li>
+    {% elsif page.section == "books" %}
+      <li><a href="{{ '/books/' | relative_url }}">Books</a></li>
     {% endif %}
     <li aria-current="page">{{ current_label }}</li>
   </ol>

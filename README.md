@@ -22,9 +22,10 @@ Repository:
 
 - `_data/site.yml`: site-wide copy, navigation, SEO defaults, and CTA content
 - `_data/social.yml`: verified public profile links
-- `_data/books.yml`: book metadata, public retail links, and cover sources
+- `_data/books.yml`: book card metadata, public retail links, and cover sources
 - `_data/articles.yml`: external article cards and summaries
 - `_data/media.yml`: verified public profile and listing references
+- `_books/*.md`: on-site book overview pages that can rank and appear in sitemap
 - `_videos/*.md`: featured video detail pages
 - `_articles/*.md`: hosted article pages and templates
 - `_includes/`: reusable SEO, navigation, footer, and card components
@@ -90,6 +91,7 @@ When you are ready for the custom domain:
 ### Add or update books
 
 - Edit `_data/books.yml`.
+- Keep the matching `_books/*.md` page aligned when the title or description changes.
 - Replace public retail links with direct author or publisher links when you
   have them.
 - Replace any temporary cover source with final official assets.

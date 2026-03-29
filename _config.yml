@@ -9,6 +9,9 @@ markdown: kramdown
 permalink: pretty
 
 collections:
+  books:
+    output: true
+    permalink: /books/:name/
   videos:
     output: true
     permalink: /videos/:name/
@@ -22,6 +25,13 @@ defaults:
     values:
       layout: page
       image: /assets/img/og-default.svg
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+      section: books
+      body_class: page-body page-books
   - scope:
       path: ""
       type: videos

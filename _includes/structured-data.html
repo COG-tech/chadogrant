@@ -1,6 +1,6 @@
 {% assign site_data = site.data.site %}
 {% assign profile_image = '/assets/img/profile-mark.svg' | absolute_url %}
-{% assign page_thumbnail = page.thumbnail | default: site_data.seo.default_image %}
+{% assign page_thumbnail = page.thumbnail | default: page.image | default: site_data.seo.default_image %}
 {% if page_thumbnail contains "http" %}
   {% assign page_thumbnail_url = page_thumbnail %}
 {% else %}
@@ -80,6 +80,18 @@
       "position": 3,
       "name": {{ page.title | jsonify }},
       "item": "{{ page.url | absolute_url }}"
+    }{% elsif page.section == "books" %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Books",
+      "item": "{{ '/books/' | absolute_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": "{{ page.url | absolute_url }}"
     }{% else %},
     {
       "@type": "ListItem",
@@ -117,6 +129,31 @@
   "embedUrl": {{ "https://www.youtube-nocookie.com/embed/" | append: page.youtube_id | jsonify }},
   "url": {{ page.watch_url | default: page.url | absolute_url | jsonify }}{% if page.upload_date %},
   "uploadDate": {{ page.upload_date | jsonify }}{% endif %}
+}
+</script>
+{% elsif page.schema_type == "Book" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": {{ page.title | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "description": {{ page.description | default: page.book_summary | jsonify }},
+  "image": {{ page_thumbnail_url | jsonify }},
+  "author": {
+    "@id": "{{ '/' | absolute_url }}#person"
+  }{% if page.buy_url != blank or page.learn_more_url != blank %},
+  "sameAs": [
+    {% assign printed = false %}
+    {% if page.buy_url != blank %}
+      {{ page.buy_url | jsonify }}
+      {% assign printed = true %}
+    {% endif %}
+    {% if page.learn_more_url != blank and page.learn_more_url != page.buy_url %}
+      {% if printed %},{% endif %}
+      {{ page.learn_more_url | jsonify }}
+    {% endif %}
+  ]{% endif %}
 }
 </script>
 {% elsif page.url == "/" %}

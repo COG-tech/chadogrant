@@ -1,0 +1,84 @@
+---
+layout: default
+---
+{% assign related_books = site.books | where_exp: "item", "item.url != page.url" | sort: "order" %}
+{% assign cover_path = page.cover | default: page.image %}
+{% if cover_path contains "http" %}
+  {% assign cover_url = cover_path %}
+{% else %}
+  {% assign cover_url = cover_path | relative_url %}
+{% endif %}
+{% assign same_listing = false %}
+{% if page.buy_url != blank and page.learn_more_url != blank and page.buy_url == page.learn_more_url %}
+  {% assign same_listing = true %}
+{% endif %}
+<article class="detail-shell">
+  <header class="detail-hero">
+    <p class="detail-hero__eyebrow">Book</p>
+    <h1>{{ page.title }}</h1>
+    <p class="detail-hero__lead">{{ page.description }}</p>
+    <div class="card__meta">
+      {% if page.book_category %}
+        <span>{{ page.book_category }}</span>
+      {% endif %}
+      {% if page.listing_label %}
+        <span>{{ page.listing_label }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="detail-grid">
+    <section class="prose-block">
+      <h2>Book overview</h2>
+      <p>{{ page.book_summary }}</p>
+      {{ content }}
+    </section>
+    <aside class="detail-aside">
+      <article class="card card--book">
+        <div class="card__media card__media--book">
+          <img src="{{ cover_url }}" alt="{{ page.image_alt | default: page.thumbnail_alt | default: page.title }}" loading="eager" decoding="async" width="600" height="800">
+        </div>
+        <div class="card__body">
+          <p class="card__eyebrow">Current Listing</p>
+          <h2>{{ page.title }}</h2>
+          <p>{{ page.description }}</p>
+          {% if page.status_note %}
+            <p class="card__note">{{ page.status_note }}</p>
+          {% endif %}
+        </div>
+      </article>
+      <div class="aside-card">
+        <h2>Find the book</h2>
+        {% if page.listing_summary %}
+          <p>{{ page.listing_summary }}</p>
+        {% endif %}
+        <div class="button-row">
+          {% if same_listing %}
+            <a class="button button--small" href="{{ page.buy_url }}" target="_blank" rel="noreferrer">View listing</a>
+          {% else %}
+            {% if page.buy_url != blank %}
+              <a class="button button--small" href="{{ page.buy_url }}" target="_blank" rel="noreferrer">Buy</a>
+            {% endif %}
+            {% if page.learn_more_url != blank %}
+              <a class="button button--small button--secondary" href="{{ page.learn_more_url }}" target="_blank" rel="noreferrer">Listing details</a>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  {% if related_books.size > 0 %}
+    <section class="section section--tight">
+      <div class="section__heading">
+        <p class="section__label">More Books</p>
+        <h2>Continue through the catalog</h2>
+      </div>
+      <div class="card-grid">
+        {% for book in related_books limit: 2 %}
+          {% include book-card.html item=book %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</article>
