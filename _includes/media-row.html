@@ -1,4 +1,11 @@
 {% assign item = include.item %}
+{% assign media_page = nil %}
+{% assign source_link = item.source_url | default: item.url %}
+{% if item.collection == "media" %}
+  {% assign media_page = item %}
+{% elsif item.url %}
+  {% assign media_page = site.media | where: "source_url", item.url | first %}
+{% endif %}
 <article class="media-row">
   <div class="media-row__meta">
     <span>{{ item.date_label }}</span>
@@ -6,12 +13,23 @@
   </div>
   <div class="media-row__body">
     <p class="media-row__eyebrow">{{ item.outlet }}</p>
-    <h3>{{ item.title }}</h3>
+    <h3>
+      {% if media_page %}
+        <a href="{{ media_page.url | relative_url }}">{{ item.title }}</a>
+      {% else %}
+        {{ item.title }}
+      {% endif %}
+    </h3>
     <p>{{ item.summary }}</p>
   </div>
   <div class="media-row__action">
-    {% if item.url != blank %}
-      <a class="button button--small button--secondary" href="{{ item.url }}" target="_blank" rel="noreferrer">Open source</a>
-    {% endif %}
+    <div class="button-row">
+      {% if media_page %}
+        <a class="button button--small button--secondary" href="{{ media_page.url | relative_url }}">Site page</a>
+      {% endif %}
+      {% if source_link != blank %}
+        <a class="button button--small" href="{{ source_link }}" target="_blank" rel="noreferrer">Open source</a>
+      {% endif %}
+    </div>
   </div>
 </article>

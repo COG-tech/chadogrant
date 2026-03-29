@@ -15,9 +15,9 @@ body_class: page-body page-videos
     <p>
       The S.C.O.P.E. Report moves between long-form breakdowns and short-form
       commentary. The featured entries on this site add original framing and
-      context. The full archive below now links directly to YouTube and carries
-      a description on every entry, so visitors can tell what each video covers
-      before clicking through.
+      context. The full archive below now has its own site pages alongside
+      YouTube links, so visitors and search engines can trace every upload
+      through a first-party archive.
     </p>
     <div class="button-row">
       <a class="button button--primary" href="https://www.youtube.com/@Chadogrant/videos" target="_blank" rel="noreferrer">Open full YouTube channel</a>
@@ -35,8 +35,8 @@ body_class: page-body page-videos
     </div>
     <div class="video-source-note">
       <p>
-        Archive rows open straight to YouTube. Featured site pages remain
-        available where Chad O. Grant adds extra context.
+        Archive rows now have site pages and direct YouTube links, so the full
+        channel footprint is crawlable without losing the original source.
       </p>
     </div>
   </aside>
@@ -68,7 +68,8 @@ body_class: page-body page-videos
     </div>
     <p class="section-intro">
       {{ youtube_videos | size }} public long-form videos currently linked from
-      the channel, each with a description and direct YouTube action.
+      the channel, each with a site page, a summary, and a direct YouTube
+      action.
     </p>
   </div>
   <div class="archive-list">
@@ -86,7 +87,8 @@ body_class: page-body page-videos
     </div>
     <p class="section-intro">
       {{ youtube_shorts | size }} public shorts currently linked from the
-      channel, with descriptions and direct links out to YouTube.
+      channel, each with a site page, a summary, and a direct link out to
+      YouTube.
     </p>
   </div>
   <div class="archive-list">

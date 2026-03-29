@@ -1,0 +1,71 @@
+---
+layout: default
+---
+{% assign related_media = site.media | where_exp: "item", "item.url != page.url" %}
+<article class="detail-shell">
+  <header class="detail-hero">
+    <p class="detail-hero__eyebrow">Media Reference</p>
+    <h1>{{ page.title }}</h1>
+    <p class="detail-hero__lead">{{ page.description | default: page.summary }}</p>
+    <div class="card__meta">
+      {% if page.outlet %}
+        <span>{{ page.outlet }}</span>
+      {% endif %}
+      {% if page.date_label %}
+        <span>{{ page.date_label }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="detail-grid">
+    <section class="prose-block">
+      <h2>Reference overview</h2>
+      <p>{{ page.summary }}</p>
+      <p>
+        This page exists to anchor a verified public reference to Chad O. Grant
+        on his own domain, making the broader profile trail easier for search
+        engines and readers to follow.
+      </p>
+      <p>
+        Instead of leaving the public record scattered across platforms, this
+        archive keeps publication hubs, channel profiles, retail listings, and
+        future appearances tied back to one first-party site.
+      </p>
+    </section>
+    <aside class="detail-aside">
+      <div class="aside-card">
+        <h2>Source page</h2>
+        <p>
+          {% if page.outlet %}Reference source: {{ page.outlet }}.{% endif %}
+          {% if page.date_label %} Label: {{ page.date_label }}.{% endif %}
+        </p>
+        {% if page.source_url %}
+          <div class="button-row">
+            <a class="button button--small" href="{{ page.source_url }}" target="_blank" rel="noreferrer">Open source</a>
+          </div>
+        {% endif %}
+      </div>
+      <div class="aside-card">
+        <h2>Why it matters</h2>
+        <p>
+          Search engines work better when the identity trail is reinforced by
+          clean first-party pages that point to the strongest public references.
+        </p>
+      </div>
+    </aside>
+  </div>
+
+  {% if related_media.size > 0 %}
+    <section class="section section--tight">
+      <div class="section__heading">
+        <p class="section__label">More References</p>
+        <h2>Continue through the public record</h2>
+      </div>
+      <div class="stack-list">
+        {% for item in related_media limit: 3 %}
+          {% include media-row.html item=item %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</article>

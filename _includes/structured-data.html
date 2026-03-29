@@ -92,6 +92,18 @@
       "position": 3,
       "name": {{ page.title | jsonify }},
       "item": "{{ page.url | absolute_url }}"
+    }{% elsif page.section == "media" %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Media",
+      "item": "{{ '/media/' | absolute_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": "{{ page.url | absolute_url }}"
     }{% else %},
     {
       "@type": "ListItem",
@@ -131,6 +143,21 @@
   "uploadDate": {{ page.upload_date | jsonify }}{% endif %}
 }
 </script>
+{% elsif page.section == "articles" and page.placeholder != true %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.summary | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "author": {
+    "@id": "{{ '/' | absolute_url }}#person"
+  }{% if page.date %},
+  "datePublished": "{{ page.date | date_to_xmlschema }}"{% endif %}{% if page.external_url %},
+  "sameAs": {{ page.external_url | jsonify }}{% endif %}
+}
+</script>
 {% elsif page.schema_type == "Book" %}
 <script type="application/ld+json">
 {
@@ -154,6 +181,17 @@
       {{ page.learn_more_url | jsonify }}
     {% endif %}
   ]{% endif %}
+}
+</script>
+{% elsif page.section == "media" and page.source_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.summary | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "sameAs": {{ page.source_url | jsonify }}
 }
 </script>
 {% elsif page.url == "/" %}

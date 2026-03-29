@@ -14,9 +14,10 @@ body_class: page-body page-articles
     <p>
       This archive now spans two public writing streams: S.C.O.P.E. Report for
       macro and geopolitical commentary, and Dawn Archives for fiction tied to
-      DAWN: A Whisper of Destiny. These are summaries and archive entries, not
-      copies. The goal is to make the site useful on its own while still
-      sending readers to the original publication source.
+      DAWN: A Whisper of Destiny. These are first-party archive pages with
+      summaries and context, not copies. The goal is to make the site useful
+      on its own while still sending readers to the original publication
+      source.
     </p>
   </div>
   <aside class="article-intro__meta">
@@ -43,7 +44,7 @@ body_class: page-body page-articles
     </div>
     <p class="section-intro">
       {{ scope_articles | size }} published pieces currently linked from the
-      macro and commentary publication.
+      macro and commentary publication, each with its own site page.
     </p>
   </div>
   <div class="article-grid">
@@ -61,7 +62,7 @@ body_class: page-body page-articles
     </div>
     <p class="section-intro">
       {{ dawn_articles | size }} public Dawn entries currently linked from the
-      fiction publication tied to Chad O. Grant.
+      fiction publication tied to Chad O. Grant, each with its own site page.
     </p>
   </div>
   <div class="article-grid">

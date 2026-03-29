@@ -26,8 +26,10 @@ Repository:
 - `_data/articles.yml`: external article cards and summaries
 - `_data/media.yml`: verified public profile and listing references
 - `_books/*.md`: on-site book overview pages that can rank and appear in sitemap
+- `_media/*.md`: on-site archive pages for verified profiles, listings, and references
 - `_videos/*.md`: featured video detail pages
 - `_articles/*.md`: hosted article pages and templates
+- `scripts/sync_archive_pages.rb`: regenerates article, media, and video archive pages from the data files
 - `_includes/`: reusable SEO, navigation, footer, and card components
 - `_layouts/`: page, home, video, and article layouts
 - `assets/css/site.css`: full visual system
@@ -37,8 +39,9 @@ Repository:
 
 1. Install Ruby and Bundler.
 2. From the repo root, run `bundle install`.
-3. Run `bundle exec jekyll serve`.
-4. Open `http://127.0.0.1:4000/chadogrant/`.
+3. Run `ruby scripts/sync_archive_pages.rb` whenever article, media, or YouTube data changes.
+4. Run `bundle exec jekyll serve`.
+5. Open `http://127.0.0.1:4000/chadogrant/`.
 
 If Ruby is not available on the machine, push to GitHub and use the live Pages
 deployment as the preview target.
@@ -86,7 +89,8 @@ When you are ready for the custom domain:
 
 - Edit `_data/articles.yml`.
 - Add the real title, date, topic tag, original summary, and external URL.
-- For hosted essays, create a new file in `_articles/`.
+- Run `ruby scripts/sync_archive_pages.rb` to regenerate the local archive pages.
+- For truly hosted essays, create a custom file in `_articles/` instead of relying on the generated archive page.
 
 ### Add or update books
 
@@ -101,6 +105,13 @@ When you are ready for the custom domain:
 - Edit `_data/media.yml`.
 - Add interviews, podcasts, mentions, or guest essays once there is a verified
   public source URL.
+- Run `ruby scripts/sync_archive_pages.rb` to regenerate the local media pages.
+
+### Add or update YouTube archive pages
+
+- Edit `_data/youtube_videos.json` or `_data/youtube_shorts.json`.
+- Run `ruby scripts/sync_archive_pages.rb` so each upload gets a local archive page.
+- Keep manually authored featured files in `_videos/` for the entries that need stronger custom framing.
 
 ### Add official profile links
 

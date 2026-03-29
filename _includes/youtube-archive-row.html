@@ -1,6 +1,13 @@
 {% assign item = include.item %}
+{% assign local_page = site.videos | where: "youtube_id", item.video_id | first %}
+{% assign primary_link = item.youtube_url %}
+{% if local_page %}
+  {% assign primary_link = local_page.url | relative_url %}
+{% elsif item.site_url != blank %}
+  {% assign primary_link = item.site_url | relative_url %}
+{% endif %}
 <article class="archive-list__item archive-list__item--video">
-  <a class="archive-list__thumb" href="{{ item.youtube_url }}" target="_blank" rel="noreferrer">
+  <a class="archive-list__thumb" href="{{ primary_link }}"{% unless local_page or item.site_url != blank %} target="_blank" rel="noreferrer"{% endunless %}>
     <img src="{{ item.thumbnail }}" alt="Thumbnail for {{ item.title }}" loading="lazy" decoding="async" width="480" height="270">
   </a>
   <div class="archive-list__content">
@@ -9,12 +16,14 @@
       <span>{{ item.date_label }}</span>
     </div>
     <h3>
-      <a href="{{ item.youtube_url }}" target="_blank" rel="noreferrer">{{ item.title }}</a>
+      <a href="{{ primary_link }}"{% unless local_page or item.site_url != blank %} target="_blank" rel="noreferrer"{% endunless %}>{{ item.title }}</a>
     </h3>
     <p>{{ item.description }}</p>
   </div>
   <div class="archive-list__actions">
-    {% if item.site_url != blank %}
+    {% if local_page %}
+      <a class="button button--small button--secondary" href="{{ local_page.url | relative_url }}">Site page</a>
+    {% elsif item.site_url != blank %}
       <a class="button button--small button--secondary" href="{{ item.site_url | relative_url }}">Site page</a>
     {% endif %}
     <a class="button button--small" href="{{ item.youtube_url }}" target="_blank" rel="noreferrer">Open on YouTube</a>

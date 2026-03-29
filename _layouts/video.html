@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
+{% assign summary_text = page.summary | default: page.description %}
+{% assign why_text = page.why_it_matters | default: "This page anchors the upload inside the Chad O. Grant site, gives search engines a stable first-party URL to crawl, and connects the video back to the broader archive of commentary." %}
+{% assign watch_link = page.watch_url | default: page.youtube_url %}
+{% assign content_trimmed = content | strip %}
 {% assign related_videos = site.videos | where: "featured", true | where_exp: "item", "item.url != page.url" | sort: "order" %}
 {% assign youtube_link = site.data.social | where: "label", "YouTube" | first %}
 <article class="detail-shell">
   <header class="detail-hero">
-    <p class="detail-hero__eyebrow">Video</p>
+    <p class="detail-hero__eyebrow">{{ page.video_type | default: "Video" }}</p>
     <h1>{{ page.title }}</h1>
-    <p class="detail-hero__lead">{{ page.summary }}</p>
+    <p class="detail-hero__lead">{{ summary_text }}</p>
     <div class="card__meta">
       <span>{{ page.topic }}</span>
       {% if page.published_label %}
@@ -37,14 +41,22 @@ layout: default
 
   <div class="detail-grid">
     <section class="prose-block">
-      <h2>Original summary</h2>
-      <p>{{ page.summary }}</p>
-      {{ content }}
+      <h2>Video overview</h2>
+      <p>{{ summary_text }}</p>
+      <p>
+        This page exists so the upload is not trapped inside a platform feed.
+        It gives the video a crawlable home, ties it back to Chad O. Grant's
+        broader body of work, and creates an internal link target beyond
+        YouTube.
+      </p>
+      {% unless content_trimmed == "" %}
+        {{ content }}
+      {% endunless %}
     </section>
     <aside class="detail-aside">
       <div class="aside-card">
         <h2>Why it matters</h2>
-        <p>{{ page.why_it_matters }}</p>
+        <p>{{ why_text }}</p>
       </div>
       <div class="aside-card">
         <h2>Watch or subscribe</h2>
@@ -53,8 +65,8 @@ layout: default
           uploads from Chad O. Grant.
         </p>
         <div class="button-row">
-          {% if page.watch_url %}
-            <a class="button button--small" href="{{ page.watch_url }}" target="_blank" rel="noreferrer">Watch on YouTube</a>
+          {% if watch_link %}
+            <a class="button button--small" href="{{ watch_link }}" target="_blank" rel="noreferrer">Watch on YouTube</a>
           {% endif %}
           {% if youtube_link %}
             <a class="button button--small button--secondary" href="{{ youtube_link.url }}" target="_blank" rel="noreferrer">Subscribe</a>

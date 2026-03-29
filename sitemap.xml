@@ -15,6 +15,9 @@ permalink: /sitemap.xml
   {% for item in books %}
     {% include sitemap-entry.xml item=item %}
   {% endfor %}
+  {% for item in site.media %}
+    {% include sitemap-entry.xml item=item %}
+  {% endfor %}
   {% for item in site.videos %}
     {% include sitemap-entry.xml item=item %}
   {% endfor %}

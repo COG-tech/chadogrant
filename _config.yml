@@ -12,6 +12,9 @@ collections:
   books:
     output: true
     permalink: /books/:name/
+  media:
+    output: true
+    permalink: /media/:name/
   videos:
     output: true
     permalink: /videos/:name/
@@ -38,6 +41,7 @@ defaults:
     values:
       layout: video
       section: videos
+      body_class: page-body page-videos
       image: /assets/img/og-default.svg
   - scope:
       path: ""
@@ -45,6 +49,15 @@ defaults:
     values:
       layout: article
       section: articles
+      body_class: page-body page-articles
+      image: /assets/img/og-default.svg
+  - scope:
+      path: ""
+      type: media
+    values:
+      layout: media-item
+      section: media
+      body_class: page-body page-media
       image: /assets/img/og-default.svg
 
 exclude:

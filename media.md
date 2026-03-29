@@ -16,7 +16,7 @@ body_class: page-body page-media
       listings that are live under his name. As interviews, podcasts, and
       outside features accumulate, they should be added here so the site stays
       ahead of the fragmented profile trail that usually builds up across the
-      web.
+      web, with a first-party page for each verified reference.
     </p>
   </div>
   <aside class="media-intro__meta" aria-label="Media overview">
@@ -45,7 +45,8 @@ body_class: page-body page-media
     </div>
     <p class="section-intro">
       These entries are here to anchor Chad O. Grant to verified public-source
-      pages that search engines and readers can actually trace.
+      pages that search engines and readers can actually trace through the site
+      itself.
     </p>
   </div>
   <div class="stack-list media-list">

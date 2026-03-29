@@ -1,4 +1,10 @@
 {% assign item = include.item %}
+{% assign article_page = nil %}
+{% if item.collection == "articles" %}
+  {% assign article_page = item %}
+{% elsif item.external_url %}
+  {% assign article_page = site.articles | where: "external_url", item.external_url | first %}
+{% endif %}
 <article class="card card--article">
   <div class="card__body">
     <div class="card__meta">
@@ -9,7 +15,9 @@
       <span>{{ item.tag }}</span>
     </div>
     <h3>
-      {% if item.external_url != blank %}
+      {% if article_page %}
+        <a href="{{ article_page.url | relative_url }}">{{ item.title }}</a>
+      {% elsif item.external_url != blank %}
         <a href="{{ item.external_url }}" target="_blank" rel="noreferrer">{{ item.title }}</a>
       {% else %}
         {{ item.title }}
@@ -17,7 +25,14 @@
     </h3>
     <p>{{ item.summary }}</p>
     <div class="card__footer">
-      {% if item.external_url != blank %}
+      {% if article_page %}
+        <div class="button-row">
+          <a class="button button--small button--secondary" href="{{ article_page.url | relative_url }}">Site page</a>
+          {% if item.external_url != blank %}
+            <a class="button button--small" href="{{ item.external_url }}" target="_blank" rel="noreferrer">Open original post</a>
+          {% endif %}
+        </div>
+      {% elsif item.external_url != blank %}
         <a class="button button--small" href="{{ item.external_url }}" target="_blank" rel="noreferrer">Open full post</a>
       {% else %}
         <span class="button button--small button--disabled">Add full article link</span>
