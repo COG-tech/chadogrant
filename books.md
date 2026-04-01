@@ -19,8 +19,8 @@ body_class: page-body page-books
       strongest available public source for each one.
     </p>
     <p class="section-intro">
-      For the central identity page tying these titles back to the author, see
-      the <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+      For background on the author behind these titles, see
+      <a class="text-link" href="{{ '/about/' | relative_url }}">About Chad O. Grant</a>.
     </p>
   </div>
   <aside class="books-intro__meta" aria-label="Books overview">

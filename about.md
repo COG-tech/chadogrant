@@ -1,6 +1,6 @@
 ---
 title: About
-description: Official Chad O. Grant profile page, including the identity signals and public work tied to Chad O Grant and Chad Grant.
+description: About Chad O. Grant, with background, public work, books, videos, and links across S.C.O.P.E. Report and Dawn Archives.
 schema_type: ProfilePage
 image: /assets/img/chad-o-grant-headshot.jpg
 image_alt: Portrait of Chad O. Grant
@@ -18,19 +18,19 @@ image_alt: Portrait of Chad O. Grant
         width="600"
         height="600"
       >
-      <p class="status-chip status-chip--subtle">Official portrait</p>
+      <p class="status-chip status-chip--subtle">Chad O. Grant</p>
       <p class="portrait-card__caption">{{ site_data.person_image_caption }}</p>
     </aside>
     <div class="prose-block">
-      <h2>Official identity</h2>
+      <h2>Chad O. Grant</h2>
       <p>{{ site_data.about.official_identity }}</p>
       <p>
-        If you are trying to verify the author behind S.C.O.P.E. Report, Dawn
-        Archives, the books, and the wider public media trail, this is the
-        official Chad O. Grant profile page.
+        This page brings together the work behind S.C.O.P.E. Report, Dawn
+        Archives, the books, and the wider public trail so readers have one
+        place to start.
       </p>
       <div class="button-row">
-        <a class="button button--secondary" href="{{ '/media/' | relative_url }}">Verified public references</a>
+        <a class="button button--secondary" href="{{ '/media/' | relative_url }}">Public references</a>
         <a class="button button--ghost" href="{{ '/videos/' | relative_url }}">S.C.O.P.E. Report videos</a>
       </div>
     </div>
@@ -94,11 +94,10 @@ image_alt: Portrait of Chad O. Grant
 </section>
 
 <section class="content-section">
-  <h2>Official links</h2>
+  <h2>Links</h2>
   <p>
     These are the main public channels currently tied to Chad O. Grant's work.
-    For the clearest identity hub, keep pointing back to this
-    official Chad O. Grant profile.
+    Use them to follow the writing, videos, books, and public references.
   </p>
   {% include social-links.html variant="buttons" %}
 </section>

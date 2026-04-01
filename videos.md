@@ -20,8 +20,8 @@ body_class: page-body page-videos
       through a first-party archive.
     </p>
     <p class="section-intro">
-      To confirm the broader author identity behind the channel, use the
-      <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+      For background on the writer and commentator behind the channel, use
+      <a class="text-link" href="{{ '/about/' | relative_url }}">About Chad O. Grant</a>.
     </p>
     <div class="button-row">
       <a class="button button--primary" href="https://www.youtube.com/@Chadogrant/videos" target="_blank" rel="noreferrer">Open full YouTube channel</a>

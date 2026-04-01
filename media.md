@@ -19,8 +19,8 @@ body_class: page-body page-media
       web, with a first-party page for each verified reference.
     </p>
     <p class="section-intro">
-      For the main identity hub behind these references, use the
-      <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+      For background on the person behind these references, use
+      <a class="text-link" href="{{ '/about/' | relative_url }}">About Chad O. Grant</a>.
     </p>
   </div>
   <aside class="media-intro__meta" aria-label="Media overview">

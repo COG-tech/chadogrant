@@ -20,8 +20,8 @@ body_class: page-body page-articles
       source.
     </p>
     <p class="section-intro">
-      If you are verifying the author behind these archives, start with the
-      <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+      For background on the writer behind these archives, start with
+      <a class="text-link" href="{{ '/about/' | relative_url }}">About Chad O. Grant</a>.
     </p>
   </div>
   <aside class="article-intro__meta">
