@@ -18,6 +18,10 @@ body_class: page-body page-media
       ahead of the fragmented profile trail that usually builds up across the
       web, with a first-party page for each verified reference.
     </p>
+    <p class="section-intro">
+      For the main identity hub behind these references, use the
+      <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+    </p>
   </div>
   <aside class="media-intro__meta" aria-label="Media overview">
     <div class="media-stat">

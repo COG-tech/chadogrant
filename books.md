@@ -18,6 +18,10 @@ body_class: page-body page-books
       each book a real on-site overview page, and points readers to the
       strongest available public source for each one.
     </p>
+    <p class="section-intro">
+      For the central identity page tying these titles back to the author, see
+      the <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+    </p>
   </div>
   <aside class="books-intro__meta" aria-label="Books overview">
     <div class="book-stat">

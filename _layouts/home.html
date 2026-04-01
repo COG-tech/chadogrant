@@ -11,11 +11,30 @@ layout: default
     <p class="hero__statement">{{ site_data.hero.statement }}</p>
     <p class="hero__intro">{{ site_data.hero.intro }}</p>
     <div class="hero__actions">
-      <a class="button button--primary" href="{{ '/about/' | relative_url }}">Read the profile</a>
+      <a class="button button--primary" href="{{ '/about/' | relative_url }}">About Chad O. Grant</a>
       <a class="button button--secondary" href="{{ '/articles/' | relative_url }}">Explore articles</a>
     </div>
     {% include social-links.html variant="buttons" %}
   </div>
+  <aside class="hero__panel identity-panel">
+    <img
+      class="identity-panel__image"
+      src="{{ site_data.person_image | relative_url }}"
+      alt="{{ site_data.person_image_alt }}"
+      loading="eager"
+      decoding="async"
+      width="600"
+      height="600"
+    >
+    <p class="status-chip status-chip--subtle">Official portrait</p>
+    <h2>Official Chad O. Grant profile</h2>
+    <p>{{ site_data.identity_statement }}</p>
+    <p>{{ site_data.person_image_caption }}</p>
+    <div class="button-row">
+      <a class="button button--secondary" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>
+      <a class="button button--ghost" href="{{ '/media/' | relative_url }}">Verified public references</a>
+    </div>
+  </aside>
 </section>
 
 <section class="section">

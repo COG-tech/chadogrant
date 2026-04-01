@@ -19,6 +19,10 @@ body_class: page-body page-articles
       on its own while still sending readers to the original publication
       source.
     </p>
+    <p class="section-intro">
+      If you are verifying the author behind these archives, start with the
+      <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+    </p>
   </div>
   <aside class="article-intro__meta">
     <div class="article-stat">

@@ -1,6 +1,14 @@
 name: Chad O. Grant
 title_suffix: " | Chad O. Grant"
 role_label: Writer, Macro Commentator, and Author
+person_image: /assets/img/chad-o-grant-headshot.jpg
+person_image_alt: Portrait of Chad O. Grant in glasses, white shirt, and dark waistcoat
+person_image_caption: Official portrait of Chad O. Grant used across the site and public author profiles.
+alternate_names:
+  - Chad O Grant
+  - Chad Grant
+identity_statement: >-
+  Chad O. Grant, also published and searched as Chad O Grant and Chad Grant.
 tagline: >-
   Macro analysis, fiction writing, and commentary from Chad O. Grant across
   S.C.O.P.E. Report, Dawn Archives, and books.
@@ -62,6 +70,9 @@ about:
     - Dawn Archives on Substack
     - Google Play book listings
     - Public book retail listings and future media references
+  official_identity: >-
+    The names Chad O. Grant, Chad O Grant, and Chad Grant all refer to the
+    same writer, macro commentator, and author.
 cta:
   title: Follow The Work
   body: >-
@@ -76,7 +87,8 @@ contact:
     If you are reaching out about interviews, speaking, collaboration, or the
     books, the best starting point is the set of public channels below.
 seo:
-  default_image: /assets/img/og-default.svg
+  default_image: /assets/img/chad-o-grant-headshot.jpg
+  default_image_alt: Portrait of Chad O. Grant
   theme_color: "#0f1726"
   twitter_handle: "@ChadOGrant"
   google_site_verification: ""

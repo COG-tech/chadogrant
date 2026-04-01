@@ -1,9 +1,42 @@
 ---
 title: About
-description: Learn more about Chad O. Grant, his writing, macro analysis, books, and the themes that run through his public work.
+description: Official Chad O. Grant profile page, including the identity signals and public work tied to Chad O Grant and Chad Grant.
 schema_type: ProfilePage
+image: /assets/img/chad-o-grant-headshot.jpg
+image_alt: Portrait of Chad O. Grant
 ---
 {% assign site_data = site.data.site %}
+<section class="content-section">
+  <div class="two-column about-identity">
+    <aside class="summary-panel portrait-card">
+      <img
+        class="portrait-card__image"
+        src="{{ site_data.person_image | relative_url }}"
+        alt="{{ site_data.person_image_alt }}"
+        loading="eager"
+        decoding="async"
+        width="600"
+        height="600"
+      >
+      <p class="status-chip status-chip--subtle">Official portrait</p>
+      <p class="portrait-card__caption">{{ site_data.person_image_caption }}</p>
+    </aside>
+    <div class="prose-block">
+      <h2>Official identity</h2>
+      <p>{{ site_data.about.official_identity }}</p>
+      <p>
+        If you are trying to verify the author behind S.C.O.P.E. Report, Dawn
+        Archives, the books, and the wider public media trail, this is the
+        official Chad O. Grant profile page.
+      </p>
+      <div class="button-row">
+        <a class="button button--secondary" href="{{ '/media/' | relative_url }}">Verified public references</a>
+        <a class="button button--ghost" href="{{ '/videos/' | relative_url }}">S.C.O.P.E. Report videos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="content-section">
   <div class="two-column">
     <div class="prose-block">
@@ -64,6 +97,8 @@ schema_type: ProfilePage
   <h2>Official links</h2>
   <p>
     These are the main public channels currently tied to Chad O. Grant's work.
+    For the clearest identity hub, keep pointing back to this
+    official Chad O. Grant profile.
   </p>
   {% include social-links.html variant="buttons" %}
 </section>

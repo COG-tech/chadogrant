@@ -13,7 +13,7 @@
 {% else %}
   {% assign image_url = image_path | absolute_url %}
 {% endif %}
-{% assign image_alt = page.image_alt | default: page.thumbnail_alt | default: full_title %}
+{% assign image_alt = page.image_alt | default: page.thumbnail_alt | default: site_data.seo.default_image_alt | default: full_title %}
 {% if page.schema_type == "ProfilePage" %}
   {% assign og_type = "profile" %}
 {% elsif page.section == "videos" %}
@@ -51,6 +51,7 @@
 <meta name="twitter:title" content="{{ full_title }}">
 <meta name="twitter:description" content="{{ description }}">
 <meta name="twitter:image" content="{{ image_url }}">
+<meta name="twitter:image:alt" content="{{ image_alt }}">
 {% if site_data.seo.twitter_handle != blank %}
   <meta name="twitter:site" content="{{ site_data.seo.twitter_handle }}">
   <meta name="twitter:creator" content="{{ site_data.seo.twitter_handle }}">

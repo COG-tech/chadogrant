@@ -19,6 +19,10 @@ body_class: page-body page-videos
       YouTube links, so visitors and search engines can trace every upload
       through a first-party archive.
     </p>
+    <p class="section-intro">
+      To confirm the broader author identity behind the channel, use the
+      <a class="text-link" href="{{ '/about/' | relative_url }}">Official Chad O. Grant profile</a>.
+    </p>
     <div class="button-row">
       <a class="button button--primary" href="https://www.youtube.com/@Chadogrant/videos" target="_blank" rel="noreferrer">Open full YouTube channel</a>
       <a class="button button--secondary" href="https://www.youtube.com/@Chadogrant/shorts" target="_blank" rel="noreferrer">Browse YouTube shorts</a>
