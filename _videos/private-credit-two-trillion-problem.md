@@ -14,7 +14,7 @@ why_it_matters: >-
 topic: Private Credit
 featured: true
 order: 1
-thumbnail: "https://i.ytimg.com/vi/paRnHyIg800/hqdefault.jpg"
+thumbnail: /assets/img/videos/paRnHyIg800.jpg
 thumbnail_alt: Thumbnail for Chad O. Grant's private credit video
 youtube_id: "paRnHyIg800"
 watch_url: "https://www.youtube.com/watch?v=paRnHyIg800"

@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/_tPt0vyuSDE/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBQjoMEPqN-e6km32eo17l9N-GNpA
+thumbnail: /assets/img/videos/_tPt0vyuSDE.jpg
 thumbnail_alt: 'Thumbnail for Starship vs. Reality: The Challenge Ahead #spacex #starship #engineering'
 youtube_id: _tPt0vyuSDE
 youtube_url: https://www.youtube.com/shorts/_tPt0vyuSDE

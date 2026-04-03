@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/H0iIRkZaJwo/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLB9dx3cOIw-bZCyYS8fFfltj9ZE_g
+thumbnail: /assets/img/videos/H0iIRkZaJwo.jpg
 thumbnail_alt: 'Thumbnail for The Real Reason SpaceX is Going Public #spacex #ai #ipo'
 youtube_id: H0iIRkZaJwo
 youtube_url: https://www.youtube.com/shorts/H0iIRkZaJwo

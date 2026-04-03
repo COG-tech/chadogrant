@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/WWIGJD5UpAg/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCi42t_oXYhrmT9axqfNqVNY-DxZg&usqp=CCk
+thumbnail: /assets/img/videos/WWIGJD5UpAg.jpg
 thumbnail_alt: 'Thumbnail for What Every Nvidia Competitor Gets Wrong #AI #Chips #Nvidia'
 youtube_id: WWIGJD5UpAg
 youtube_url: https://www.youtube.com/shorts/WWIGJD5UpAg

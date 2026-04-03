@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/dZUchojdpc4/maxresdefault.jpg
+thumbnail: /assets/img/videos/dZUchojdpc4.jpg
 thumbnail_alt: Thumbnail for The Surprising Impact of the Red Sea Crisis on World Trade
 youtube_id: dZUchojdpc4
 youtube_url: https://www.youtube.com/watch?v=dZUchojdpc4

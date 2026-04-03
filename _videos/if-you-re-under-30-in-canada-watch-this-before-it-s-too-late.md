@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/evF4MKZgITU/maxresdefault.jpg
+thumbnail: /assets/img/videos/evF4MKZgITU.jpg
 thumbnail_alt: Thumbnail for If You're Under 30 in Canada, Watch This Before It's Too Late
 youtube_id: evF4MKZgITU
 youtube_url: https://www.youtube.com/watch?v=evF4MKZgITU

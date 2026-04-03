@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/KkJbjur_nOo/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBAaxI9PSbcgD9pHcGas7xJNSeiFw
+thumbnail: /assets/img/videos/KkJbjur_nOo.jpg
 thumbnail_alt: 'Thumbnail for The Asset That Saved Maria During the Recession #moneylessons #financialresilience #wealth'
 youtube_id: KkJbjur_nOo
 youtube_url: https://www.youtube.com/shorts/KkJbjur_nOo

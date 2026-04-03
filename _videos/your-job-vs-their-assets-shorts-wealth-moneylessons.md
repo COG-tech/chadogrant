@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/GH-Belr8Oo4/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA8DUh8TxXK8I-boDx3p9epo3ybFA&usqp=CCk
+thumbnail: /assets/img/videos/GH-Belr8Oo4.jpg
 thumbnail_alt: 'Thumbnail for Your Job vs. Their Assets #shorts #wealth #moneylessons'
 youtube_id: GH-Belr8Oo4
 youtube_url: https://www.youtube.com/shorts/GH-Belr8Oo4

@@ -9,6 +9,23 @@
 {% unless entry.noindex or entry.placeholder or entry.sitemap == false or external_canonical %}
   <url>
     <loc>{{ canonical_url }}</loc>
+    {% assign image_path = entry.thumbnail | default: entry.image | default: entry.cover %}
+    {% assign image_label = entry.thumbnail_alt | default: entry.image_alt | default: entry.title %}
+    {% if image_path %}
+      {% assign image_is_external = false %}
+      {% if image_path contains '://' %}
+        {% assign image_is_external = true %}
+      {% endif %}
+      {% unless image_is_external %}
+        <image:image>
+          <image:loc>{{ image_path | absolute_url }}</image:loc>
+          {% if image_label %}
+            <image:title>{{ image_label | escape }}</image:title>
+            <image:caption>{{ image_label | escape }}</image:caption>
+          {% endif %}
+        </image:image>
+      {% endunless %}
+    {% endif %}
     {% assign lastmod = entry.last_modified_at | default: entry.upload_date | default: entry.date %}
     {% if lastmod %}
       <lastmod>{{ lastmod | date_to_xmlschema }}</lastmod>

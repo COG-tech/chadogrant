@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/SJy7qWnVxsk/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBHNGhCzZClhsRzaRM30-VhD31WUA&usqp=CCk
+thumbnail: /assets/img/videos/SJy7qWnVxsk.jpg
 thumbnail_alt: 'Thumbnail for The CHIPS Act Gamble That Could Backfire on America #risk #economy #geopolitics'
 youtube_id: SJy7qWnVxsk
 youtube_url: https://www.youtube.com/shorts/SJy7qWnVxsk

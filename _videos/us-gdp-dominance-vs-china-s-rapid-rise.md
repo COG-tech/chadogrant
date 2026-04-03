@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/7UYnE5nFR-I/maxresdefault.jpg
+thumbnail: /assets/img/videos/7UYnE5nFR-I.jpg
 thumbnail_alt: Thumbnail for US GDP Dominance vs China's Rapid Rise
 youtube_id: 7UYnE5nFR-I
 youtube_url: https://www.youtube.com/watch?v=7UYnE5nFR-I

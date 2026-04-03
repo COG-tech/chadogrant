@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/eN_C248xKt8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCeKDQUggWNuxDjxF7xanryLiXBvA&usqp=CCk
+thumbnail: /assets/img/videos/eN_C248xKt8.jpg
 thumbnail_alt: 'Thumbnail for We''re Not Ready For What AI Needs #AI #PowerGrid #Tech'
 youtube_id: eN_C248xKt8
 youtube_url: https://www.youtube.com/shorts/eN_C248xKt8

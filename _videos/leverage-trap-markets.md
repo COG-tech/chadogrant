@@ -14,7 +14,7 @@ why_it_matters: >-
 topic: Debt and Markets
 featured: true
 order: 2
-thumbnail: "https://i.ytimg.com/vi/RonLFfgLnQw/hqdefault.jpg"
+thumbnail: /assets/img/videos/RonLFfgLnQw.jpg
 thumbnail_alt: Thumbnail for Chad O. Grant's leverage trap video
 youtube_id: "RonLFfgLnQw"
 watch_url: "https://www.youtube.com/shorts/RonLFfgLnQw"

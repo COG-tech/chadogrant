@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/MuphZhvRkn4/maxresdefault.jpg
+thumbnail: /assets/img/videos/MuphZhvRkn4.jpg
 thumbnail_alt: Thumbnail for IQ Scores Are Collapsing | Here's Why
 youtube_id: MuphZhvRkn4
 youtube_url: https://www.youtube.com/watch?v=MuphZhvRkn4

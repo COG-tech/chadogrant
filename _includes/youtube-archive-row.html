@@ -1,14 +1,21 @@
 {% assign item = include.item %}
 {% assign local_page = site.videos | where: "youtube_id", item.video_id | first %}
 {% assign primary_link = item.youtube_url %}
+{% assign thumbnail_source = item.thumbnail %}
 {% if local_page %}
   {% assign primary_link = local_page.url | relative_url %}
+  {% assign thumbnail_source = local_page.thumbnail | default: item.thumbnail %}
 {% elsif item.site_url != blank %}
   {% assign primary_link = item.site_url | relative_url %}
 {% endif %}
+{% if thumbnail_source contains 'http' %}
+  {% assign thumbnail_url = thumbnail_source %}
+{% else %}
+  {% assign thumbnail_url = thumbnail_source | relative_url %}
+{% endif %}
 <article class="archive-list__item archive-list__item--video">
   <a class="archive-list__thumb" href="{{ primary_link }}"{% unless local_page or item.site_url != blank %} target="_blank" rel="noreferrer"{% endunless %}>
-    <img src="{{ item.thumbnail }}" alt="Thumbnail for {{ item.title }}" loading="lazy" decoding="async" width="480" height="270">
+    <img src="{{ thumbnail_url }}" alt="Thumbnail for {{ item.title }}" loading="lazy" decoding="async" width="480" height="270">
   </a>
   <div class="archive-list__content">
     <div class="card__meta">

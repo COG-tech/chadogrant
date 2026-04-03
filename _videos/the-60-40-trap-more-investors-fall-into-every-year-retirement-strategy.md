@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/wfx3QSsqYlE/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC9Oi8a9shcZtBQo7fICQYNndW95A&usqp=CCk
+thumbnail: /assets/img/videos/wfx3QSsqYlE.jpg
 thumbnail_alt: 'Thumbnail for The 60-40 Trap More Investors Fall Into Every Year #retirement #strategy'
 youtube_id: wfx3QSsqYlE
 youtube_url: https://www.youtube.com/shorts/wfx3QSsqYlE

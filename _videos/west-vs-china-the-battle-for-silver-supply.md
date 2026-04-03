@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/lPOipjBrCF0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCamIGzZQL85gJYXCmU947NWmx0Jw&usqp=CCk
+thumbnail: /assets/img/videos/lPOipjBrCF0.jpg
 thumbnail_alt: "Thumbnail for West vs. China: The Battle for Silver Supply \U0001F30D"
 youtube_id: lPOipjBrCF0
 youtube_url: https://www.youtube.com/shorts/lPOipjBrCF0

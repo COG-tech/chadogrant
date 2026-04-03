@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/X8zLJxVcQXQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD7wr_OI3xESEGQa6duYgBbyZ4arg&usqp=CCk
+thumbnail: /assets/img/videos/X8zLJxVcQXQ.jpg
 thumbnail_alt: 'Thumbnail for How Much US Gold Actually Backs Our Debt #finance #shocking #reality'
 youtube_id: X8zLJxVcQXQ
 youtube_url: https://www.youtube.com/shorts/X8zLJxVcQXQ

@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/ple5SzHX1DI/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDhtXHj7n1-3smf3_Ze-BdYv8UxIQ
+thumbnail: /assets/img/videos/ple5SzHX1DI.jpg
 thumbnail_alt: 'Thumbnail for Russia''s Biggest Gas Project Just Hit a Wall #sanctions #arctic #geopolitics'
 youtube_id: ple5SzHX1DI
 youtube_url: https://www.youtube.com/shorts/ple5SzHX1DI

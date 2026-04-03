@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/B4JqxSbYnZQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBvTD-wseBo0CykKVA-ZFqC841uBg&usqp=CCk
+thumbnail: /assets/img/videos/B4JqxSbYnZQ.jpg
 thumbnail_alt: 'Thumbnail for Nvidia''s AI Boom Is Breaking Records #AI #Nvidia #Tech'
 youtube_id: B4JqxSbYnZQ
 youtube_url: https://www.youtube.com/shorts/B4JqxSbYnZQ

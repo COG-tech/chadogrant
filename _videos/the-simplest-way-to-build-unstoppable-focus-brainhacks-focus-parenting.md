@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/IjeljpDI58w/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBDVKUTWpCJz8Q437hjthIPYgpiKA
+thumbnail: /assets/img/videos/IjeljpDI58w.jpg
 thumbnail_alt: 'Thumbnail for The simplest way to build unstoppable focus #brainhacks #focus #parenting'
 youtube_id: IjeljpDI58w
 youtube_url: https://www.youtube.com/shorts/IjeljpDI58w

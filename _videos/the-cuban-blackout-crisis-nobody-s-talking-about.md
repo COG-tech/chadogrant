@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/x8VPBPYtpnE/maxresdefault.jpg
+thumbnail: /assets/img/videos/x8VPBPYtpnE.jpg
 thumbnail_alt: Thumbnail for The Cuban Blackout Crisis Nobody's Talking About
 youtube_id: x8VPBPYtpnE
 youtube_url: https://www.youtube.com/watch?v=x8VPBPYtpnE

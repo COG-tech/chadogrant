@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/TcmfQyWPv1Y/hqdefault.jpg
+thumbnail: /assets/img/videos/TcmfQyWPv1Y.jpg
 thumbnail_alt: 'Thumbnail for $300 Billion Question: Will Privatizing Fannie & Freddie Destroy Affordability?'
 youtube_id: TcmfQyWPv1Y
 youtube_url: https://www.youtube.com/watch?v=TcmfQyWPv1Y

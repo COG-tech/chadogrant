@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/33RprvhZLJw/maxresdefault.jpg
+thumbnail: /assets/img/videos/33RprvhZLJw.jpg
 thumbnail_alt: 'Thumbnail for Europe''s Crisis: WHO is Paying the Price?'
 youtube_id: 33RprvhZLJw
 youtube_url: https://www.youtube.com/watch?v=33RprvhZLJw

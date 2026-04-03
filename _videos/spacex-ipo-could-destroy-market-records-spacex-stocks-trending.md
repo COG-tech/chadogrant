@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/81TpoivX3HU/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBwyZ6d-5hmjzWdQ_USTAzOuocilg
+thumbnail: /assets/img/videos/81TpoivX3HU.jpg
 thumbnail_alt: 'Thumbnail for SpaceX IPO Could Destroy Market Records #spacex #stocks #trending'
 youtube_id: 81TpoivX3HU
 youtube_url: https://www.youtube.com/shorts/81TpoivX3HU

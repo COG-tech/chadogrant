@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/Kv5_quudKe8/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCfd3wuGCE0sIx5jnTKoSQNdcF1gw
+thumbnail: /assets/img/videos/Kv5_quudKe8.jpg
 thumbnail_alt: 'Thumbnail for Russia Fooled Everyone About Its Economy #sanctions #geopolitics #analysis'
 youtube_id: Kv5_quudKe8
 youtube_url: https://www.youtube.com/shorts/Kv5_quudKe8

@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/aMrQpXElxik/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFogYChlMA8=&rs=AOn4CLDHWHOqgv-nLKFx87xceuoENxmZVQ
+thumbnail: /assets/img/videos/aMrQpXElxik.jpg
 thumbnail_alt: Thumbnail for China's Shocking Rise in Fossil Fuel Production
 youtube_id: aMrQpXElxik
 youtube_url: https://www.youtube.com/watch?v=aMrQpXElxik

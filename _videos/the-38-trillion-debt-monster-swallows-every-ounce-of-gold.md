@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/8wpH8K0b2RY/maxresdefault.jpg
+thumbnail: /assets/img/videos/8wpH8K0b2RY.jpg
 thumbnail_alt: Thumbnail for The $38 Trillion Debt Monster Swallows Every Ounce of Gold
 youtube_id: 8wpH8K0b2RY
 youtube_url: https://www.youtube.com/watch?v=8wpH8K0b2RY

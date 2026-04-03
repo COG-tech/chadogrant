@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/6xa7M9zhIE4/maxresdefault.jpg
+thumbnail: /assets/img/videos/6xa7M9zhIE4.jpg
 thumbnail_alt: Thumbnail for Custom Duties Are About to Explode | Here's Why
 youtube_id: 6xa7M9zhIE4
 youtube_url: https://www.youtube.com/watch?v=6xa7M9zhIE4

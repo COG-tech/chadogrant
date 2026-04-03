@@ -6,9 +6,9 @@ slug: dawn
 order: 1
 book_category: Science Fiction
 listing_label: Google Play Books
-image: "https://play.google.com/books/publisher/content/images/frontcover/6KNTEQAAQBAJ?fife=w600"
-thumbnail: "https://play.google.com/books/publisher/content/images/frontcover/6KNTEQAAQBAJ?fife=w600"
-cover: "https://play.google.com/books/publisher/content/images/frontcover/6KNTEQAAQBAJ?fife=w600"
+image: /assets/img/books/dawn-book.jpg
+thumbnail: /assets/img/books/dawn-book.jpg
+cover: /assets/img/books/dawn-book.jpg
 image_alt: "Cover for Dawn: Book One of the Dawn Saga"
 buy_url: "https://play.google.com/store/books/details?id=6KNTEQAAQBAJ"
 learn_more_url: "https://play.google.com/store/books/details?id=6KNTEQAAQBAJ"

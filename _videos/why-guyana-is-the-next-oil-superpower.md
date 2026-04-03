@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/-sQfUXmiQs0/maxresdefault.jpg
+thumbnail: /assets/img/videos/-sQfUXmiQs0.jpg
 thumbnail_alt: Thumbnail for Why Guyana Is The Next Oil Superpower
 youtube_id: "-sQfUXmiQs0"
 youtube_url: https://www.youtube.com/watch?v=-sQfUXmiQs0

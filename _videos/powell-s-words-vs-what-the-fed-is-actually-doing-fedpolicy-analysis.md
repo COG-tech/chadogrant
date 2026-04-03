@@ -1,12 +1,12 @@
 ---
 title: 'Powell''s Words vs. What The Fed Is Actually Doing #fedpolicy #analysis'
-description: Powell’s Jackson Hole speech may sound cautious, but the Fed’s hidden pivot is already in play. In this video, we decode the Fed’s secret signal behind inter...
-summary: Powell’s Jackson Hole speech may sound cautious, but the Fed’s hidden pivot is already in play. In this video, we decode the Fed’s secret signal behind inter...
+description: Powellâ€™s Jackson Hole speech may sound cautious, but the Fedâ€™s hidden pivot is already in play. In this video, we decode the Fedâ€™s secret signal behind inter...
+summary: Powellâ€™s Jackson Hole speech may sound cautious, but the Fedâ€™s hidden pivot is already in play. In this video, we decode the Fedâ€™s secret signal behind inter...
 why_it_matters: This short now has a first-party archive page so it can be discovered alongside the rest of the Chad O. Grant catalog instead of disappearing inside the platform feed.
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/raMSGum6EQo/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDpi41Y186Hb_FjwapkxEpmqDJFAA&usqp=CCk
+thumbnail: /assets/img/videos/raMSGum6EQo.jpg
 thumbnail_alt: 'Thumbnail for Powell''s Words vs. What The Fed Is Actually Doing #fedpolicy #analysis'
 youtube_id: raMSGum6EQo
 youtube_url: https://www.youtube.com/shorts/raMSGum6EQo

@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/YnkLF5Q0WLg/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCEwqNfPHxCU-y17KX3LVRrqn1XcA
+thumbnail: /assets/img/videos/YnkLF5Q0WLg.jpg
 thumbnail_alt: 'Thumbnail for The Hidden Reason You''re Broke (It''s Not What You Think) #personalfinance #economy #wealth'
 youtube_id: YnkLF5Q0WLg
 youtube_url: https://www.youtube.com/shorts/YnkLF5Q0WLg

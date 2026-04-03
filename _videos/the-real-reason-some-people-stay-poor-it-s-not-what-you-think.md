@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/3KKnamTAbDI/maxresdefault.jpg
+thumbnail: /assets/img/videos/3KKnamTAbDI.jpg
 thumbnail_alt: Thumbnail for The Real Reason Some People Stay Poor (It's Not What You Think)
 youtube_id: 3KKnamTAbDI
 youtube_url: https://www.youtube.com/watch?v=3KKnamTAbDI

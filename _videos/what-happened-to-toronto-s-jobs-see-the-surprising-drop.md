@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/1JMhZBIx9uc/hqdefault.jpg
+thumbnail: /assets/img/videos/1JMhZBIx9uc.jpg
 thumbnail_alt: Thumbnail for What Happened to Toronto's Jobs? See the Surprising Drop!
 youtube_id: 1JMhZBIx9uc
 youtube_url: https://www.youtube.com/watch?v=1JMhZBIx9uc

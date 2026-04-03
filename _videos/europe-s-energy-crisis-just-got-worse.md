@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/u88Z9fWY87o/maxresdefault.jpg
+thumbnail: /assets/img/videos/u88Z9fWY87o.jpg
 thumbnail_alt: Thumbnail for Europe's Energy Crisis Just Got Worse
 youtube_id: u88Z9fWY87o
 youtube_url: https://www.youtube.com/watch?v=u88Z9fWY87o

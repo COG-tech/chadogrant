@@ -1,12 +1,12 @@
 ---
 title: 'This Trade Rule Just Cost Importers Millions #TradePolicy #Customs #BusinessDisruption'
-description: "The U.S. just removed the $800 duty free de minimis rule—cross border shipping costs, e-commerce import fees, and customs clearance now hit every parcel. \U0001F4E6 ..."
-summary: "The U.S. just removed the $800 duty free de minimis rule—cross border shipping costs, e-commerce import fees, and customs clearance now hit every parcel. \U0001F4E6 ..."
+description: "The U.S. just removed the $800 duty free de minimis ruleâ€”cross border shipping costs, e-commerce import fees, and customs clearance now hit every parcel. \U0001F4E6 ..."
+summary: "The U.S. just removed the $800 duty free de minimis ruleâ€”cross border shipping costs, e-commerce import fees, and customs clearance now hit every parcel. \U0001F4E6 ..."
 why_it_matters: This short now has a first-party archive page so it can be discovered alongside the rest of the Chad O. Grant catalog instead of disappearing inside the platform feed.
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/92RcyNUEaF8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLChq65RTWZF80swIh6RIwx5iCKudg&usqp=CCk
+thumbnail: /assets/img/videos/92RcyNUEaF8.jpg
 thumbnail_alt: 'Thumbnail for This Trade Rule Just Cost Importers Millions #TradePolicy #Customs #BusinessDisruption'
 youtube_id: 92RcyNUEaF8
 youtube_url: https://www.youtube.com/shorts/92RcyNUEaF8

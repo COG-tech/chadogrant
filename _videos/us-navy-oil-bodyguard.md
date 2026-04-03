@@ -13,7 +13,7 @@ why_it_matters: >-
 topic: Geopolitics
 featured: true
 order: 3
-thumbnail: "https://i.ytimg.com/vi/u9-vVKx36yU/hqdefault.jpg"
+thumbnail: /assets/img/videos/u9-vVKx36yU.jpg
 thumbnail_alt: Thumbnail for Chad O. Grant's oil and geopolitics video
 youtube_id: "u9-vVKx36yU"
 watch_url: "https://www.youtube.com/shorts/u9-vVKx36yU"

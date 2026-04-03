@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/CHzAukskHUE/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCznn53h9U5ZmT68u7QNw-mun2XVA&usqp=CCk
+thumbnail: /assets/img/videos/CHzAukskHUE.jpg
 thumbnail_alt: 'Thumbnail for Europe''s Energy Problem Is Getting Out of Control #economy #europe #shorts'
 youtube_id: CHzAukskHUE
 youtube_url: https://www.youtube.com/shorts/CHzAukskHUE

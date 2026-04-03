@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/eCLXXuaXzfE/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDgX2JmMCedWcJkxBRf9QaF27b9-Q&usqp=CCk
+thumbnail: /assets/img/videos/eCLXXuaXzfE.jpg
 thumbnail_alt: 'Thumbnail for France copying Greece''s worst nightmare #debt #economy'
 youtube_id: eCLXXuaXzfE
 youtube_url: https://www.youtube.com/shorts/eCLXXuaXzfE

@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/HxB_3YGOz5M/hqdefault.jpg
+thumbnail: /assets/img/videos/HxB_3YGOz5M.jpg
 thumbnail_alt: Thumbnail for Age Verification Laws Will Destroy Internet Freedom
 youtube_id: HxB_3YGOz5M
 youtube_url: https://www.youtube.com/watch?v=HxB_3YGOz5M

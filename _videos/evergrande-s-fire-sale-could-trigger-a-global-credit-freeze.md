@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/EjH0b0XwpAw/maxresdefault.jpg
+thumbnail: /assets/img/videos/EjH0b0XwpAw.jpg
 thumbnail_alt: Thumbnail for Evergrande's Fire Sale Could Trigger a Global Credit Freeze
 youtube_id: EjH0b0XwpAw
 youtube_url: https://www.youtube.com/watch?v=EjH0b0XwpAw&pp=0gcJCdsKAYcqIYzv

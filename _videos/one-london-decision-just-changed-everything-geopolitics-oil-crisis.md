@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/pmjRLNcMxUo/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCznUGw64Q_qXqpfnAJutvT1xzHMw
+thumbnail: /assets/img/videos/pmjRLNcMxUo.jpg
 thumbnail_alt: 'Thumbnail for One London decision just changed everything #geopolitics #oil #crisis'
 youtube_id: pmjRLNcMxUo
 youtube_url: https://www.youtube.com/shorts/pmjRLNcMxUo

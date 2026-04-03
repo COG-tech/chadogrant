@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/ebKNYl6d6gM/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCWJX_cu23tO-3qLVJaU-6OkqA8vg&usqp=CCk
+thumbnail: /assets/img/videos/ebKNYl6d6gM.jpg
 thumbnail_alt: Thumbnail for The $38 Trillion Debt Monster Swallows Every Ounce of Gold
 youtube_id: ebKNYl6d6gM
 youtube_url: https://www.youtube.com/shorts/ebKNYl6d6gM

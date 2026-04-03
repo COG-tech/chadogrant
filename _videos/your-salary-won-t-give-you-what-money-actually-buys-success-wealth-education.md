@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/JyRacVprxjg/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCj1jCOrv6c2se5SouEuBYe4cBPPg&usqp=CCk
+thumbnail: /assets/img/videos/JyRacVprxjg.jpg
 thumbnail_alt: 'Thumbnail for Your Salary Won''t Give You What Money Actually Buys #success #wealth #education'
 youtube_id: JyRacVprxjg
 youtube_url: https://www.youtube.com/shorts/JyRacVprxjg

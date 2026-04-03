@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/Z6D9hxLZHTw/maxresdefault.jpg
+thumbnail: /assets/img/videos/Z6D9hxLZHTw.jpg
 thumbnail_alt: Thumbnail for Why the Yen Carry Trade Collapse Could Shake the World
 youtube_id: Z6D9hxLZHTw
 youtube_url: https://www.youtube.com/watch?v=Z6D9hxLZHTw

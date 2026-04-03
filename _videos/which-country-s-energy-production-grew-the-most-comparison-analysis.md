@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/dx68dPd5Ab4/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAQA6vEtkIciDiWRSpSfniBihoySQ&usqp=CCk
+thumbnail: /assets/img/videos/dx68dPd5Ab4.jpg
 thumbnail_alt: 'Thumbnail for Which Country''s Energy Production Grew the Most #comparison #analysis'
 youtube_id: dx68dPd5Ab4
 youtube_url: https://www.youtube.com/shorts/dx68dPd5Ab4

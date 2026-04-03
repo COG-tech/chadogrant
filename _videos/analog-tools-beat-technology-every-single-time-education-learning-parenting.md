@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: https://i.ytimg.com/vi/EIsR3bRYsjw/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC-bnZWHLtYAeY_hoh7GNxo_fFEZQ&usqp=CCk
+thumbnail: /assets/img/videos/EIsR3bRYsjw.jpg
 thumbnail_alt: 'Thumbnail for Analog Tools Beat Technology Every Single Time #education #learning #parenting'
 youtube_id: EIsR3bRYsjw
 youtube_url: https://www.youtube.com/shorts/EIsR3bRYsjw

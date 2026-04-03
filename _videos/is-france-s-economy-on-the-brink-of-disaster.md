@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/3vFbCashsEY/maxresdefault.jpg
+thumbnail: /assets/img/videos/3vFbCashsEY.jpg
 thumbnail_alt: Thumbnail for Is France's Economy on the Brink of DISASTER?
 youtube_id: 3vFbCashsEY
 youtube_url: https://www.youtube.com/watch?v=3vFbCashsEY

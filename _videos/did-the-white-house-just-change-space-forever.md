@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/VLb1isEyoK8/hqdefault.jpg
+thumbnail: /assets/img/videos/VLb1isEyoK8.jpg
 thumbnail_alt: Thumbnail for Did the White House Just Change Space Forever?
 youtube_id: VLb1isEyoK8
 youtube_url: https://www.youtube.com/watch?v=VLb1isEyoK8

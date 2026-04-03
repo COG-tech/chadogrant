@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: https://i.ytimg.com/vi/eWjftg5IoYI/maxresdefault.jpg
+thumbnail: /assets/img/videos/eWjftg5IoYI.jpg
 thumbnail_alt: Thumbnail for Oil Prices Are About to Spike as Persian Gulf Trade Freezes
 youtube_id: eWjftg5IoYI
 youtube_url: https://www.youtube.com/watch?v=eWjftg5IoYI
