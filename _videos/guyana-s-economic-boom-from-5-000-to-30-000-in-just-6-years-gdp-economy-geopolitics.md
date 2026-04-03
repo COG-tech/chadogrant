@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/1ToM2d596rw.jpg
+thumbnail: "/assets/img/videos/1ToM2d596rw.jpg"
 thumbnail_alt: 'Thumbnail for Guyana''s Economic BOOM From $5,000 to $30,000 in Just 6 Years #gdp #economy #geopolitics'
 youtube_id: 1ToM2d596rw
 youtube_url: https://www.youtube.com/shorts/1ToM2d596rw

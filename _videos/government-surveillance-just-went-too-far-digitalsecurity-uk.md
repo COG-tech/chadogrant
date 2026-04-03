@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/HWf55ai8_iA.jpg
+thumbnail: "/assets/img/videos/HWf55ai8_iA.jpg"
 thumbnail_alt: 'Thumbnail for Government Surveillance Just Went Too Far #digitalsecurity #uk'
 youtube_id: HWf55ai8_iA
 youtube_url: https://www.youtube.com/shorts/HWf55ai8_iA

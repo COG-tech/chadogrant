@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/EWDU_Y34OSA.jpg
+thumbnail: "/assets/img/videos/EWDU_Y34OSA.jpg"
 thumbnail_alt: 'Thumbnail for Ships Can''t Leave the Persian Gulf Anymore #warning'
 youtube_id: EWDU_Y34OSA
 youtube_url: https://www.youtube.com/shorts/EWDU_Y34OSA

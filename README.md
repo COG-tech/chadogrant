@@ -39,7 +39,7 @@ Repository:
 
 1. Install Ruby and Bundler.
 2. From the repo root, run `bundle install`.
-3. Run `ruby scripts/sync_archive_pages.rb` whenever article, media, or YouTube data changes.
+3. Run `.\scripts\update_site.ps1` whenever article, media, or YouTube data changes.
 4. Run `bundle exec jekyll serve`.
 5. Open `http://127.0.0.1:4000/chadogrant/`.
 
@@ -90,7 +90,7 @@ When you are ready for the custom domain:
 
 - Edit `_data/articles.yml`.
 - Add the real title, date, topic tag, original summary, and external URL.
-- Run `ruby scripts/sync_archive_pages.rb` to regenerate the local archive pages.
+- Run `.\scripts\update_site.ps1` to regenerate the local archive pages and rebuild the site.
 - For truly hosted essays, create a custom file in `_articles/` instead of relying on the generated archive page.
 
 ### Add or update books
@@ -106,13 +106,28 @@ When you are ready for the custom domain:
 - Edit `_data/media.yml`.
 - Add interviews, podcasts, mentions, or guest essays once there is a verified
   public source URL.
-- Run `ruby scripts/sync_archive_pages.rb` to regenerate the local media pages.
+- Run `.\scripts\update_site.ps1` to regenerate the local media pages and rebuild the site.
 
 ### Add or update YouTube archive pages
 
 - Edit `_data/youtube_videos.json` or `_data/youtube_shorts.json`.
-- Run `ruby scripts/sync_archive_pages.rb` so each upload gets a local archive page.
+- Run `.\scripts\update_site.ps1` so each upload gets a local archive page, a mirrored local thumbnail, and a fresh site build.
 - Keep manually authored featured files in `_videos/` for the entries that need stronger custom framing.
+
+## Weekly update command
+
+From the repo root in PowerShell:
+
+```powershell
+.\scripts\update_site.ps1
+```
+
+Typical weekly workflow:
+
+1. Update `_data/articles.yml`, `_data/youtube_videos.json`, `_data/youtube_shorts.json`, or `_data/media.yml`.
+2. Run `.\scripts\update_site.ps1`.
+3. Check the result locally with `bundle exec jekyll serve` if needed.
+4. Commit and push to `main`.
 
 ### Add official profile links
 

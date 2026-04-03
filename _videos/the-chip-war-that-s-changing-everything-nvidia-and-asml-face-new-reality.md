@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/fFigK2vbAPs.jpg
+thumbnail: "/assets/img/videos/fFigK2vbAPs.jpg"
 thumbnail_alt: Thumbnail for The Chip War That's Changing Everything | Nvidia and ASML Face New Reality
 youtube_id: fFigK2vbAPs
 youtube_url: https://www.youtube.com/watch?v=fFigK2vbAPs

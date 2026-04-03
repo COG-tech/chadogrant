@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/oa_Y_heR034.jpg
+thumbnail: "/assets/img/videos/oa_Y_heR034.jpg"
 thumbnail_alt: 'Thumbnail for Mastercard vs Stablecoins: Who Actually Won #crypto #payments #future'
 youtube_id: oa_Y_heR034
 youtube_url: https://www.youtube.com/shorts/oa_Y_heR034

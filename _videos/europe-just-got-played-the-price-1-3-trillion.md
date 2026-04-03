@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/TxRfvxro3uM.jpg
+thumbnail: "/assets/img/videos/TxRfvxro3uM.jpg"
 thumbnail_alt: Thumbnail for Europe Just Got Played. The Price? $1.3 Trillion
 youtube_id: TxRfvxro3uM
 youtube_url: https://www.youtube.com/watch?v=TxRfvxro3uM

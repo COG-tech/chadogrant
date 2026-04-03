@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/tue0QADIue8.jpg
+thumbnail: "/assets/img/videos/tue0QADIue8.jpg"
 thumbnail_alt: 'Thumbnail for Why Container Ships Are Taking the Long Way Around #RedSea #shipping'
 youtube_id: tue0QADIue8
 youtube_url: https://www.youtube.com/shorts/tue0QADIue8

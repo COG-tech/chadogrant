@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/noO1AB-ovHs.jpg
+thumbnail: "/assets/img/videos/noO1AB-ovHs.jpg"
 thumbnail_alt: 'Thumbnail for Traditional Money vs Blockchain: No Contest #cryptocurrency #finance #gdp #geopolitics'
 youtube_id: noO1AB-ovHs
 youtube_url: https://www.youtube.com/shorts/noO1AB-ovHs

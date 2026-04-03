@@ -1,13 +1,13 @@
 ---
-title: 'Europeâ€™s Fuse Box Is Overheating: War Abroad vs. Bills at Home'
-description: Europeâ€™s economy slowdown is heating the fuse box. Leaders debate Ukraine troop presence while households face rising bills, inflation stuck near 3.5%, and u...
-summary: Europeâ€™s economy slowdown is heating the fuse box. Leaders debate Ukraine troop presence while households face rising bills, inflation stuck near 3.5%, and u...
+title: 'Europe’s Fuse Box Is Overheating: War Abroad vs. Bills at Home'
+description: Europe’s economy slowdown is heating the fuse box. Leaders debate Ukraine troop presence while households face rising bills, inflation stuck near 3.5%, and u...
+summary: Europe’s economy slowdown is heating the fuse box. Leaders debate Ukraine troop presence while households face rising bills, inflation stuck near 3.5%, and u...
 why_it_matters: This short now has a first-party archive page so it can be discovered alongside the rest of the Chad O. Grant catalog instead of disappearing inside the platform feed.
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/f4ApZnJKYss.jpg
-thumbnail_alt: 'Thumbnail for Europeâ€™s Fuse Box Is Overheating: War Abroad vs. Bills at Home'
+thumbnail: "/assets/img/videos/f4ApZnJKYss.jpg"
+thumbnail_alt: 'Thumbnail for Europe’s Fuse Box Is Overheating: War Abroad vs. Bills at Home'
 youtube_id: f4ApZnJKYss
 youtube_url: https://www.youtube.com/shorts/f4ApZnJKYss
 watch_url: https://www.youtube.com/shorts/f4ApZnJKYss

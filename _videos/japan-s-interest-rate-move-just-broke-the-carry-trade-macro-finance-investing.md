@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/jqBBYxvlqdU.jpg
+thumbnail: "/assets/img/videos/jqBBYxvlqdU.jpg"
 thumbnail_alt: 'Thumbnail for Japan''s Interest Rate Move Just Broke the Carry Trade #macro #finance #investing'
 youtube_id: jqBBYxvlqdU
 youtube_url: https://www.youtube.com/shorts/jqBBYxvlqdU

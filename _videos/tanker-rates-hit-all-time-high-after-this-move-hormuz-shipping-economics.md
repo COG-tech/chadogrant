@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/AMqjb8j-TYg.jpg
+thumbnail: "/assets/img/videos/AMqjb8j-TYg.jpg"
 thumbnail_alt: 'Thumbnail for Tanker Rates Hit All-Time High After This Move #hormuz #shipping #economics'
 youtube_id: AMqjb8j-TYg
 youtube_url: https://www.youtube.com/shorts/AMqjb8j-TYg

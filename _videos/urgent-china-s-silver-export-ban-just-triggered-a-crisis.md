@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/QtPJQiKor_M.jpg
+thumbnail: "/assets/img/videos/QtPJQiKor_M.jpg"
 thumbnail_alt: 'Thumbnail for URGENT: China''s Silver Export Ban Just Triggered A Crisis'
 youtube_id: QtPJQiKor_M
 youtube_url: https://www.youtube.com/watch?v=QtPJQiKor_M

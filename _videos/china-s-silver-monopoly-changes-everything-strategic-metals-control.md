@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/7zagGxZRyTk.jpg
+thumbnail: "/assets/img/videos/7zagGxZRyTk.jpg"
 thumbnail_alt: 'Thumbnail for China''s Silver Monopoly Changes Everything #strategic #metals #control'
 youtube_id: 7zagGxZRyTk
 youtube_url: https://www.youtube.com/shorts/7zagGxZRyTk

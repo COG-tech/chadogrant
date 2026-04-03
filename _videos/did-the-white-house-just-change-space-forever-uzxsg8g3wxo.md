@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/UZxSg8g3wXo.jpg
+thumbnail: "/assets/img/videos/UZxSg8g3wXo.jpg"
 thumbnail_alt: Thumbnail for Did the White House Just Change Space Forever?
 youtube_id: UZxSg8g3wXo
 youtube_url: https://www.youtube.com/shorts/UZxSg8g3wXo

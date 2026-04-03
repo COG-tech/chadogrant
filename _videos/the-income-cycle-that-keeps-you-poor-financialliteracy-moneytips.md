@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/jKp24-EoTz4.jpg
+thumbnail: "/assets/img/videos/jKp24-EoTz4.jpg"
 thumbnail_alt: 'Thumbnail for The Income Cycle That Keeps You Poor #FinancialLiteracy #MoneyTips'
 youtube_id: jKp24-EoTz4
 youtube_url: https://www.youtube.com/shorts/jKp24-EoTz4

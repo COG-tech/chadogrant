@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/tqTdYKacoKU.jpg
+thumbnail: "/assets/img/videos/tqTdYKacoKU.jpg"
 thumbnail_alt: 'Thumbnail for This SpaceX Bet Could Make Elon a Trillionaire #spacex #wealth'
 youtube_id: tqTdYKacoKU
 youtube_url: https://www.youtube.com/shorts/tqTdYKacoKU

@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/0eniKqrEwqk.jpg
+thumbnail: "/assets/img/videos/0eniKqrEwqk.jpg"
 thumbnail_alt: Thumbnail for Russia's Economy Just Did Something Nobody Expected
 youtube_id: 0eniKqrEwqk
 youtube_url: https://www.youtube.com/watch?v=0eniKqrEwqk

@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/PBgBEFlj2UE.jpg
+thumbnail: "/assets/img/videos/PBgBEFlj2UE.jpg"
 thumbnail_alt: Thumbnail for Is AI Growing Too Fast For Us?
 youtube_id: PBgBEFlj2UE
 youtube_url: https://www.youtube.com/watch?v=PBgBEFlj2UE

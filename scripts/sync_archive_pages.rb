@@ -4,10 +4,12 @@
 require "date"
 require "fileutils"
 require "json"
+require "open-uri"
 require "set"
 require "yaml"
 
 ROOT = File.expand_path("..", __dir__)
+VIDEO_IMAGE_DIR = File.join(ROOT, "assets", "img", "videos")
 
 def read_front_matter(path)
   text = File.read(path, encoding: "UTF-8")
@@ -75,6 +77,28 @@ def write_doc(path, front_matter)
   FileUtils.mkdir_p(File.dirname(path))
   yaml = front_matter.compact.to_yaml(line_width: -1)
   File.write(path, +"---\n#{yaml.sub(/\A---\s*\n/, "")}---\n", encoding: "UTF-8")
+end
+
+def download_thumbnail(video_id, source_url)
+  return source_url if video_id.to_s.empty? || source_url.to_s.empty?
+
+  FileUtils.mkdir_p(VIDEO_IMAGE_DIR)
+  local_filename = "#{video_id}.jpg"
+  local_path = File.join(VIDEO_IMAGE_DIR, local_filename)
+  return "/assets/img/videos/#{local_filename}" if File.exist?(local_path) && File.size?(local_path)
+
+  temp_path = "#{local_path}.tmp"
+  URI.open(source_url, "User-Agent" => "Mozilla/5.0", read_timeout: 30, open_timeout: 30) do |remote_file|
+    File.open(temp_path, "wb") do |local_file|
+      IO.copy_stream(remote_file, local_file)
+    end
+  end
+  FileUtils.mv(temp_path, local_path, force: true)
+  "/assets/img/videos/#{local_filename}"
+rescue StandardError => e
+  warn "Could not mirror thumbnail for #{video_id}: #{e.message}"
+  FileUtils.rm_f(temp_path) if defined?(temp_path)
+  source_url
 end
 
 def load_existing_video_ids
@@ -165,6 +189,7 @@ end
 
     title = normalize_text(item["title"])
     summary = normalize_text(item["description"])
+    thumbnail = download_thumbnail(item["video_id"], item["thumbnail"])
     site_slug = begin
       path = item["site_url"].to_s
       path.empty? ? nil : path.split("/").reject(&:empty?).last
@@ -184,7 +209,7 @@ end
         "topic" => topic,
         "video_type" => video_type,
         "featured" => false,
-        "thumbnail" => item["thumbnail"],
+        "thumbnail" => thumbnail,
         "thumbnail_alt" => "Thumbnail for #{title}",
         "youtube_id" => item["video_id"],
         "youtube_url" => item["youtube_url"],

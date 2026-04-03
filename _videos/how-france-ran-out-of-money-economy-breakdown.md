@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/JJn4IeY1eQQ.jpg
+thumbnail: "/assets/img/videos/JJn4IeY1eQQ.jpg"
 thumbnail_alt: 'Thumbnail for How France ran out of money #economy #breakdown'
 youtube_id: JJn4IeY1eQQ
 youtube_url: https://www.youtube.com/shorts/JJn4IeY1eQQ

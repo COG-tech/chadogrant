@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/2985YMmlwik.jpg
+thumbnail: "/assets/img/videos/2985YMmlwik.jpg"
 thumbnail_alt: 'Thumbnail for How Japan''s Interest Rates Are Destroying Traders Right Now #trading #macro #finance'
 youtube_id: 2985YMmlwik
 youtube_url: https://www.youtube.com/shorts/2985YMmlwik

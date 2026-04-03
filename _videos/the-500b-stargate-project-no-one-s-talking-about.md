@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/C6sayeZy_Ng.jpg
+thumbnail: "/assets/img/videos/C6sayeZy_Ng.jpg"
 thumbnail_alt: Thumbnail for The $500B Stargate Project No One's Talking About
 youtube_id: C6sayeZy_Ng
 youtube_url: https://www.youtube.com/watch?v=C6sayeZy_Ng

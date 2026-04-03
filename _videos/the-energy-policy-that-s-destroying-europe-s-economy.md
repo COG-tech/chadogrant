@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/QeZMpsh60k8.jpg
+thumbnail: "/assets/img/videos/QeZMpsh60k8.jpg"
 thumbnail_alt: Thumbnail for The Energy Policy That's Destroying Europe's Economy
 youtube_id: QeZMpsh60k8
 youtube_url: https://www.youtube.com/shorts/QeZMpsh60k8

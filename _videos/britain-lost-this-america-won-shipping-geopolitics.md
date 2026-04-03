@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/ewNQqgo4WJg.jpg
+thumbnail: "/assets/img/videos/ewNQqgo4WJg.jpg"
 thumbnail_alt: 'Thumbnail for Britain Lost This, America Won #shipping #geopolitics'
 youtube_id: ewNQqgo4WJg
 youtube_url: https://www.youtube.com/shorts/ewNQqgo4WJg

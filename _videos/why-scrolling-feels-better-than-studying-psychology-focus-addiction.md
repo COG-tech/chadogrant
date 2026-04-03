@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/qthsj1NsY2k.jpg
+thumbnail: "/assets/img/videos/qthsj1NsY2k.jpg"
 thumbnail_alt: 'Thumbnail for Why Scrolling Feels Better Than Studying #psychology #focus #addiction'
 youtube_id: qthsj1NsY2k
 youtube_url: https://www.youtube.com/shorts/qthsj1NsY2k

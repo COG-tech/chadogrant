@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/HyEyjTu7ll0.jpg
+thumbnail: "/assets/img/videos/HyEyjTu7ll0.jpg"
 thumbnail_alt: 'Thumbnail for Skimming vs Understanding (The Screen Problem) #education #shorts'
 youtube_id: HyEyjTu7ll0
 youtube_url: https://www.youtube.com/shorts/HyEyjTu7ll0

@@ -1,13 +1,13 @@
 ---
-title: Is Chinaâ€™s Economy In Trouble Right Now?
+title: Is China’s Economy In Trouble Right Now?
 description: Is China's economy actually in trouble? This video breaks down the real debt-to-GDP and hidden liabilities impacting the Chinese economy. Understand the pote...
 summary: Is China's economy actually in trouble? This video breaks down the real debt-to-GDP and hidden liabilities impacting the Chinese economy. Understand the pote...
 why_it_matters: This short now has a first-party archive page so it can be discovered alongside the rest of the Chad O. Grant catalog instead of disappearing inside the platform feed.
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/KjoMATZDaX4.jpg
-thumbnail_alt: Thumbnail for Is Chinaâ€™s Economy In Trouble Right Now?
+thumbnail: "/assets/img/videos/KjoMATZDaX4.jpg"
+thumbnail_alt: Thumbnail for Is China’s Economy In Trouble Right Now?
 youtube_id: KjoMATZDaX4
 youtube_url: https://www.youtube.com/shorts/KjoMATZDaX4
 watch_url: https://www.youtube.com/shorts/KjoMATZDaX4

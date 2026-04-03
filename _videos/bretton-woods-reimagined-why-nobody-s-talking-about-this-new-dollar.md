@@ -1,13 +1,13 @@
 ---
-title: 'Bretton Woods Reimagined: Why Nobodyâ€™s Talking About This New Dollar'
-description: Discover how the tokenized dollar, Hillâ€™s Genius Act, and new federal token rails are transforming the U.S. financial system. This isn't hypeâ€”it's the hidden...
-summary: Discover how the tokenized dollar, Hillâ€™s Genius Act, and new federal token rails are transforming the U.S. financial system. This isn't hypeâ€”it's the hidden...
+title: 'Bretton Woods Reimagined: Why Nobody’s Talking About This New Dollar'
+description: Discover how the tokenized dollar, Hill’s Genius Act, and new federal token rails are transforming the U.S. financial system. This isn't hype—it's the hidden...
+summary: Discover how the tokenized dollar, Hill’s Genius Act, and new federal token rails are transforming the U.S. financial system. This isn't hype—it's the hidden...
 why_it_matters: This video now has a first-party archive page so the argument can be crawled, linked, and understood as part of the wider Chad O. Grant archive instead of living only on YouTube.
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/72477DBM7X8.jpg
-thumbnail_alt: 'Thumbnail for Bretton Woods Reimagined: Why Nobodyâ€™s Talking About This New Dollar'
+thumbnail: "/assets/img/videos/72477DBM7X8.jpg"
+thumbnail_alt: 'Thumbnail for Bretton Woods Reimagined: Why Nobody’s Talking About This New Dollar'
 youtube_id: 72477DBM7X8
 youtube_url: https://www.youtube.com/watch?v=72477DBM7X8
 watch_url: https://www.youtube.com/watch?v=72477DBM7X8

@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/hCqUzJBmVKs.jpg
+thumbnail: "/assets/img/videos/hCqUzJBmVKs.jpg"
 thumbnail_alt: 'Thumbnail for The Retirement Mistake Everyone Makes #finance #investing'
 youtube_id: hCqUzJBmVKs
 youtube_url: https://www.youtube.com/shorts/hCqUzJBmVKs

@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/fyLluTfHyOI.jpg
+thumbnail: "/assets/img/videos/fyLluTfHyOI.jpg"
 thumbnail_alt: Thumbnail for The Truth About Safe Investing in 2025!
 youtube_id: fyLluTfHyOI
 youtube_url: https://www.youtube.com/watch?v=fyLluTfHyOI

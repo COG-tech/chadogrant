@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/2JVEHF6JNUk.jpg
+thumbnail: "/assets/img/videos/2JVEHF6JNUk.jpg"
 thumbnail_alt: Thumbnail for Watch The Surprising Rise Of New Economic Giants!
 youtube_id: 2JVEHF6JNUk
 youtube_url: https://www.youtube.com/watch?v=2JVEHF6JNUk

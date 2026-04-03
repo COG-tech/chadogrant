@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/HfBZNsZ6oKM.jpg
+thumbnail: "/assets/img/videos/HfBZNsZ6oKM.jpg"
 thumbnail_alt: 'Thumbnail for Parents Missing THIS Makes Screen Time Useless #parenting #screentime'
 youtube_id: HfBZNsZ6oKM
 youtube_url: https://www.youtube.com/shorts/HfBZNsZ6oKM

@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/chdLXV7rrGw.jpg
+thumbnail: "/assets/img/videos/chdLXV7rrGw.jpg"
 thumbnail_alt: Thumbnail for Elon Musk Just Confirmed SpaceX's 2026 IPO Will Be Massive
 youtube_id: chdLXV7rrGw
 youtube_url: https://www.youtube.com/watch?v=chdLXV7rrGw

@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/wsdWGuOAT4o.jpg
+thumbnail: "/assets/img/videos/wsdWGuOAT4o.jpg"
 thumbnail_alt: Thumbnail for The New Leaders Of The Global Economy Revealed!
 youtube_id: wsdWGuOAT4o
 youtube_url: https://www.youtube.com/watch?v=wsdWGuOAT4o

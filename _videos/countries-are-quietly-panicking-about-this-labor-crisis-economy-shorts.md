@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/k9GCFiYI408.jpg
+thumbnail: "/assets/img/videos/k9GCFiYI408.jpg"
 thumbnail_alt: 'Thumbnail for Countries are quietly panicking about this labor crisis #economy #shorts'
 youtube_id: k9GCFiYI408
 youtube_url: https://www.youtube.com/shorts/k9GCFiYI408

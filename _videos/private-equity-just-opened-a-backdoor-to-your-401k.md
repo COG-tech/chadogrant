@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/9rSKZGoQE3w.jpg
+thumbnail: "/assets/img/videos/9rSKZGoQE3w.jpg"
 thumbnail_alt: Thumbnail for Private Equity Just Opened a Backdoor to Your 401k
 youtube_id: 9rSKZGoQE3w
 youtube_url: https://www.youtube.com/shorts/9rSKZGoQE3w

@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/b0p7JxGl5bY.jpg
+thumbnail: "/assets/img/videos/b0p7JxGl5bY.jpg"
 thumbnail_alt: 'Thumbnail for Guyana Just Became the Fastest Growing Economy (Oil Did This) #gdp #economy #geopolitics'
 youtube_id: b0p7JxGl5bY
 youtube_url: https://www.youtube.com/shorts/b0p7JxGl5bY

@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/rhIRBSduSYU.jpg
+thumbnail: "/assets/img/videos/rhIRBSduSYU.jpg"
 thumbnail_alt: 'Thumbnail for Reality Check: Working Hard Isn''t Working #poverty #cycle'
 youtube_id: rhIRBSduSYU
 youtube_url: https://www.youtube.com/shorts/rhIRBSduSYU

@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/HQrk7Fu_S2Q.jpg
+thumbnail: "/assets/img/videos/HQrk7Fu_S2Q.jpg"
 thumbnail_alt: 'Thumbnail for The Brain Damage Nobody''s Talking About #braindevelopment #neuroscience #shorts'
 youtube_id: HQrk7Fu_S2Q
 youtube_url: https://www.youtube.com/shorts/HQrk7Fu_S2Q

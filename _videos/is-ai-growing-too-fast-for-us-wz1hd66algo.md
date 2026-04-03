@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/WZ1HD66AlGo.jpg
+thumbnail: "/assets/img/videos/WZ1HD66AlGo.jpg"
 thumbnail_alt: Thumbnail for Is AI Growing Too Fast For Us?
 youtube_id: WZ1HD66AlGo
 youtube_url: https://www.youtube.com/shorts/WZ1HD66AlGo

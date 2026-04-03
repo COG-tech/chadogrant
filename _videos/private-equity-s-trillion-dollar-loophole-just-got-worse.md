@@ -6,7 +6,7 @@ why_it_matters: This video now has a first-party archive page so the argument ca
 topic: Long-Form Video
 video_type: Video
 featured: false
-thumbnail: /assets/img/videos/eLKsLq5vVNc.jpg
+thumbnail: "/assets/img/videos/eLKsLq5vVNc.jpg"
 thumbnail_alt: Thumbnail for Private Equity's Trillion-Dollar Loophole Just Got Worse
 youtube_id: eLKsLq5vVNc
 youtube_url: https://www.youtube.com/watch?v=eLKsLq5vVNc&pp=0gcJCdsKAYcqIYzv

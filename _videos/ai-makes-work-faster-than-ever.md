@@ -6,7 +6,7 @@ why_it_matters: This short now has a first-party archive page so it can be disco
 topic: Short-Form Commentary
 video_type: Short
 featured: false
-thumbnail: /assets/img/videos/6EjILw9eFp8.jpg
+thumbnail: "/assets/img/videos/6EjILw9eFp8.jpg"
 thumbnail_alt: Thumbnail for AI Makes Work Faster Than Ever!
 youtube_id: 6EjILw9eFp8
 youtube_url: https://www.youtube.com/shorts/6EjILw9eFp8
