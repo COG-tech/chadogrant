@@ -7,6 +7,9 @@ body_class: page-body page-videos
 {% assign featured_videos = site.videos | where: "featured", true | sort: "order" %}
 {% assign youtube_videos = site.data.youtube_videos %}
 {% assign youtube_shorts = site.data.youtube_shorts %}
+{% assign total_youtube_videos = youtube_videos | size %}
+{% assign total_youtube_shorts = youtube_shorts | size %}
+{% assign total_uploads = total_youtube_videos | plus: total_youtube_shorts %}
 
 <section class="content-section videos-intro">
   <div class="videos-intro__copy">
@@ -34,7 +37,7 @@ body_class: page-body page-videos
       <span>Featured analysis pages on this site</span>
     </div>
     <div class="video-stat">
-      <strong>{{ youtube_videos | size | plus: youtube_shorts | size }}</strong>
+      <strong>{{ total_uploads }}</strong>
       <span>Public YouTube uploads currently linked in the archive</span>
     </div>
     <div class="video-source-note">
@@ -71,7 +74,7 @@ body_class: page-body page-videos
       <h2>Full YouTube video archive</h2>
     </div>
     <p class="section-intro">
-      {{ youtube_videos | size }} public long-form videos currently linked from
+      {{ total_youtube_videos }} public long-form videos currently linked from
       the channel, each with a site page, a summary, and a direct YouTube
       action.
     </p>
@@ -90,7 +93,7 @@ body_class: page-body page-videos
       <h2>Full YouTube shorts archive</h2>
     </div>
     <p class="section-intro">
-      {{ youtube_shorts | size }} public shorts currently linked from the
+      {{ total_youtube_shorts }} public shorts currently linked from the
       channel, each with a site page, a summary, and a direct link out to
       YouTube.
     </p>
