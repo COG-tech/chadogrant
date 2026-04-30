@@ -1,8 +1,10 @@
 ---
-title: Videos
-description: Featured S.C.O.P.E. Report videos by Chad O. Grant covering macro commentary, leverage, markets, and geopolitics.
+title: Videos by Chad O. Grant | S.C.O.P.E. Report
+description: Videos by Chad O. Grant covering S.C.O.P.E. Report topics such as economics, geopolitics, markets, national strength, and long-term investing.
 eyebrow: Video commentary, channel archive, and analysis
 body_class: page-body page-videos
+breadcrumb_label: Videos by Chad O. Grant
+last_modified_at: 2026-04-30
 ---
 {% assign featured_videos = site.videos | where: "featured", true | sort: "order" %}
 {% assign youtube_videos = site.data.youtube_videos %}

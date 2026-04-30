@@ -375,6 +375,12 @@ p {
   color: rgba(255, 255, 255, 0.92);
 }
 
+.hero__content h2 {
+  margin-bottom: 0.95rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: clamp(1.3rem, 1vw + 1.1rem, 2rem);
+}
+
 .hero__content .hero__eyebrow {
   color: rgba(238, 203, 151, 0.9);
 }
@@ -435,6 +441,26 @@ p {
 
 .section {
   padding: 1.3rem 0;
+}
+
+.identity-box {
+  width: min(100%, var(--max));
+  margin: 2rem auto 0;
+  padding: clamp(1.35rem, 1vw + 1.1rem, 1.9rem);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at top right, rgba(154, 106, 47, 0.12), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(249, 244, 236, 0.94) 100%);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.identity-box h2 {
+  margin-bottom: 0.7rem;
+}
+
+.identity-box p:last-child {
+  margin-bottom: 0;
 }
 
 .section__heading {
@@ -1192,6 +1218,20 @@ p {
 .site-footer__links h2 {
   margin-bottom: 0.8rem;
   font-size: 1.05rem;
+}
+
+.site-footer__list {
+  display: grid;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
+}
+
+.site-footer__list a {
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.site-footer__list a:hover {
+  color: #fff;
 }
 
 .social-list--footer li::before {

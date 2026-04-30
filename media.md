@@ -1,8 +1,10 @@
 ---
-title: Media
-description: Verified public profiles, publication hubs, and book listings connected to Chad O. Grant's work.
+title: Chad O. Grant Media, Profiles, and Official Links
+description: Chad O. Grant media and profile links, including the official site, YouTube, Substack, X, and verified public references already connected to the work.
 eyebrow: Profiles, appearances, and public references
 body_class: page-body page-media
+breadcrumb_label: Media
+last_modified_at: 2026-04-30
 ---
 {% assign media_items = site.data.media %}
 
@@ -22,6 +24,10 @@ body_class: page-body page-media
       For background on the person behind these references, use
       <a class="text-link" href="{{ '/about/' | relative_url }}">About Chad O. Grant</a>.
     </p>
+    <div class="button-row">
+      <a class="button button--secondary" href="{{ '/' | relative_url }}">Official website</a>
+      {% include social-links.html variant="buttons" %}
+    </div>
   </div>
   <aside class="media-intro__meta" aria-label="Media overview">
     <div class="media-stat">

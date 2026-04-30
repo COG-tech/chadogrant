@@ -1,10 +1,6 @@
 {% assign site_data = site.data.site %}
-{% assign page_title = page.meta_title | default: page.title %}
-{% if page.url == "/" %}
-  {% assign full_title = site_data.name %}
-{% else %}
-  {% assign full_title = page_title | append: site_data.title_suffix %}
-{% endif %}
+{% assign page_title = page.meta_title | default: page.title | default: site_data.name %}
+{% assign full_title = page_title %}
 {% assign description = page.description | default: site.description %}
 {% assign canonical_url = page.canonical_url | default: page.url | absolute_url %}
 {% assign image_path = page.thumbnail | default: page.image | default: site_data.seo.default_image %}

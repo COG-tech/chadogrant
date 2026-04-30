@@ -1,11 +1,17 @@
 ---
-title: Contact
-description: Contact Chad O. Grant for interviews, editorial opportunities, speaking, and collaboration.
+title: Contact Chad O. Grant | Official Website
+description: Contact Chad O. Grant about books, media, macro research, S.C.O.P.E. Report, Marathon Macro, Dawn Archives, and related projects.
+breadcrumb_label: Contact
+last_modified_at: 2026-04-30
 ---
 {% assign contact = site.data.site.contact %}
 <section class="content-section prose-block">
   <h2>Get in touch</h2>
-  <p>{{ contact.intro }}</p>
+  <p>
+    Use this page to contact Chad O. Grant regarding books, media, macro
+    research, S.C.O.P.E. Report, Marathon Macro, Dawn Archives, and related
+    projects.
+  </p>
   <p>
     The links below are the live public channels. The email address currently
     points to the public contact path exposed through the Substack feed, and it

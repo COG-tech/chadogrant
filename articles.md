@@ -1,8 +1,10 @@
 ---
-title: Articles
-description: An editorial archive of Chad O. Grant's writing across S.C.O.P.E. Report and Dawn Archives, with summaries and direct links to the original posts.
+title: Articles by Chad O. Grant | S.C.O.P.E. Report and Macro Analysis
+description: Articles by Chad O. Grant on global economics, geopolitics, long-term investing, national strength, and macro regimes across S.C.O.P.E. Report and Dawn Archives.
 eyebrow: Essays, notes, fiction, and analysis
 body_class: page-body page-articles
+breadcrumb_label: Articles by Chad O. Grant
+last_modified_at: 2026-04-30
 ---
 {% assign articles = site.data.articles %}
 {% assign scope_articles = articles | where: "publication", "S.C.O.P.E. Report" %}

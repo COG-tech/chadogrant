@@ -1,9 +1,11 @@
 ---
-title: About
-description: About Chad O. Grant, with background, public work, books, videos, and links across S.C.O.P.E. Report and Dawn Archives.
+title: About Chad O. Grant | Author, Macro Commentator, and Creator
+description: About Chad O. Grant, his books, macro commentary, S.C.O.P.E. Report, Marathon Macro, Dawn Archives, and the core topics behind the work.
 schema_type: ProfilePage
 image: /assets/img/chad-o-grant-headshot.jpg
 image_alt: Portrait of Chad O. Grant
+breadcrumb_label: About Chad O. Grant
+last_modified_at: 2026-04-30
 ---
 {% assign site_data = site.data.site %}
 <section class="content-section">
@@ -32,6 +34,9 @@ image_alt: Portrait of Chad O. Grant
       <div class="button-row">
         <a class="button button--secondary" href="{{ '/media/' | relative_url }}">Public references</a>
         <a class="button button--ghost" href="{{ '/videos/' | relative_url }}">S.C.O.P.E. Report videos</a>
+        <a class="button button--ghost" href="{{ '/scope-report/' | relative_url }}">S.C.O.P.E. Report</a>
+        <a class="button button--ghost" href="{{ '/marathon-macro/' | relative_url }}">Marathon Macro</a>
+        <a class="button button--ghost" href="{{ '/dawn-archives/' | relative_url }}">Dawn Archives</a>
       </div>
     </div>
   </div>

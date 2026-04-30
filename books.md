@@ -1,8 +1,10 @@
 ---
-title: Books
-description: The books of Chad O. Grant, spanning fiction, fatherhood, and geopolitical analysis, with direct links to public listings.
+title: Books by Chad O. Grant | Dawn, Dear Son, and The Twin Titans
+description: Books by Chad O. Grant, including Dawn, Dear Son, and The Twin Titans, with direct links to the on-site book pages and public listings.
 eyebrow: Books, macro commentary, and long-form work
 body_class: page-body page-books
+breadcrumb_label: Books by Chad O. Grant
+last_modified_at: 2026-04-30
 ---
 {% assign books = site.data.books %}
 

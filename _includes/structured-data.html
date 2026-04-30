@@ -1,52 +1,52 @@
 {% assign site_data = site.data.site %}
-{% assign profile_image = site_data.person_image | absolute_url %}
-{% assign profile_image_id = profile_image | append: '#image' %}
 {% assign page_thumbnail = page.thumbnail | default: page.image | default: site_data.seo.default_image %}
 {% if page_thumbnail contains "http" %}
   {% assign page_thumbnail_url = page_thumbnail %}
 {% else %}
   {% assign page_thumbnail_url = page_thumbnail | absolute_url %}
 {% endif %}
-{% assign email_link = "" %}
-{% for social in site.data.social %}
-  {% if social.url contains 'mailto:' %}
-    {% assign email_link = social.url | remove: 'mailto:' %}
-  {% endif %}
-{% endfor %}
+{% assign person_id = '/' | absolute_url | append: '#chadogrant' %}
+{% assign website_id = '/' | absolute_url | append: '#website' %}
+
+{% if page.url == "/" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "{{ '/' | absolute_url }}#person",
-  "name": "{{ site_data.name }}",
+  "@id": "{{ person_id }}",
+  "name": "Chad O. Grant",
   "alternateName": [
-    {% for alt_name in site_data.alternate_names %}
-      {{ alt_name | jsonify }}{% unless forloop.last %},{% endunless %}
-    {% endfor %}
+    "Chad Grant",
+    "ChadOGrant"
   ],
   "url": "{{ '/' | absolute_url }}",
-  "description": {{ site.description | jsonify }},
-  "jobTitle": "Writer, macro commentator, and author",
-  "image": {
-    "@id": "{{ profile_image_id }}"
-  },
+  "jobTitle": [
+    "Author",
+    "Macro Commentator",
+    "Creator of S.C.O.P.E. Report",
+    "Founder of Marathon Macro",
+    "Writer of Dawn Archives"
+  ],
+  "description": "Chad O. Grant is an author, macro commentator, creator of S.C.O.P.E. Report, founder of Marathon Macro, and writer of Dawn Archives.",
   "knowsAbout": [
-    "Macroeconomics",
+    "Global macroeconomics",
     "Geopolitics",
-    "Global analysis",
-    "Investing",
-    "Books",
-    "Public commentary"
-  ]{% if email_link != blank %},
-  "email": {{ email_link | jsonify }}{% endif %},
+    "Long-term investing",
+    "National strength",
+    "Economic history",
+    "Science fiction",
+    "Financial markets"
+  ],
   "sameAs": [
-    {% assign printed = false %}
+    {% assign same_as_first = true %}
     {% for social in site.data.social %}
       {% if social.url != blank %}
         {% unless social.url contains 'mailto:' %}
-        {% if printed %},{% endif %}
-        {{ social.url | jsonify }}
-        {% assign printed = true %}
+          {% if social.url contains 'youtube.com' or social.url contains 'substack.com' or social.url contains 'x.com' %}
+            {% unless same_as_first %},{% endunless %}
+            {{ social.url | jsonify }}
+            {% assign same_as_first = false %}
+          {% endif %}
         {% endunless %}
       {% endif %}
     {% endfor %}
@@ -56,18 +56,31 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ImageObject",
-  "@id": "{{ profile_image_id }}",
-  "contentUrl": "{{ profile_image }}",
-  "url": "{{ profile_image }}",
-  "name": "Portrait of Chad O. Grant",
-  "caption": {{ site_data.person_image_caption | jsonify }},
-  "creator": {
-    "@id": "{{ '/' | absolute_url }}#person"
+  "@type": "WebSite",
+  "@id": "{{ website_id }}",
+  "name": "Chad O. Grant Official Website",
+  "url": "{{ '/' | absolute_url }}",
+  "publisher": {
+    "@id": "{{ person_id }}"
   }
 }
 </script>
-{% if page.url != "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page.title | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "description": {{ page.description | default: site.description | jsonify }},
+  "mainEntity": {
+    "@id": "{{ person_id }}"
+  },
+  "about": {
+    "@id": "{{ person_id }}"
+  }
+}
+</script>
+{% else %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,67 +89,35 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Home",
+      "name": "Chad O. Grant",
       "item": "{{ '/' | absolute_url }}"
-    }{% if page.section == "videos" %},
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Videos",
-      "item": "{{ '/videos/' | absolute_url }}"
     },
     {
       "@type": "ListItem",
-      "position": 3,
-      "name": {{ page.title | jsonify }},
-      "item": "{{ page.url | absolute_url }}"
-    }{% elsif page.section == "articles" %},
-    {
-      "@type": "ListItem",
       "position": 2,
-      "name": "Articles",
-      "item": "{{ '/articles/' | absolute_url }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": {{ page.title | jsonify }},
+      "name": {{ page.breadcrumb_label | default: page.title | jsonify }},
       "item": "{{ page.url | absolute_url }}"
-    }{% elsif page.section == "books" %},
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Books",
-      "item": "{{ '/books/' | absolute_url }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": {{ page.title | jsonify }},
-      "item": "{{ page.url | absolute_url }}"
-    }{% elsif page.section == "media" %},
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Media",
-      "item": "{{ '/media/' | absolute_url }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": {{ page.title | jsonify }},
-      "item": "{{ page.url | absolute_url }}"
-    }{% else %},
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": {{ page.title | jsonify }},
-      "item": "{{ page.url | absolute_url }}"
-    }{% endif %}
+    }
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page.title | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "description": {{ page.description | default: site.description | jsonify }},
+  "mainEntity": {
+    "@id": "{{ person_id }}"
+  },
+  "about": {
+    "@id": "{{ person_id }}"
+  }
+}
+</script>
 {% endif %}
+
 {% if page.schema_type == "ProfilePage" %}
 <script type="application/ld+json">
 {
@@ -145,14 +126,34 @@
   "name": {{ page.title | jsonify }},
   "url": "{{ page.url | absolute_url }}",
   "description": {{ page.description | jsonify }},
-  "primaryImageOfPage": {
-    "@id": "{{ profile_image_id }}"
-  },
   "mainEntity": {
-    "@id": "{{ '/' | absolute_url }}#person"
+    "@id": "{{ person_id }}"
   }
 }
 </script>
+{% elsif page.url == "/books/" %}
+  {% for book in site.data.books %}
+    {% assign book_image = book.cover | default: book.image %}
+    {% if book_image contains "http" %}
+      {% assign book_image_url = book_image %}
+    {% else %}
+      {% assign book_image_url = book_image | absolute_url %}
+    {% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "{{ '/books/' | append: book.slug | append: '/' | absolute_url }}#book",
+  "name": {{ book.title | jsonify }},
+  "url": "{{ '/books/' | append: book.slug | append: '/' | absolute_url }}",
+  "description": {{ book.book_summary | default: book.description | jsonify }},
+  "image": {{ book_image_url | jsonify }},
+  "author": {
+    "@id": "{{ person_id }}"
+  }
+}
+</script>
+  {% endfor %}
 {% elsif page.section == "videos" and page.youtube_id %}
 <script type="application/ld+json">
 {
@@ -177,7 +178,7 @@
   "description": {{ page.description | default: page.summary | jsonify }},
   "url": "{{ page.url | absolute_url }}",
   "author": {
-    "@id": "{{ '/' | absolute_url }}#person"
+    "@id": "{{ person_id }}"
   }{% if page.date %},
   "datePublished": "{{ page.date | date_to_xmlschema }}"{% endif %}{% if page.external_url %},
   "sameAs": {{ page.external_url | jsonify }}{% endif %}
@@ -193,7 +194,7 @@
   "description": {{ page.description | default: page.book_summary | jsonify }},
   "image": {{ page_thumbnail_url | jsonify }},
   "author": {
-    "@id": "{{ '/' | absolute_url }}#person"
+    "@id": "{{ person_id }}"
   }{% if page.buy_url != blank or page.learn_more_url != blank %},
   "sameAs": [
     {% assign printed = false %}
@@ -217,40 +218,6 @@
   "description": {{ page.description | default: page.summary | jsonify }},
   "url": "{{ page.url | absolute_url }}",
   "sameAs": {{ page.source_url | jsonify }}
-}
-</script>
-{% elsif page.url == "/" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "{{ site_data.name }}",
-  "url": "{{ '/' | absolute_url }}",
-  "description": {{ site.description | jsonify }},
-  "creator": {
-    "@id": "{{ '/' | absolute_url }}#person"
-  },
-  "about": {
-    "@id": "{{ '/' | absolute_url }}#person"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": {{ page.title | jsonify }},
-  "url": "{{ page.url | absolute_url }}",
-  "description": {{ page.description | jsonify }},
-  "primaryImageOfPage": {
-    "@id": "{{ profile_image_id }}"
-  },
-  "mainEntity": {
-    "@id": "{{ '/' | absolute_url }}#person"
-  },
-  "about": {
-    "@id": "{{ '/' | absolute_url }}#person"
-  }
 }
 </script>
 {% endif %}
